@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +13,25 @@
 
     <style>
         body {
-            background-color: #f6f8f9;
+            background-color: #e5e5e5;
         }
-        .navbar-expand {
+
+        /* .navbar-expand {
             margin-left: 100px;
-        }
-        .navbar-expand-right {
-            margin-right: 100px;
-        }
-        .navbar-brand-serch  {
+        } */
+        /* .navbar-expand-right .d-flex {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        } */
+        .navbar-brand-serch {
             margin-right: 20px;
+        }
+        .navbar-nav .dropdown-menu {
+            margin-top: 40px;
+        }
+        .navbar-nav:hover .dropdown-menu {
+            display: block;
         }
         /* .navbar {
             overflow: hidden;
@@ -77,30 +87,48 @@
     </style>
 
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top bg-white">
-        <nav class="navbar navbar-expand">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/nekai.png" width="80" height="45">
-            </a>
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#">สินค้า</a>
-                    <a class="nav-link" href="#">ลดราคา</a>
-                    <a class="nav-link" href="#">เร็วๆนี้</a>
+        <div class="container">
+            <nav class="navbar navbar-expand">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/nekai.png" width="80" height="35">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            สินค้า
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
+                            <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
+                            <li><a class="dropdown-item" href="#">เด็ก</a></li>
+                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <a class="nav-link" href="#">ลดราคา</a>
+                        <a class="nav-link" href="#">เร็วๆนี้</a>
+                    </div>
+                    
                 </div>
-            </div>
-        </nav>
-        <nav class="navbar navbar-expand-right">
-            <a class="navbar-brand-serch">
-                <img src="img/serch.jpg" width="30" height="30">
-            </a>
-            <a class="navbar-brand">
-                <img src="img/cart.jpg" width="30" height="30">
-            </a>
-        </nav> 
-      </nav>
+            </nav>
+            <nav class="navbar navbar-expand-right">
+                <form class="d-flex" role="search">
+                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <a class="navbar-brand">
+                    <img src="img/cart.jpg" width="30" height="30">
+                </a>
+            </nav>
+        </div>
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+
 </html>
