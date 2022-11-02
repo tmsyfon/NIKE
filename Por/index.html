@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c4c01c69eb.js" crossorigin="anonymous"></script>
+
     <title>NIKE</title>
 
     <style>
         body {
             background-color: #f6f8f9;
+        }
+        .navbar-expand {
+            margin-left: 100px;
+        }
+        .navbar-expand-right {
+            margin-right: 100px;
+        }
+        .navbar-brand-serch  {
+            margin-right: 20px;
         }
         /* .navbar {
             overflow: hidden;
@@ -66,27 +78,29 @@
 
 </head>
 <body>
-    <nav class="navbar bg-white">
-        <div class="container">
-            <nav class="navbar navbar-expand">
-                <a class="navbar-brand" href="index1.html">
-                    <img src="img/logo.jpg" width="50" height="45">
-                </a>
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#">สินค้า</a>
-                        <a class="nav-link" href="#">ลดราตา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
-                    </div>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top bg-white">
+        <nav class="navbar navbar-expand">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/nekai.png" width="80" height="45">
+            </a>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">สินค้า</a>
+                    <a class="nav-link" href="#">ลดราคา</a>
+                    <a class="nav-link" href="#">เร็วๆนี้</a>
                 </div>
-            </nav>
-            <a class="navbar-brand" href="#">
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-right">
+            <a class="navbar-brand-serch">
                 <img src="img/serch.jpg" width="30" height="30">
             </a>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand">
                 <img src="img/cart.jpg" width="30" height="30">
+                <i class="fa-regular fa-bag-shopping"></i>
             </a>
-        </div>
+        </nav> 
       </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
