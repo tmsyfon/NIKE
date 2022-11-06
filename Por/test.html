@@ -1,51 +1,25 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/c4c01c69eb.js" crossorigin="anonymous"></script>
-    <!-- font kanit -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
-    <title>NIKE</title>
-
+    <title>Document</title>
     <style>
-        body {
-            background-color: #e5e5e5;
-        }
+    body {
+	background: #e2eaef;
+	font-family: "Open Sans", sans-serif;
+}
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
 
-        /* .navbar-expand {
-            margin-left: 100px;
-        } */
-        /* .navbar-expand-right .d-flex {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        } */
-        .navbar-nav {
-            font-size: 20px;
-            font-weight: 600;
-        }
-        /* .navbar-brand-serch {
-            margin-right: 20px;
-        } */
-        .navbar-nav .dropdown-menu {
-            
-            display: none;
-        }
-        .navbar-nav:hover .dropdown-menu {
-            margin-top: 40px;
-            display: block;
-        }
-        
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
@@ -186,9 +160,8 @@
     text-align: start;
     margin-left: 15%;
 }
-    
     </style>
-<script>
+    <script>
         $(document).ready(function(){
             $(".wish-icon i").click(function(){
                 $(this).toggleClass("fa-heart fa-heart-o");
@@ -196,85 +169,11 @@
         });	
     </script>
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav class="navbar fixed-top bg-white">
-        <div class="container">
-            <nav class="navbar navbar-expand">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/nekai.png" width="80" height="50">
-                </a>
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                            สินค้า
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
-                            <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
-                            <li><a class="dropdown-item" href="#">เด็ก</a></li>
-                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        <a class="nav-link" href="#">ลดราคา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
-                    </div>
-                    
-                </div>
-            </nav>
-            <nav class="navbar navbar-expand-right">
-                <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-                <a class="navbar-brand">
-                    <img src="img/cart.jpg" width="30" height="30">
-                </a>
-            </nav>
-        </div>
-    </nav>
-    
-    <!-- carousel -->
-    <div class="container p-0" style="margin-top: 90px;">
-        <div id="carousel-slider" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <img src="img/banner/ad01.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/banner/ad02.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/banner/ad02.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
-    
-    <div class="container d-flex" style="background-color: white;">
-        <a href=""><h4>ลดราคา</h4></a>
-        <a href="" class="d-flex ms-auto"><h6>ดูทั้งหมด</h6></a>
-    </div>
-    <div class="container" style="background-color: white;">
+    <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-12">
+                <h2 class="asd">Featured <b>Products</b></h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
                     <!-- Carousel indicators -->
                     <div class="carousel-indicators">
@@ -486,5 +385,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
-
 </html>
