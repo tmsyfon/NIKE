@@ -1,0 +1,93 @@
+#myCarousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+#myCarousel .carousel-item {
+    color: #747d89;
+    min-height: 325px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#myCarousel .thumb-wrapper {
+    padding: 25px 15px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 300px;
+}
+
+#myCarousel .thumb-wrapper .thumb-content {
+    margin-top: 80px;
+}
+
+
+#myCarousel .carousel-item .img-box {
+    height: 120px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#myCarousel .carousel-item img {	
+    max-width: 170%;
+    max-height: 170%;
+    display: inline-block;
+    position: absolute;
+    bottom: -70;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#myCarousel .carousel-item h4 {
+    font-size: 18px;
+}
+
+#myCarousel .carousel-item h4, #myCarousel .carousel-item p{
+    margin-bottom: 5px;
+}
+
+#myCarousel .carousel-control {
+    height: 44px;
+    width: 40px;
+    background: #7ac400;	
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+#myCarousel .carousel-control:hover {
+    background: #78bf00;
+    opacity: 1;
+}
+
+
+#myCarousel .item-price {
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+#myCarousel .item-price strike {
+    opacity: 0.7;
+    margin-right: 5px;
+}
+
+.carousel-control-next, .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+#promo, #best {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#alll, #all2 {
+    margin-left: 900px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+}

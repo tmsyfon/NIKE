@@ -1,0 +1,78 @@
+.one {
+    border: 5px white;
+    background-color: white;
+    height: 200%;
+    margin-top: 3px;
+}
+
+.promo {
+    margin-left: 320px;
+    margin-top: 30px;
+    font-size: 25;
+}
+
+#dropdown {
+    margin-left: 50px;
+    margin-top: 13px;
+    font-size: 18;
+}
+
+.name {
+    margin-top: 6px;
+    font-size: 18;
+}
+
+.type {
+    margin-top: -15px;
+    font-size: 15;
+    color: grey;
+}
+
+.numcolor {
+    margin-top: -15px;
+    font-size: 15;
+    color: grey;
+}
+
+.cash1 {
+    font-size: 18;
+}
+
+.cash2 {
+    font-size: 18;
+    color: grey;
+}
+
+.discount {
+    font-size: 16;
+    color: #41A139;
+}
+
+img {
+    margin-top: 8px;
+}
+
+#colum1 {
+    text-align: center;
+}
+
+#colum2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#box {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin-right: 25;
+}
+
+#colum3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#colum4 {
+    text-align: center;
+    margin-top: 50px;
+}

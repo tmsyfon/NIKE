@@ -1,0 +1,14 @@
+.navbar-nav {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-nav .dropdown-menu {
+    
+    display: none;
+}
+
+.navbar-nav:hover .dropdown-menu {
+    margin-top: 40px;
+    display: block;
+}

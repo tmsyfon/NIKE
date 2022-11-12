@@ -16,106 +16,16 @@
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap"
         rel="stylesheet">
 
+    <!-- link css -->
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/lodraka.css">
+
     <title>NIKE</title>
 
     <style>
         body {
             font-family: 'Kanit', sans-serif;
             background-color: #e5e5e5;
-        }
-
-        .navbar-nav {
-            font-size: 20px;
-            font-weight: 600;
-        }
-
-        .navbar-nav .dropdown-menu {
-
-            display: none;
-        }
-
-        .navbar-nav:hover .dropdown-menu {
-            margin-top: 40px;
-            display: block;
-        }
-
-        .one {
-            border: 5px white;
-            background-color: white;
-            height: 200%;
-
-            margin-top: 3px;
-        }
-
-        .promo {
-            margin-left: 320px;
-            margin-top: 30px;
-            font-size: 25;
-        }
-
-        #dropdown {
-            margin-left: 50px;
-            margin-top: 13px;
-            font-size: 18;
-        }
-
-        .jdmse {
-            margin-top: 6px;
-            font-size: 18;
-        }
-
-        .jd {
-            margin-top: -15px;
-            font-size: 15;
-            color: grey;
-        }
-
-        .numcolor {
-            margin-top: -15px;
-            font-size: 15;
-            color: grey;
-        }
-
-        .cash1 {
-            font-size: 18;
-        }
-
-        .cash2 {
-            font-size: 18;
-            color: grey;
-        }
-
-        .discount {
-            font-size: 16;
-            color: #41A139;
-        }
-
-        #picmidse {
-            margin-top: 8px;
-        }
-
-        #colum1 {
-            text-align: center;
-        }
-
-        #colum2 {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        #midse {
-            border-radius: 20px;
-            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-            margin-right: 25;
-        }
-
-        #colum3 {
-            text-align: center;
-            margin-top: 50px;
-        }
-        #colum4 {
-            text-align: center;
-            margin-top: 50px;
         }
     </style>
 
@@ -129,8 +39,8 @@
     <nav class="navbar bg-white">
         <div class="container">
             <nav class="navbar navbar-expand">
-                <a class="navbar-brand" href="/Por/index.html">
-                    <img src="/Por/img/nekai.png" width="80" height="50">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/nekai.png" width="80" height="50">
                 </a>
                 <div class="collapse navbar-collapse">
                     <div class="navbar-nav">
@@ -155,11 +65,11 @@
             </nav>
             <nav class="navbar navbar-expand-right">
                 <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="Por/img/serch.jpg" width="30" height="30"></button>
+                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
                 <a class="navbar-brand">
-                    <img src="Por/img/cart.jpg" width="30" height="30">
+                    <img src="img/cart.jpg" width="30" height="30">
                 </a>
             </nav>
         </div>
@@ -186,31 +96,28 @@
                     <p><b>สินค้าขายดี</b>
                 </div>
 
-                <div class="col" id="bgwihte">
+                <div class="col">
                     <div class="row" id="colum1">
-                        <div class="col" id="midse">
-                            <img src="/Por/img/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250"
-                                id="picmidse">
-                            <p class="jdmse">Air Jordan 1 Mid SE</p>
-                            <p class="jd">รองเท้าผู้ชาย</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Air Jordan 1 Mid SE</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿4,335 <del class="cash2">฿5,100</del></p>
                             <p class="discount">ส่วนลด 15%</p>
                         </div>
-                        <div class="col" id="midse">
-                            <img src="/Por/img/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt="" width="250"
-                                height="250" id="picmidse">
-                            <p class="jdmse">Nike Air Force 1 '07 LV8 EMB</p>
-                            <p class="jd">รองเท้าผู้ชาย</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿3,965 <del class="cash2">฿4,400</del></p>
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
-                        <div class="col" id="midse">
-                            <img src="/Por/img/บาสเกตบอล/Nike x Ambush_Air_Adjust_Force/1.png" alt="" width="250"
-                                height="250" id="picmidse">
-                            <p class="jdmse">Nike x Ambush Air Adjust Force</p>
-                            <p class="jd">รองเท้าผู้ชาย</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike x Ambush Air Adjust Force</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
                             <p class="discount">ส่วนลด 20%</p>
@@ -218,105 +125,91 @@
 
                     </div>
                     <div class="row" id="colum2">
-                        <div class="col" id="midse">
-                            <img src="/Por/img/ฟุตบอล/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png" alt="" width="250"
-                                height="250" id="picmidse">
-                            <p class="jdmse">Nike Phantom GT2 Dynamic Fit Elite FG</p>
-                            <p class="jd">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike Phantom GT2 Dynamic Fit Elite FG</p>
+                            <p class="type">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿7,480 <del class="cash2">฿8,800</del></p>
                             <p class="discount">ส่วนลด 15%</p>
                         </div>
-                        <div class="col" id="midse">
-                            <img src="/Por/img/วิ่ง/Nike_React_Pegasus_Trail_4_GORE-TEX/1.png" alt="" width="250"
-                                height="250" id="picmidse">
-                            <p class="jdmse">รองเท้าวิ่งเทรลผู้ชายกันน้ำ</p>
-                            <p class="jd">รองเท้าผู้ชาย</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">รองเท้าวิ่งเทรลผู้ชายกันน้ำ</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿5,310 <del class="cash2">฿5,900</del></p>
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
-                        <div class="col" id="midse">
-                            <img src="/Por/img/ฟุตบอล/Mercurial_Vapor_14_Elite/1.png" alt="" width="250" height="250"
-                                id="picmidse">
-                            <p class="jdmse">Nike Mercurial Vapor 14 Elite FG</p>
-                            <p class="jd">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike Mercurial Vapor 14 Elite FG</p>
+                            <p class="type">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
                             <p class="numcolor">1 สี</p>
                             <p class="cash1">฿5,099 <del class="cash2">฿8,500</del></p>
                             <p class="discount">ส่วนลด 40%</p>
                         </div>
                     </div>
 
-                    <div class="col" id="bgwihte">
-                        <div class="row" id="colum3">
-                            <div class="col" id="midse">
-                                <img src="/Por/img/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250"
-                                    id="picmidse">
-                                <p class="jdmse">Air Jordan 1 Mid SE</p>
-                                <p class="jd">รองเท้าผู้ชาย</p>
-                                <p class="numcolor">1 สี</p>
-                                <p class="cash1">฿4,335 <del class="cash2">฿5,100</del></p>
-                                <p class="discount">ส่วนลด 15%</p>
-                            </div>
-                            <div class="col" id="midse">
-                                <img src="/Por/img/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt="" width="250"
-                                    height="250" id="picmidse">
-                                <p class="jdmse">Nike Air Force 1 '07 LV8 EMB</p>
-                                <p class="jd">รองเท้าผู้ชาย</p>
-                                <p class="numcolor">1 สี</p>
-                                <p class="cash1">฿3,965 <del class="cash2">฿4,400</del></p>
-                                <p class="discount">ส่วนลด 10%</p>
-                            </div>
-                            <div class="col" id="midse">
-                                <img src="/Por/img/บาสเกตบอล/Nike x Ambush_Air_Adjust_Force/1.png" alt="" width="250"
-                                    height="250" id="picmidse">
-                                <p class="jdmse">Nike x Ambush Air Adjust Force</p>
-                                <p class="jd">รองเท้าผู้ชาย</p>
-                                <p class="numcolor">1 สี</p>
-                                <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
-                                <p class="discount">ส่วนลด 20%</p>
-                            </div>
-
-                            <div class="col" id="bgwihte">
-                                <div class="row" id="colum4">
-                                    <div class="col" id="midse">
-                                        <img src="/Por/img/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250"
-                                            height="250" id="picmidse">
-                                        <p class="jdmse">Air Jordan 1 Mid SE</p>
-                                        <p class="jd">รองเท้าผู้ชาย</p>
-                                        <p class="numcolor">1 สี</p>
-                                        <p class="cash1">฿4,335 <del class="cash2">฿5,100</del></p>
-                                        <p class="discount">ส่วนลด 15%</p>
-                                    </div>
-                                    <div class="col" id="midse">
-                                        <img src="/Por/img/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt=""
-                                            width="250" height="250" id="picmidse">
-                                        <p class="jdmse">Nike Air Force 1 '07 LV8 EMB</p>
-                                        <p class="jd">รองเท้าผู้ชาย</p>
-                                        <p class="numcolor">1 สี</p>
-                                        <p class="cash1">฿3,965 <del class="cash2">฿4,400</del></p>
-                                        <p class="discount">ส่วนลด 10%</p>
-                                    </div>
-                                    <div class="col" id="midse">
-                                        <img src="/Por/img/บาสเกตบอล/Nike x Ambush_Air_Adjust_Force/1.png" alt=""
-                                            width="250" height="250" id="picmidse">
-                                        <p class="jdmse">Nike x Ambush Air Adjust Force</p>
-                                        <p class="jd">รองเท้าผู้ชาย</p>
-                                        <p class="numcolor">1 สี</p>
-                                        <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
-                                        <p class="discount">ส่วนลด 20%</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
+                    <div class="row" id="colum3">
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Air Jordan 1 Mid SE</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿4,335 <del class="cash2">฿5,100</del></p>
+                            <p class="discount">ส่วนลด 15%</p>
                         </div>
-
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿3,965 <del class="cash2">฿4,400</del></p>
+                            <p class="discount">ส่วนลด 10%</p>
+                        </div>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike x Ambush Air Adjust Force</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
+                            <p class="discount">ส่วนลด 20%</p>
+                        </div>
                     </div>
-
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-                        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-                        crossorigin="anonymous"></script>
+                    <div class="row" id="colum4">
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Air Jordan 1 Mid SE</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿4,335 <del class="cash2">฿5,100</del></p>
+                            <p class="discount">ส่วนลด 15%</p>
+                        </div>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿3,965 <del class="cash2">฿4,400</del></p>
+                            <p class="discount">ส่วนลด 10%</p>
+                        </div>
+                        <div class="col" id="box">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <p class="name">Nike x Ambush Air Adjust Force</p>
+                            <p class="type">รองเท้าผู้ชาย</p>
+                            <p class="numcolor">1 สี</p>
+                            <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
+                            <p class="discount">ส่วนลด 20%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,48 @@
+.one {
+    border: 5px white;
+    background-color: white;
+    height: 200%;
+    margin-top: 3px;
+}
+
+.name {
+    margin-top: 6px;
+    font-size: 18;
+}
+
+.cash1 {
+    font-size: 18;
+}
+
+#img-best {
+    margin-top: 8px;
+}
+
+#box {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin-right: 25px;
+}
+
+#colum1 {
+    text-align: center;
+    margin-left: 16px;
+}
+
+#colum2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+
+#colum3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+
+#colum4 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 16px;
+}
