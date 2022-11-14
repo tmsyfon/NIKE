@@ -1,8 +1,9 @@
 .one {
     border: 5px white;
     background-color: white;
-    height: 200%;
+    height: 300%;
     margin-top: 3px;
+    margin-bottom: 100px;
 }
 
 .promo {
