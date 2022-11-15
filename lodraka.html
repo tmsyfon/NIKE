@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/lodraka.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/catdropdown.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -29,34 +30,6 @@
         body {
             font-family: 'Kanit', sans-serif;
             background-color: #e5e5e5;
-        }
-
-        #panelmen,
-        #men {
-            padding: 0px;
-        }
-
-        #panelmen {
-            display: none;
-        }
-
-
-        #panelwomen,
-        #women {
-            padding: 0px;
-        }
-
-        #panelwomen {
-            display: none;
-        }
-
-        #panelchild,
-        #child {
-            padding: 0px;
-        }
-
-        #panelchild {
-            display: none;
         }
     </style>
 
@@ -86,6 +59,7 @@
 
     <!-- Navbar -->
     <!-- <nav class="navbar fixed-top bg-white"> เอาfixed topออกเพราะมันไม่แบ่งdivให้้ จะปรับfixแบบเลื่อนแล้วอยู่บนตลอดแนะนำไปใช้jsช่วย -->
+    <!-- Navbar -->
     <nav class="navbar sticky-top bg-white">
         <div class="container">
             <nav class="navbar navbar-expand">
@@ -107,13 +81,11 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-
                     </div>
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">ลดราคา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
+                    <a class="nav-link" href="#">ลดราคา</a>
+                    <a class="nav-link" href="#">เร็วๆนี้</a>
                     </div>
-
                 </div>
             </nav>
             <nav class="navbar navbar-expand-right">
@@ -126,7 +98,6 @@
                 </a>
             </nav>
         </div>
-
     </nav>
 
     <!-- Content -->
@@ -154,14 +125,20 @@
 
                     <div id="women" class="dropdown-toggle">ผู้หญิง</div>
                     <div id="panelwomen">
-                        <p><a>sing</a></p>
-                        <p><a>sing</a></p>
+                        <p><a>jordan</a></p>
+                        <p><a>lifestyle</a></p>
+                        <p><a>บาสเกตบอล</a></p>
+                        <p><a>ฟุตบอล</a></p>
+                        <p><a>วิ่ง</a></p>
                     </div>
 
                     <div id="child" class="dropdown-toggle">เด็ก</div>
                     <div id="panelchild">
-                        <p><a>sing</a></p>
-                        <p><a>sing</a></p>
+                        <p><a>jordan</a></p>
+                        <p><a>lifestyle</a></p>
+                        <p><a>บาสเกตบอล</a></p>
+                        <p><a>ฟุตบอล</a></p>
+                        <p><a>วิ่ง</a></p>
                     </div>
 
                     <p><b>ลดราคา</b></p>
@@ -180,7 +157,7 @@
                         </div>
                         <div class="col" id="box">
                             <img src="/img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt="" width="250"
-                                height="250">
+                                height="250" id="image">
                             <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -189,7 +166,7 @@
                         </div>
                         <div class="col" id="box">
                             <img src="/img/men/basketball/Nike x Ambush_Air_Adjust_Force/1.png" alt="" width="250"
-                                height="250">
+                                height="250" id="image">
                             <p class="name">Nike x Ambush Air Adjust Force</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -201,7 +178,7 @@
                     <div class="row" id="colum2">
                         <div class="col" id="box">
                             <img src="/img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png" alt="" width="250"
-                                height="250">
+                                height="250" id="image">
                             <p class="name">Nike Phantom GT2 Dynamic Fit Elite FG</p>
                             <p class="type">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
                             <p class="numcolor">1 สี</p>
@@ -210,7 +187,7 @@
                         </div>
                         <div class="col" id="box">
                             <img src="/img/men/running/Nike_React_Pegasus_Trail_4_GORE-TEX/1.png" alt="" width="250"
-                                height="250">
+                                height="250" id="image">
                             <p class="name">รองเท้าวิ่งเทรลผู้ชายกันน้ำ</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -218,7 +195,7 @@
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="/img/men/football/Mercurial_Vapor_14_Elite/1.png" alt="" width="250" height="250">
+                            <img src="/img/men/football/Mercurial_Vapor_14_Elite/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Nike Mercurial Vapor 14 Elite FG</p>
                             <p class="type">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
                             <p class="numcolor">1 สี</p>
@@ -229,7 +206,7 @@
 
                     <div class="row" id="colum3">
                         <div class="col" id="box">
-                            <img src="/img/women/jordan/Air Jordan 3 Retro/1.png" alt="" width="250" height="250">
+                            <img src="/img/women/jordan/Air Jordan 3 Retro/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Air Jordan 3 Retro</p>
                             <p class="type">รองเท้าผู้หญิง</p>
                             <p class="numcolor">1 สี</p>
@@ -237,7 +214,7 @@
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -245,7 +222,7 @@
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Nike x Ambush Air Adjust Force</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -255,7 +232,7 @@
                     </div>
                     <div class="row" id="colum4">
                         <div class="col" id="box">
-                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Air Jordan 1 Mid SE</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -263,7 +240,7 @@
                             <p class="discount">ส่วนลด 15%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -271,7 +248,7 @@
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250">
+                            <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250" id="image">
                             <p class="name">Nike x Ambush Air Adjust Force</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
