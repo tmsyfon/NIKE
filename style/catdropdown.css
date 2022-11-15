@@ -1,0 +1,27 @@
+#panelmen,
+#men {
+    padding: 0px;
+}
+
+#panelmen {
+    display: none;
+}
+
+
+#panelwomen,
+#women {
+    padding: 0px;
+}
+
+#panelwomen {
+    display: none;
+}
+
+#panelchild,
+#child {
+    padding: 0px;
+}
+
+#panelchild {
+    display: none;
+}
