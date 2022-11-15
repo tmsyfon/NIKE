@@ -7,7 +7,6 @@
     display: none;
 }
 
-
 #panelwomen,
 #women {
     padding: 0px;
@@ -24,4 +23,30 @@
 
 #panelchild {
     display: none;
+}
+
+#women {
+    margin-top: 15px;
+}
+#child {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#panelmen {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#panelwomen {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#panelchild {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 20px;
 }
