@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="style/lodraka.css">
     <link rel="stylesheet" href="style/footer.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>NIKEE</title>
 
     <style>
@@ -28,7 +30,55 @@
             font-family: 'Kanit', sans-serif;
             background-color: #e5e5e5;
         }
+
+        #panelmen,
+        #men {
+            padding: 0px;
+        }
+
+        #panelmen {
+            display: none;
+        }
+
+
+        #panelwomen,
+        #women {
+            padding: 0px;
+        }
+
+        #panelwomen {
+            display: none;
+        }
+
+        #panelchild,
+        #child {
+            padding: 0px;
+        }
+
+        #panelchild {
+            display: none;
+        }
     </style>
+
+    <script>
+        $(document).ready(function () {
+            $("#men").click(function () {
+                $("#panelmen").slideToggle("linear");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#women").click(function () {
+                $("#panelwomen").slideToggle("linear");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#child").click(function () {
+                $("#panelchild").slideToggle("linear");
+            });
+        });
+    </script>
 
 </head>
 
@@ -57,6 +107,9 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
+
+                    </div>
+                    <div class="navbar-nav">
                         <a class="nav-link" href="#">ลดราคา</a>
                         <a class="nav-link" href="#">เร็วๆนี้</a>
                     </div>
@@ -87,10 +140,30 @@
 
             <div class="row">
                 <div class="col-2" id="dropdown">
+
                     <p><b>สินค้าทั้งหมด</b></p>
-                    <p><b>ผู้ชาย</b></p>
-                    <p><b>ผู้หญิง</b></p>
-                    <p><b>เด็ก</b></p>
+
+                    <div id="men" class="dropdown-toggle">ผู้ชาย</div>
+                    <div id="panelmen">
+                        <p><a>jordan</a></p>
+                        <p><a>lifestyle</a></p>
+                        <p><a>บาสเกตบอล</a></p>
+                        <p><a>ฟุตบอล</a></p>
+                        <p><a>วิ่ง</a></p>
+                    </div>
+
+                    <div id="women" class="dropdown-toggle">ผู้หญิง</div>
+                    <div id="panelwomen">
+                        <p><a>sing</a></p>
+                        <p><a>sing</a></p>
+                    </div>
+
+                    <div id="child" class="dropdown-toggle">เด็ก</div>
+                    <div id="panelchild">
+                        <p><a>sing</a></p>
+                        <p><a>sing</a></p>
+                    </div>
+
                     <p><b>ลดราคา</b></p>
                     <p><b>สินค้าขายดี</b></p>
                 </div>
@@ -106,7 +179,8 @@
                             <p class="discount">ส่วนลด 15%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="/img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt="" width="250" height="250">
+                            <img src="/img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png" alt="" width="250"
+                                height="250">
                             <p class="name">Nike Air Force 1 '07 LV8 EMB</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -114,7 +188,8 @@
                             <p class="discount">ส่วนลด 10%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="/img/men/basketball/Nike x Ambush_Air_Adjust_Force/1.png" alt="" width="250" height="250">
+                            <img src="/img/men/basketball/Nike x Ambush_Air_Adjust_Force/1.png" alt="" width="250"
+                                height="250">
                             <p class="name">Nike x Ambush Air Adjust Force</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -125,7 +200,8 @@
                     </div>
                     <div class="row" id="colum2">
                         <div class="col" id="box">
-                            <img src="/img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png" alt="" width="250" height="250">
+                            <img src="/img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png" alt="" width="250"
+                                height="250">
                             <p class="name">Nike Phantom GT2 Dynamic Fit Elite FG</p>
                             <p class="type">รองเท้าสตั๊ดฟุตบอลสำหรับพื้นสนามทั่วไป</p>
                             <p class="numcolor">1 สี</p>
@@ -133,7 +209,8 @@
                             <p class="discount">ส่วนลด 15%</p>
                         </div>
                         <div class="col" id="box">
-                            <img src="/img/men/running/Nike_React_Pegasus_Trail_4_GORE-TEX/1.png" alt="" width="250" height="250">
+                            <img src="/img/men/running/Nike_React_Pegasus_Trail_4_GORE-TEX/1.png" alt="" width="250"
+                                height="250">
                             <p class="name">รองเท้าวิ่งเทรลผู้ชายกันน้ำ</p>
                             <p class="type">รองเท้าผู้ชาย</p>
                             <p class="numcolor">1 สี</p>
@@ -206,7 +283,7 @@
             </div>
         </div>
     </div>
-        
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-black text-muted pt-5">
         <section class="">
@@ -214,11 +291,11 @@
                 <div class="row mt-3">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4" id="foothead">
-                        Company name
+                            Company name
                         </h6>
                         <p id="footcont">
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
                         </p>
                     </div>
 
@@ -239,10 +316,10 @@
                             <a href="#!" id="footcont">Laravel</a>
                         </p>
                     </div>
-  
+
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4" id="foothead">
-                        Useful links
+                            Useful links
                         </h6>
                         <p>
                             <a href="#!" id="footcont">Pricing</a>
@@ -257,13 +334,13 @@
                             <a href="#!" id="footcont">Help</a>
                         </p>
                     </div>
-  
+
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4" id="foothead">Contact</h6>
                         <p id="footcont"><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
                         <p id="footcont">
-                        <i class="fas fa-envelope me-3"></i>
-                        info@example.com
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
                         </p>
                         <p id="footcont"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
                         <p id="footcont"><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
@@ -271,16 +348,16 @@
                 </div>
             </div>
         </section>
-  
+
 
         <div class="text-center p-4" style="background-color: white;">
             © 2022 Copyright:
             <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
     </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
