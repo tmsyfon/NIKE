@@ -14,6 +14,7 @@
 
 #panelwomen {
     display: none;
+    color: black;
 }
 
 #panelchild,
@@ -23,6 +24,7 @@
 
 #panelchild {
     display: none;
+    color: black;
 }
 
 #women {
@@ -35,7 +37,7 @@
 }
 
 #panelmen {
-    color: gray;
+    color: #555555;
     margin-top: 10px;
     margin-left: 20px;
 }
