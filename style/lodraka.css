@@ -18,6 +18,11 @@
     font-size: 18;
 }
 
+#dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
 .name {
     margin-top: 6px;
     font-size: 18;

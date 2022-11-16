@@ -15,8 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
     <!-- Link css -->
     <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/catdropdown.css">
+
     <title>NIKEE</title>
 
     <style>
@@ -44,12 +49,60 @@
             margin-top: 13px;
             font-size: 18;
         }
+        
+        #dropdown a {
+            text-decoration: none;
+            color: black;
+        }
 
         .propic {
             width: 250px;
-            margin-top: 10px;
+            margin-top: 4px;
         }
+
+        #size {
+            margin-top: 70px;
+        }
+        
+        #butt {
+            background-color: white;
+            color: black;
+            border-radius: 4px;
+            box-sizing: inherit;
+            width: 120px;
+            height: 48px;
+            
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
     </style>
+
+    <script>
+        $(document).ready(function () {
+            $("#men").click(function () {
+                $("#panelmen").slideToggle("linear");
+                $("#panelwomen").slideUp("linear");
+                $("#panelchild").slideUp("linear");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#women").click(function () {
+                $("#panelwomen").slideToggle("linear");
+                $("#panelmen").slideUp("linear");
+                $("#panelchild").slideUp("linear");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#child").click(function () {
+                $("#panelchild").slideToggle("linear");
+                $("#panelmen").slideUp("linear");
+                $("#panelwomen").slideUp("linear");
+            });
+        });
+    </script>
 
 </head>
 <body>
@@ -94,7 +147,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="background-color: white; border-radius: 5px;">
         <div class="one">
             <div class="row">
                 <div class="col-sm">
@@ -104,12 +157,37 @@
 
             <div class="row">
                 <div class="col-2" id="dropdown">
-                    <p><b>สินค้าทั้งหมด</b></p>
-                    <p><b>ผู้ชาย</b></p>
-                    <p><b>ผู้หญิง</b></p>
-                    <p><b>เด็ก</b></p>
-                    <p><b>ลดราคา</b></p>
-                    <p><b>สินค้าขายดี</b></p>
+                    <p><a href="#"><b>สินค้าทั้งหมด</b></a></p>
+
+                    <div id="men" class="dropdown-toggle"><b>ผู้ชาย</b></div>
+                    <div id="panelmen">
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
+                    </div>
+
+                    <div id="women" class="dropdown-toggle"><b>ผู้หญิง</b></div>
+                    <div id="panelwomen">
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
+                    </div>
+
+                    <div id="child" class="dropdown-toggle"><b>เด็ก</b></div>
+                    <div id="panelchild">
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
+                    </div>
+
+                    <p><a href="#"><b>ลดราคา</b></a></p>
+                    <p><a href="#"><b>สินค้าขายดี</b></a></p>
                 </div>
 
                 <div class="col-5">
@@ -125,8 +203,11 @@
                 <div class="col-4">
                     <h4>ชื่อ</h4>
                     <h5>ราคา</h5>
-                    <h6>เลือกไซส์</h6>
-                    <button>US 7.5</button><button>US 7.5</button><button>US 7.5</button><button>US 7.5</button>
+                    <h6 id="size">เลือกไซส์</h6>
+                    <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
+                    <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
+                    <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
+                    <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
                 </div>
 
             </div>

@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/c4c01c69eb.js" crossorigin="anonymous"></script>
+    
     <!-- font kanit -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     <!-- link css -->
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/lodraka.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/catdropdown.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>NIKEE</title>
 
@@ -32,27 +33,32 @@
             background-color: #e5e5e5;
         }
     </style>
-
+    
     <script>
         $(document).ready(function () {
             $("#men").click(function () {
                 $("#panelmen").slideToggle("linear");
+                $("#panelwomen").slideUp("linear");
+                $("#panelchild").slideUp("linear");
             });
         });
 
         $(document).ready(function () {
             $("#women").click(function () {
                 $("#panelwomen").slideToggle("linear");
+                $("#panelmen").slideUp("linear");
+                $("#panelchild").slideUp("linear");
             });
         });
 
         $(document).ready(function () {
             $("#child").click(function () {
                 $("#panelchild").slideToggle("linear");
+                $("#panelmen").slideUp("linear");
+                $("#panelwomen").slideUp("linear");
             });
         });
     </script>
-
 </head>
 
 <body>
@@ -83,8 +89,8 @@
                         </ul>
                     </div>
                     <div class="navbar-nav">
-                    <a class="nav-link" href="#">ลดราคา</a>
-                    <a class="nav-link" href="#">เร็วๆนี้</a>
+                        <a class="nav-link" href="#">ลดราคา</a>
+                        <a class="nav-link" href="#">เร็วๆนี้</a>
                     </div>
                 </div>
             </nav>
@@ -101,7 +107,7 @@
     </nav>
 
     <!-- Content -->
-    <div class="container">
+    <div class="container" style="background-color: white; border-radius: 5px;">
         <div class="one">
             <div class="row">
                 <div class="col-sm">
@@ -112,37 +118,37 @@
             <div class="row">
                 <div class="col-2" id="dropdown">
 
-                    <p><b>สินค้าทั้งหมด</b></p>
+                    <p><a href="#"><b>สินค้าทั้งหมด</b></a></p>
 
                     <div id="men" class="dropdown-toggle"><b>ผู้ชาย</b></div>
                     <div id="panelmen">
-                        <p><a>jordan</a></p>
-                        <p><a>lifestyle</a></p>
-                        <p><a>บาสเกตบอล</a></p>
-                        <p><a>ฟุตบอล</a></p>
-                        <p><a>วิ่ง</a></p>
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
                     </div>
 
                     <div id="women" class="dropdown-toggle"><b>ผู้หญิง</b></div>
                     <div id="panelwomen">
-                        <p><a>jordan</a></p>
-                        <p><a>lifestyle</a></p>
-                        <p><a>บาสเกตบอล</a></p>
-                        <p><a>ฟุตบอล</a></p>
-                        <p><a>วิ่ง</a></p>
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
                     </div>
 
                     <div id="child" class="dropdown-toggle"><b>เด็ก</b></div>
                     <div id="panelchild">
-                        <p><a>jordan</a></p>
-                        <p><a>lifestyle</a></p>
-                        <p><a>บาสเกตบอล</a></p>
-                        <p><a>ฟุตบอล</a></p>
-                        <p><a>วิ่ง</a></p>
+                        <p><a href="#">jordan</a></p>
+                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">บาสเกตบอล</a></p>
+                        <p><a href="#">ฟุตบอล</a></p>
+                        <p><a href="#">วิ่ง</a></p>
                     </div>
 
-                    <p class="promotion"><b>ลดราคา</b></p>
-                    <p><b>สินค้าขายดี</b></p>
+                    <p><a href="#"><b>ลดราคา</b></a></p>
+                    <p><a href="#"><b>สินค้าขายดี</b></a></p>
                 </div>
 
                 <div class="col">
