@@ -43,6 +43,12 @@
     margin-bottom: 10px;
 }
 
+#butt:hover {
+    background-color: #1A1A1A;
+    color: white;
+    border: 0;
+}
+
 #butcart {
     background-color: black;
     color: white;
@@ -55,3 +61,4 @@
 #desc {
     margin-top: 50px;
 }
+
