@@ -2,7 +2,7 @@
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan 1 Low OG (Dark Powder Blue)",
+        "name":"Air Jordan 1 Low OG",
         "price":"฿6,490",
         "color":"White/Black/Dark Powder Blue",
         "pic": [
@@ -21,90 +21,216 @@
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan 1 Retro High OG (Gray)",
+        "name":"Air Jordan 1 Retro High OG",
         "price":"฿6,200",
         "color":"Gray",
+        "pic":[
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/1.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/2.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/3.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/4.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/5.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/6.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/7.png",
+            "img/men/jordan/Air_Jordan_1_Retro_High_OG/8.png"
+            
+        ],
+        "check":"0",
         "description":"Air Jordan 1 อันเป็นเอกลักษณ์ซึ่งคุ้นเคยแต่สดใหม่อยู่เสมอ ได้รับการรีมาสเตอร์สำหรับวัฒนธรรมสนีกเกอร์เฮดในปัจจุบัน รุ่น Retro High OG นี้มาพร้อมกับหนังระดับพรีเมียม ระบบลดแรงกระแทกที่ใส่สบาย และรายละเอียดการออกแบบที่คลาสสิก"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan 1 Low FlyEase (Taxi)",
+        "name":"Air Jordan 1 Low FlyEase",
         "price":"฿5,200",
         "color":"White/Black/Taxi",
+        "pic":[
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/1.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/2.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/3.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/4.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/5.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/6.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/7.png",
+            "img/men/jordan/Air_Jordan_1_Low_FlyEase/8.png"
+        ],
+        "check":"0",
         "description":"ล็อคสไตล์ของคุณด้วย AJ1 นี้ เราเก็บทุกสิ่งที่คุณชอบเกี่ยวกับดีไซน์คลาสสิก ไม่ว่าจะเป็นหนังระดับพรีเมียม ระบบลดแรงกระแทก Air และโลโก้ Wings อันเป็นเอกลักษณ์ ขณะที่เพิ่มระบบการปิด Nike FlyEase เพื่อให้สวมใส่และสบาย ออกจากประตูได้เร็วกว่าที่เคย เพียงแค่รัดและรูดซิป"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan XXXVI Low PE (Hyper Violet)",
+        "name":"Air Jordan XXXVI Low PE",
         "price":"฿6,900",
         "color":"Black/Electric Green/Hyper Violet/Cone",
+        "pic":[
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/1.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/2.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/3.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/4.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/5.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/6.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/7.png",
+            "img/men/jordan/Air_Jordan_XXXVI_Low_PE/8.png"
+        ],
+        "check":"0",
         "description":"พลังที่จุดประกายการปฏิวัติวงการบาสเก็ตบอล หนึ่งในรองเท้าบาสเก็ตบอล Air Jordan ที่เบาที่สุดในปัจจุบัน AJ XXXVI โดดเด่นด้วยส่วนบนแบบมินิมอลแต่ทนทานพร้อมส่วนหุ้มชั้นนอกเสริมความแข็งแรง นอกจากนี้ยังมาพร้อมกับระบบลดแรงกระแทก Zoom Air เพื่อเพิ่มการตอบสนอง ก้าวขึ้นสู่สนามด้วยความมั่นใจว่าสิ่งที่คุณทำจะเป็นงานง่ายๆ"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan 1 Low G (Sport Royal)",
+        "name":"Air Jordan 1 Low G",
         "price":"฿5,200",
         "color":"White/Sport Royal/Black",
+        "pic":[
+            "img/men/jordan/Air_Jordan_1_Low_G/1.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/2.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/3.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/4.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/5.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/6.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/7.png",
+            "img/men/jordan/Air_Jordan_1_Low_G/8.png"
+        ],
+        "check":"0",
         "description":"แรงบันดาลใจจากรองเท้าผ้าใบที่โดดเด่นที่สุดตลอดกาล Air Jordan 1 G คือความคลาสสิกแบบทันทีในสนาม ด้วยระบบลดแรงกระแทก Air ใต้ฝ่าเท้า โลโก้ Wings ที่ส้นและรูปแบบการยึดเกาะในตัวเพื่อช่วยให้คุณส่งพลังผ่านวงสวิง มอบความเท่ในคลับเฮาส์ของ AJ1 รุ่นออริจินัล พร้อมทุกสิ่งที่คุณต้องการ"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Jordan Why Not .5 (Cabana)",
+        "name":"Jordan Why Not .5",
         "price":"฿4,900",
         "color":"Black/Cabana/Turf Orange/Black",
+        "pic":[
+            "img/men/jordan/Jordan_Why_Not_.5/1.png",
+            "img/men/jordan/Jordan_Why_Not_.5/2.png",
+            "img/men/jordan/Jordan_Why_Not_.5/3.png",
+            "img/men/jordan/Jordan_Why_Not_.5/4.png",
+            "img/men/jordan/Jordan_Why_Not_.5/5.png",
+            "img/men/jordan/Jordan_Why_Not_.5/6.png",
+            "img/men/jordan/Jordan_Why_Not_.5/7.png",
+            "img/men/jordan/Jordan_Why_Not_.5/8.png"
+        ],
+        "check":"0",
         "description":"รองเท้าคู่นี้เข้ากับความรวดเร็วของเขาด้วยการลดแรงกระแทกที่ได้รับการปรับปรุง การยึดเกาะตามข้อมูล และระบบฟิตเต็มเท้าเพื่อให้เขาควบคุมได้ ด้วยรูปลักษณ์ที่สมบุกสมบันรวมกับการใช้สีและวัสดุที่เข้ากันอย่างมีจุดมุ่งหมาย"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Air Jordan 1 Mid SE (Black_White)",
+        "name":"Air Jordan 1 Mid SE",
         "price":"฿5,100",
         "color":"White/Multi-Color/Black",
+        "pic":[
+            "img/men/jordan/Air_Jordan1_Mid_SE/1.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/2.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/3.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/4.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/5.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/6.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/7.png",
+            "img/men/jordan/Air_Jordan1_Mid_SE/8.png"
+        ],
+        "check":"0",
         "description":"หนึ่งในรองเท้าผ้าใบที่โด่งดังที่สุดในประวัติศาสตร์ได้เปล่งประกายใหม่เพื่อเฉลิมฉลอง 75 ปีของ NBA ขอบเพชรที่ป้ายที่ลิ้นรองเท้าแสดงถึงการฉลองครบรอบเพชรของ NBA ทำให้การเล่นครั้งใหม่กับเพลงโปรดตลอดกาล"
     },
     {
         "type":"men",
         "catagory":"jordan",
-        "name":"Jordan 1 KO (Grey Fog)",
+        "name":"Jordan 1 KO",
         "price":"฿5,600",
         "color":"White/Grey Fog/Sail/Black",
+        "pic":[
+            "img/men/jordan/Jordan_1_KO/1.png",
+            "img/men/jordan/Jordan_1_KO/2.png",
+            "img/men/jordan/Jordan_1_KO/3.png",
+            "img/men/jordan/Jordan_1_KO/4.png",
+            "img/men/jordan/Jordan_1_KO/5.png",
+            "img/men/jordan/Jordan_1_KO/6.png",
+            "img/men/jordan/Jordan_1_KO/7.png",
+            "img/men/jordan/Jordan_1_KO/8.png"
+        ],
+        "check":"0",
         "description":"Jordan 1 เป็นแรงบันดาลใจให้เกิดความชื่นชมในหมู่นักสะสมและแฟนรุ่นต่อไป Jordan 1 KO ปรับโฉมไอคอนอันโด่งดังโดยใช้การผสมผสานระหว่างหนังสังเคราะห์และผ้าใบ โดยมีความพอดีที่ออกแบบใหม่เพื่อความสบาย"
     },
 
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Force 1 '07 (White)",
+        "name":"Air Force 1 '07",
         "price":"฿3,500",
         "color":"White",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Force_1_'07/1.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/2.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/3.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/4.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/5.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/6.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/7.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07/8.png"
+
+        ],
+        "check":"0",
         "description":"ความเบิกบานดำรงอยู่ใน Nike Air Force 1 '07 รองเท้าบาสรุ่น OG ที่ใส่ลูกเล่นสดใหม่ให้กับสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นส่วนหุ้มชั้นนอกแบบเย็บติดที่ทนทาน ลวดลายสะอาดตา และความวิบวับที่ลงตัวซึ่งทำให้คุณเปล่งประกาย"
     },
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Force 1 Mid '07 (White)",
+        "name":"Air Force 1 Mid '07",
         "price":"฿3,600",
         "color":"White",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/1.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/2.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/3.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/4.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/5.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/6.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/7.png",
+            "img/men/lifestyle/Nike_Air_Force_1_Mid_'07/8.png"
+            
+        ],
+        "check":"0",
         "description":"Air Force 1 Mid '07 คือทุกสิ่งที่คุณรู้จักเป็นอย่างดี ส่วนหุ้มชั้นนอกเฉียบ ส่วนเน้นสีสด และมีส่วนสะท้อนแสงลงตัวที่ทำให้คุณเปล่งประกาย ส่วนหุ้มข้อปานกลางบุนวมพร้อมสายรัดแบบตีนตุ๊กแกสุดคลาสสิกเพิ่มความสบายแบบบาสในตำนาน ส่วนรูระบายอากาศที่ปลายเท้าก็ช่วยให้รู้สึกเย็นสบายเสมอ"
     },
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Force 1 '07 LV8 (opti_yellow)",
+        "name":"Air Force 1 '07 LV8",
         "price":"฿4,100",
         "color":"White/Dark Sulfur/Opti Yellow/black",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/1.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/2.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/3.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/4.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/5.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/6.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/7.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8/8.png"
+            
+        ],
+        "check":"0",
         "description":"เราแค่อยากจะบอกว่า “HAVE A NIKE DAY” เพราะความเบิกบานดำรงอยู่ในรองเท้าบาสรุ่นออริจินัล เมื่อความสบายบนคอร์ทพื้นไม้มาเจอกับความเท่สไตล์นอกคอร์ท จึงเกิดเป็นรองเท้าที่มีลูกเล่นอบอุ่นเป็นมิตรบนสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นโครงสร้างที่สะท้อนถึงยุค 80 รายละเอียดอันโดดเด่น และสไตล์แบบเน้นๆ"
     },
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Force 1 '07 LV8 EMB (Purple_Red)",
+        "name":"Air Force 1 '07 LV8 EMB",
         "price":"฿4,400",
         "color":"Black/Washed Teal/Court Purple/Gym Red",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/2.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/3.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/4.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/5.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/6.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/7.png",
+            "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/8.png"
+            
+        ],
+        "check":"0",
         "description":"เมื่อความสบายบนคอร์ทพื้นไม้มาเจอกับความเท่สไตล์นอกคอร์ท จึงเกิดเป็นรองเท้าบาสรุ่นออริจินัลที่พร้อมเสิร์ฟลูกเล่นแบบ WNBA/NBA บนสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นโครงสร้างที่สะท้อนถึงยุค 80 และรายละเอียดอันโดดเด่น (รวมถึงเท็กซ์เจอร์คล้ายลูกบาสบน Swoosh และสีสันตามยูนิฟอร์มทีมให้คุณได้เชียร์ทีมโปรด) สไตล์ลงตาข่ายแบบเน้นๆ"
     },
     {
@@ -113,6 +239,18 @@
         "name":"Air Max 95 Essential (White)",
         "price":"฿5,800",
         "color":"White/Grey Fog",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/1.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/2.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/3.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/4.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/5.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/6.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/7.png",
+            "img/men/lifestyle/Nike_Air_Max_95_Essential/8.png"
+            
+        ],
+        "check":"0",
         "description":"Nike Air Max 95 Essential สร้างสรรค์ขึ้นด้วยแรงบันดาลใจจากร่างกายมนุษย์และ DNA แห่งการวิ่ง ผสานความสบายแบบเหลือเชื่อเข้ากับสไตล์ที่ใครก็ต้องเหลียวมอง มีแผงด้านข้างอันเป็นเอกลักษณ์ที่เป็นเสมือนกล้ามเนื้อ ส่วน Nike Air ที่มองเห็นได้ตรงส้นและปลายเท้านั้นก็ช่วยลดแรงกระแทกในทุกย่างก้าว"
     },
     {
@@ -121,6 +259,18 @@
         "name":"Air More Uptempo '96(Grape)",
         "price":"฿6,200",
         "color":"Black/Metallic Gold/Action Grape",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/1.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/2.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/3.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/4.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/5.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/6.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/7.png",
+            "img/men/lifestyle/Nike_Air_More_Uptempo_'96/8.png"
+            
+        ],
+        "check":"0",
         "description":"นําสไตล์บาสรุ่นออริจินัลกลับสู่ท้องถนนด้วย Air More Uptempo มาพร้อมส่วนเน้นจากหนังย่นและสี Action Grape ที่ดูสดใสมีพลัง เป็นการใส่ลูกเล่นล้ำแฟชั่นให้กับรุ่นไอคอนแห่งยุค 90 ที่มีกราฟิกสไตล์กราฟิตี ซึ่งเป็นกราฟิกสไตล์นอกคอร์ทที่โดดเด่นและเป็นที่นิยมเสมอ ระบบลดแรงกระแทก Air ที่มองเห็นได้ให้ความสบายที่คุณต้องการ ในขณะที่สายรัดยางยืดเหนือลิ้นรองเท้าช่วยให้สไตล์เฉียบคม ไม่ว่าจะอวดรองเท้าในแบบผูกเชือกหรือไม่ผูกเชือก"
     },
     {
@@ -129,79 +279,443 @@
         "name":"Nekai x sacai Blazer Low (black_white)",
         "price":"฿4,800",
         "color":"Black/white",
+        "pic":[
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
+            "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png"
+            
+        ],
+        "check":"0",
         "description":"Chitose Abe ดีไซเนอร์ชื่อดังได้นำภาพการรวมเป็นหนึ่งของเธอมาสร้างสรรค์ให้เป็นจริงใน Nekai x sacai Blazer Low โดยมีวัสดุส่วนบนที่เชื่อมกัน ส่วนหุ้มลิ้นรองเท้าชั้นนอก และแบรนด์ร่วมซึ่งผสานรองเท้าบาสเก็ตบอล 2 รุ่นในช่วงแรกของ Nike เข้าด้วยกัน เป็นการฉลองให้กับการร่วมมือกันอย่างต่อเนื่องของวงการกีฬาและแฟชั่น"
     },
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Max 97 SE (Celery)",
+        "name":"Air Max 97 SE",
         "price":"฿6,700",
         "color":"Iron Grey/Particle Grey/Celery/Phantom",
+        "pic":[
+            "img/men/lifestyle/Nike_Air_Max_97_SE/1.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/2.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/3.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/4.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/5.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/6.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/7.png",
+            "img/men/lifestyle/Nike_Air_Max_97_SE/8.png"
+            
+        ],
+        "check":"0",
         "description":"AM97 รุ่นนี้คือเรื่องราวของการเริ่มต้นใหม่ เป็นรองเท้าที่บานสะพรั่งด้วยรายละเอียดต่างๆ ของฤดูใบไม้ผลิ โดยมีองค์ประกอบส่วนหนึ่งเป็นวัสดุซึ่งได้รับชีวิตที่สองผ่านกระบวนการรีไซเคิล ผลิตจากวัสดุรีไซเคิลอย่างน้อย 20% ส่วนหุ้มชั้นในจากผ้าใบแบบคลาสสิกทำให้โปร่งอยู่เสมอ ส่วนการเย็บตกแต่งเพิ่มพลังให้กับลุค และกราฟิกแบบปักทำให้สไตล์ของคุณสดใหม่เหมือนดอกเดซี่ที่ผลิบานในฤดูใบไม้ผลิ"
     },
 
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Nike x Ambush Air Adjust Force (red)",
+        "name":"Nekai x Ambush Air Adjust Force",
         "price":"฿7,500",
         "color":"Light Madder Root/Madder Root/Habanero Red/Burgundy Crush",
+        "pic":[
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/1.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/2.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/3.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/4.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/5.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/6.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/7.png",
+            "img/men/basketball/Nike x Ambush_Air_Adjust_Force/8.png"
+            
+        ],
+        "check":"0",
         "description":"Yoon Ahn ปรับโฉมรองเท้าบาสคู่นั้นที่ไม่เคยเปิดเผยที่ไหนมาก่อนและทุกคนต่างรอคอย แล้วนำกลับมาสู่ท้องถนนอีกครั้ง ตั้งแต่ความหรูหราของหนังนูบัค ไปจนถึงรายละเอียดพลาสติกต่างๆ ทำให้รองเท้าแบรนด์ Ambush คู่นี้เป็นสะพานเชื่อมระหว่างสไตล์บาสไอคอนิกกับสไตล์เก๋ไก๋บนรันเวย์ และแน่นอน เรายังเก็บสายรัดแบบถอดได้ที่ส่วนกลางเท้าเอาไว้ ซึ่งทำให้ได้เป็นลุคระดับตำนานออกมา"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Nike Air Deldon “Together We Fly” (Pale Ivory)",
+        "name":"Nekai Air Deldon “Together We Fly”",
         "price":"฿4,700",
         "color":"Summit White/Pale Ivory/Light Smoke",
+        "pic":[
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
+            "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png"
+            
+        ],
+        "check":"0",
         "description":"รองเท้าบาสเก็ตบอลของ Elena Delle Donne เชิญชวนให้ทุกคนลองก้าวเข้ามามีส่วนร่วมในการแข่งขัน คู่นี้ผลิตมาเพื่อทุกคน โดยมีส้นที่ยุบตัวได้และสายรัดขนาดใหญ่ ให้คุณสวมใส่แล้วล็อคกระชับได้ด้วยมือเดียว ระบบลดแรงกระแทก Air แบบเต็มความยาวเท้าและส่วน Zoom Air ที่ปลายเท้าให้ที่สุดแห่งการผสมผสานระหว่างการดีดตัวและการส่งแรงกลับเพื่อช่วยให้คุณรู้สึกมีพลังตลอดทั้งการแข่งขัน"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Nike Air Zoom G.T. Cut 2 (Crimson)",
+        "name":"Nekai Air Zoom G.T. Cut 2 (Crimson)",
         "price":"฿6,200",
         "color":"Black/Anthracite/Bright Crimson/White",
+        "pic":[
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/1.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/2.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/3.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/4.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/5.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/6.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/7.png",
+            "img/men/basketball/Nike Air Zoom G.T. Cut 2/8.png"
+            
+        ],
+        "check":"0",
         "description":"Nike Air Zoom G.T. Cut 2 ช่วยให้คุณหยุดกะทันหันและเร่งความเร็วกลับเข้าพื้นที่ที่เปิดกว้างได้ด้วยดีไซน์เรียบชิดติดพื้นซึ่งช่วยเพิ่มการสัมผัสคอร์ทขณะเปลี่ยนทิศทาง แยกผู้เล่นทั่วไปออกจากตัวทำเกมด้วยรุ่นที่พัฒนาขึ้นจากการสร้างจังหวะหลอกล่อ แต่ยังรองรับมากพอที่จะช่วยให้คุณเล่นได้ตลอดวัน"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Zion 2 PF (purple)",
+        "name":"Zion 2 PF",
         "price":"฿4,700",
         "color":"Court Purple/Bright Crimson/Psychic Purple/Black",
+        "pic":[
+            "img/men/basketball/Zion 2 PF/1.png",
+            "img/men/basketball/Zion 2 PF/2.png",
+            "img/men/basketball/Zion 2 PF/3.png",
+            "img/men/basketball/Zion 2 PF/4.png",
+            "img/men/basketball/Zion 2 PF/5.png",
+            "img/men/basketball/Zion 2 PF/6.png",
+            "img/men/basketball/Zion 2 PF/7.png",
+            "img/men/basketball/Zion 2 PF/8.png"
+            
+        ],
+        "check":"0",
         "description":"รวดเร็วและมีพลังขึ้นอีกระดับด้วยรองเท้าที่ดีไซน์มาเพื่อ Zion และรังสรรค์มาเพื่อนักบาสทุกระดับ คู่นี้มาพร้อมสายรัดแบบปรับได้ที่ด้านบนซึ่งช่วยล็อคกระชับเท้า ขณะที่พื้นรองเท้าชั้นกลางเนื้อแน่นรองรับการเล่นที่ใช้ความเร็วสูง ให้คู่นี้เป็นตัวเลือกอันดับแรกสำหรับใส่ลงคอร์ท"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"LeBron 19 (siren)",
+        "name":"LeBron 19",
         "price":"฿7,000",
         "color":"Siren Red/Laser Blue/Psychic Purple/Siren Red",
+        "pic":[
+            "img/men/basketball/LeBron 19/1.png",
+            "img/men/basketball/LeBron 19/2.png",
+            "img/men/basketball/LeBron 19/3.png",
+            "img/men/basketball/LeBron 19/4.png",
+            "img/men/basketball/LeBron 19/5.png",
+            "img/men/basketball/LeBron 19/6.png",
+            "img/men/basketball/LeBron 19/7.png",
+            "img/men/basketball/LeBron 19/8.png"
+            
+        ],
+        "check":"0",
         "description":"LeBron จะยิ่งระห่ำเมื่อการเดิมพันสูงขึ้นและสถานการณ์เริ่มกดดัน LeBron 19 ควบคุมพลังดังกล่าวด้วยทรงล็อคกระชับและระบบลดแรงกระแทกโฉมใหม่ ชั้นบุด้านในแบบแนบกระชับเชื่อมถึงกันด้วยส่วนหุ้มชั้นนอกแบบกระชับรูปเท้า โดยที่เชือกรองเท้าสามารถร้อยผ่านทั่วทั้งส่วนเพื่อช่วยป้องกันไม่ให้เกิดการเคลื่อนไหวภายในรองเท้า รอบๆ ส่วนหุ้มข้อและลิ้นรองเท้ามีปุ่มลดแรงกระแทกเพื่อเพิ่มความสบายไปพร้อมกับช่วยลดน้ำหนัก ทำให้ผู้เล่นรู้สึกแน่นกระชับและมั่นใจที่จะทุ่มสุดตัวเมื่อคะแนนสูสีในช่วงก่อนหมดเวลา"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Air Force 1 '07 (White)",
-        "price":"฿3,500",
-        "color":"White",
-        "description":"ความเบิกบานดำรงอยู่ใน Nike Air Force 1 '07 รองเท้าบาสรุ่น OG ที่ใส่ลูกเล่นสดใหม่ให้กับสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นส่วนหุ้มชั้นนอกแบบเย็บติดที่ทนทาน ลวดลายสะอาดตา และความวิบวับที่ลงตัวซึ่งทำให้คุณเปล่งประกาย"
+        "name":"KD15 EP",
+        "price":"฿5,600",
+        "color":"Black/Light Crimson/Royal Tint",
+        "pic":[
+            "img/men/basketball/KD15 EP/1.png",
+            "img/men/basketball/KD15 EP/2.png",
+            "img/men/basketball/KD15 EP/3.png",
+            "img/men/basketball/KD15 EP/4.png",
+            "img/men/basketball/KD15 EP/5.png",
+            "img/men/basketball/KD15 EP/6.png",
+            "img/men/basketball/KD15 EP/7.png",
+            "img/men/basketball/KD15 EP/8.png"
+            
+        ],
+        "check":"0",
+        "description":"Kevin Durant จะยิ่งระห่ำในช่วงการแข่งครั้งใหญ่ เมื่อการเดิมพันสูง เขาจะเล่นครบทุกนาทีถ้าจุดหมายคือการคว้าชัยครั้งสําคัญ KD15 พร้อมแล้วที่จะไปได้ไกล ด้วยน้ำหนักที่เบากว่ารองเท้าซิกเนเจอร์รุ่นก่อนหน้า จึงช่วยให้ดีดตัวได้ดีและสบายเสมอในเวลาคับขัน ทุกย่างก้าวนุ่มนวลเหมือนการกระโดดทำแต้มของ KD และระบบลดแรงกระแทกก็นุ่มเป็นพิเศษเหมือนการวิ่งแบบครอสโอเวอร์จากขวาไปซ้ายของเขา เพื่อให้รู้สึกกระชับในตอนที่ทีมต้องการคุณที่สุด รุ่น EP นี้ใช้พื้นรองเท้าแบบทนทานพิเศษซึ่งเหมาะสำหรับการสวมใส่บนคอร์ทกลางแจ้ง"
     },
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Air Force 1 '07 (White)",
-        "price":"฿3,500",
+        "name":"Air Jordan XXXVI Low PF",
+        "price":"฿6,400",
         "color":"White",
-        "description":"ความเบิกบานดำรงอยู่ใน Nike Air Force 1 '07 รองเท้าบาสรุ่น OG ที่ใส่ลูกเล่นสดใหม่ให้กับสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นส่วนหุ้มชั้นนอกแบบเย็บติดที่ทนทาน ลวดลายสะอาดตา และความวิบวับที่ลงตัวซึ่งทำให้คุณเปล่งประกาย"
+        "pic":[
+            "img/men/basketball/Air Jordan XXXVI Low PF/1.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/2.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/3.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/4.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/5.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/6.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/7.png",
+            "img/men/basketball/Air Jordan XXXVI Low PF/8.png"
+            
+        ],
+        "check":"0",
+        "description":"ตั้งแต่วงนอกจนถึงแป้น โลดแล่นบนคอร์ทได้อย่างมั่นใจ คู่นี้เป็นหนึ่งในรองเท้าแข่ง Air Jordan ที่เบาที่สุดในปัจจุบัน มาพร้อมส่วนบนสไตล์มินิมอลที่ทำจากผ้าทอแบบ Leno ที่ทนทานและเสริมด้วยรายละเอียดพลาสติกที่แข็งแรง ระบบลดแรงกระแทก Zoom Air ช่วยส่งแรงกลับและให้การตอบสนองระดับแนวหน้าไปพร้อมๆ กัน เกมนี้ให้คุณต้องทุ่มเททุกสิ่ง และตอนนี้คุณมีรองเท้าที่พร้อมรับมือแล้ว"
     },
-    {
+     {   
         "type":"men",
-        "catagory":"basketball",
-        "name":"Air Force 1 '07 (White)",
-        "price":"฿3,500",
-        "color":"White",
-        "description":"ความเบิกบานดำรงอยู่ใน Nike Air Force 1 '07 รองเท้าบาสรุ่น OG ที่ใส่ลูกเล่นสดใหม่ให้กับสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นส่วนหุ้มชั้นนอกแบบเย็บติดที่ทนทาน ลวดลายสะอาดตา และความวิบวับที่ลงตัวซึ่งทำให้คุณเปล่งประกาย"
+        "catagory":"football",
+        "name":"Nekai Phantom GT2 Elite FG",
+        "price":"฿8,500",
+        "color":"Black/Summit White/Bright Crimson/Dark",
+        "pic":[
+            "img/men/football/Nike Phantom GT2 Elite FG/1.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/2.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/3.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/4.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/5.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/6.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/7.png",
+            "img/men/football/Nike Phantom GT2 Elite FG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"ปลดล็อคพิมพ์เขียวสำหรับความเร็วด้วย Nike Mercurial Vapor 14 Elite FG สีแบบคัลเลอร์บล็อคที่ด้านข้างและปลายเท้าเน้นจุดสำคัญเพื่อใช้ในการยิง ส่งลูกบอล และเลี้ยงบอลอย่างแม่นยำ นอกจากนี้ เท็กซ์เจอร์ที่ยึดเกาะได้ดีตลอดส่วนบนยังช่วยให้คุณควบคุมเกมได้ดั่งใจ"
     },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Zoom Mercurial Superfly 9 Elite CR7 FG",
+        "price":"฿10,800",
+        "color":"White/Concord/Medium Blue/Metallic Copper",
+        "pic":[
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/1.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/2.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/3.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/4.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/5.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/6.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/7.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"กระเบื้องอะซูเลฮูนับเป็นสมบัติประจําชาติโปรตุเกสไม่ต่างไปจาก Cristiano Ronaldo สำหรับ Nike Zoom Mercurial Superfly 9 Academy CR7 เราได้แรงบันดาลใจในงานภาพจากเอกลักษณ์ของโปรตุเกส เพื่อโชว์ความสำเร็จที่เกิดขึ้นได้เมื่อมีคนที่อุทิศตัวเพื่อรังสรรค์งานฝีมือขึ้นมา วันนี้มาพร้อมส่วน Zoom Air สำหรับการเล่นฟุตบอลโดยเฉพาะ ให้คุณได้วิ่งเต็มสปีดเมื่อเวลาการแข่งขันใกล้จะหมด ซึ่งเป็นช่วงที่สำคัญที่สุด"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Zoom Mercurial Superfly 9 Elite KM FG",
+        "price":"฿10,800",
+        "color":"Dark Beetroot/University Blue/Vivid Purple/Metallic Vivid Gold",
+        "pic":[
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/1.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/2.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/3.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/4.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/5.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/6.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/7.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"การระเบิดพลังและการเปลี่ยนทิศทางที่รวดเร็วของ Kylian Mbappé ทําให้เขาเป็นหนึ่งในตัวจบสกอร์ระดับโลกอย่างไม่ต้องสงสัย รองเท้าสตั๊ดคู่นี้ยกย่องให้กับตํานานของเขา โดยรังสรรค์ขึ้นเพื่อช่วยให้คุณเล่นได้อย่างมีเป้าหมายด้วยเพซที่เร็วจนมองตามไม่ทันเหมือนกับ KM เราได้เพิ่มส่วน Zoom Air ที่ผลิตมาเพื่อฟุตบอลโดยเฉพาะ และเพิ่มเท็กซ์เจอร์หนึบไว้ที่ด้านบนเพื่อให้มีสัมผัสที่เหนือชั้น คุณจึงครองเกมได้เมื่อเวลาการแข่งขันใกล้จะหมด ซึ่งเป็นช่วงที่มีความสำคัญมากที่สุด"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"The Nekai Premier 3 FG",
+        "price":"฿4,200",
+        "color":"White/black",
+        "pic":[
+            "img/men/football/The Nike Premier 3 FG/1.png",
+            "img/men/football/The Nike Premier 3 FG/2.png",
+            "img/men/football/The Nike Premier 3 FG/3.png",
+            "img/men/football/The Nike Premier 3 FG/4.png",
+            "img/men/football/The Nike Premier 3 FG/5.png",
+            "img/men/football/The Nike Premier 3 FG/6.png",
+            "img/men/football/The Nike Premier 3 FG/7.png",
+            "img/men/football/The Nike Premier 3 FG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"The Nike Premier 3 กลับสู่พื้นฐานด้วยซิลลูเอทที่เหนือกาลเวลา ห่อหุ้มด้วยหนังจิงโจ้ที่อ่อนนุ่ม ช่วยให้เคลื่อนไหวได้อย่างมั่นใจด้วยพลังที่ไม่มีสิ่งใดมาหยุดยั้งได้ในสนาม"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Phantom GT2 Dynamic Fit Elite FG",
+        "price":"฿8,800",
+        "color":"Grey/Light Marine/Volt/Blackened Blue",
+        "pic":[
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/2.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/3.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/4.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/5.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/6.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/7.png",
+            "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"Nekai Phantom GT2 Elite FG สร้างขึ้นโดยมี Phantom GT เป็นพื้นฐาน โดดเด่นด้วยดีไซน์โฉมใหม่และลวดลายแบบยกสูงเพื่อการสร้างสปินระดับสูงสุดและการควบคุมการพุ่งของลูกบอล การผูกเชือกรองเท้าด้านข้างทำให้มีส่วนสำหรับเตะที่สะอาดตา เพื่อให้เลี้ยงบอล ส่งบอล และยิงด้วยทักษะแพรวพราวได้"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Mercurial Vapor 14 Elite FG",
+        "price":"฿8,500",
+        "color":"Chlorine Blue/Marina/Laser Orange",
+        "pic":[
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/1.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/2.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/3.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/4.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/5.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/6.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/7.png",
+            "img/men/football/Nike Mercurial_Vapor_14_Elite/8.png"
+            
+        ],
+        "check":"0",
+        "description":"ปลดล็อคพิมพ์เขียวสำหรับความเร็วด้วย Nike Mercurial Vapor 14 Elite FG สีแบบคัลเลอร์บล็อคที่ด้านข้างและปลายเท้าเน้นจุดสำคัญเพื่อใช้ในการยิง ส่งลูกบอล และเลี้ยงบอลอย่างแม่นยำ นอกจากนี้ เท็กซ์เจอร์ที่ยึดเกาะได้ดีตลอดส่วนบนยังช่วยให้คุณควบคุมเกมได้ดั่งใจ"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Zoom Mercurial Superfly 9 Elite CR7 FG",
+        "price":"฿10,800",
+        "color":"White/Concord/Medium Blue/Metallic Copper",
+        "pic":[
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/1.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/2.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/3.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/4.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/5.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/6.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/7.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"กระเบื้องอะซูเลฮูนับเป็นสมบัติประจําชาติโปรตุเกสไม่ต่างไปจาก Cristiano Ronaldo สำหรับ Nike Zoom Mercurial Superfly 9 Elite CR7 เราได้แรงบันดาลใจในงานภาพจากเอกลักษณ์ของโปรตุเกส เพื่อโชว์ความสำเร็จที่เกิดขึ้นได้เมื่อมีคนที่อุทิศตัวเพื่อรังสรรค์งานฝีมือขึ้นมา วันนี้มาพร้อมส่วน Zoom Air สำหรับการเล่นฟุตบอลโดยเฉพาะ ให้คุณได้วิ่งเต็มสปีดเมื่อเวลาการแข่งขันใกล้จะหมด ซึ่งเป็นช่วงที่สำคัญที่สุด"
+    },
+     {   
+        "type":"men",
+        "catagory":"football",
+        "name":"Nike Zoom Mercurial Vapor 15 Academy CR7 MG",
+        "price":"฿3,800",
+        "color":"White/Concord/Medium Blue/Metallic Copper",
+        "pic":[
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/1.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/2.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/3.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/4.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/5.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/6.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/7.png",
+            "img/men/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/8.png"
+            
+        ],
+        "check":"0",
+        "description":"กระเบื้องอะซูเลฮูนับเป็นสมบัติประจําชาติโปรตุเกสไม่ต่างไปจาก Cristiano Ronaldo สำหรับ Nike Zoom Mercurial Vapor 15 Academy CR7 เราได้แรงบันดาลใจในงานภาพจากเอกลักษณ์ของโปรตุเกส เพื่อโชว์ความสำเร็จที่เกิดขึ้นได้เมื่อมีคนที่อุทิศตัวเพื่อรังสรรค์งานฝีมือขึ้นมา วันนี้มาพร้อมส่วน Zoom Air สำหรับการเล่นฟุตบอลโดยเฉพาะ ให้คุณได้วิ่งเต็มสปีดเมื่อเวลาการแข่งขันใกล้จะหมด ซึ่งเป็นช่วงที่สำคัญที่สุด"
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"aaa",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    },
+     {   
+        "type":"men",
+        "catagory":"running",
+        "name":"",
+        "price":"",
+        "color":"",
+        "pic":[
+            "img/men/running//1.png",
+            
+        ],
+        "check":"0",
+        "description":""
+    }
 ]
