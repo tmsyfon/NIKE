@@ -63,7 +63,7 @@ ul{
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	margin: 0 15px 20px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
@@ -73,6 +73,34 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+ul li a {
+    color: rgb(111, 139, 187);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    padding-right: -20px;
+
+}
+ ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #dc3760;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+ ul li a:hover::after {
+    width: 50%;
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+	position: relative;
+	
+*, ::after, ::before {
+    box-sizing: border-box;
 }
 
 /*responsive*/
