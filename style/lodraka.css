@@ -72,3 +72,8 @@
     border-radius: 20px;
     margin-right: 25;
 }
+
+#box:hover{
+    scale: 1.01;
+    animation-delay: 500ms;
+}

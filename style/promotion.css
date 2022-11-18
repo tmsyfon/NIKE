@@ -91,3 +91,12 @@
     color: black;
     text-decoration: none;
 }
+
+strike {
+    color: red;
+}
+
+#myCarousel .thumb-wrapper:hover{
+    scale: 1.01;
+    animation-delay: 500ms;
+}
