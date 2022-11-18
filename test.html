@@ -11,15 +11,58 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
+
+    <!-- font kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,900&family=Prompt:wght@300&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="style/navbar.css">
+
+
     <title>Document</title>
     <style>
     body {
         background: #e2eaef;
-        font-family: "Open Sans", sans-serif;
+        font-family: "Kanit", sans-serif;
     }
 
     .navbar-toggler {
         border: none;
+        color: white;
+    }
+
+    .offcanvas-title {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .btn-close {
+        opacity: 1;
+    }
+
+    .offcanvas-header {
+        background-color: black;
+        color: white;
+    }
+
+    #itemname {
+        text-align: top;
+    }
+
+    #trash {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    #gocart {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
     }
     </style>
 
@@ -61,42 +104,53 @@
                 </form>
 
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" width="30" height="30">
-                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ตะกร้า</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                              <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <div class="row mb-4 d-flex align-items-center">
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                    <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                    <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                    <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                    <h6 class="text-muted">ไซส์</h6>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-5">฿6,490</h6>
+                                    <i class="fa-regular fa-trash-can" id="trash"></i>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <div class="row mb-4 d-flex align-items-center">
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                    <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                    <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                    <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                    <h6 class="text-muted">ไซส์</h6>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-5">฿6,490</h6>
+                                    <i class="fa-regular fa-trash-can" id="trash"></i>
+                                </div>
+                            </div>
+                        </ul>
                     </div>
-                  </div>
+                    <div class="offcanvas-footer">
+                        <button id="gocart"><h5>สั่งซื้อสินค้า</h5></button>
+                    </div>
+                </div>
             </nav>
         </div>
     </nav>
