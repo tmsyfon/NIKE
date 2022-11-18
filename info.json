@@ -242,7 +242,7 @@
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air Max 95 Essential (White)",
+        "name":"Air Max 95 Essential",
         "price":"฿5,800",
         "color":"White/Grey Fog",
         "pic":[
@@ -262,7 +262,7 @@
     {
         "type":"men",
         "catagory":"lifestyle",
-        "name":"Air More Uptempo '96(Grape)",
+        "name":"Air More Uptempo '96",
         "price":"฿6,200",
         "color":"Black/Metallic Gold/Action Grape",
         "pic":[
@@ -510,14 +510,14 @@
         "price":"฿10,800",
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic":[
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/1.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/2.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/3.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/4.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/5.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/6.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/7.png",
-            "img/men/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/8.png"
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/1.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/2.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/3.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/4.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/5.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/6.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/7.png",
+            "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/8.png"
             
         ],
         "check":"0",
