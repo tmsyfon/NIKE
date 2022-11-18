@@ -109,23 +109,23 @@
     </nav>
 
     <!-- Content -->
-    <div class="container" style="background-color: white; border-radius: 5px;">
+    <div class="container" style="background-color: white; border-radius: 5px; margin-bottom: 20px;">
         <div class="one">
             <div class="row">
                 <div class="col-sm">
-                    <p class="promo">ลดราคา</p>
+                    <p class="topic" id="topic"></p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-2" id="dropdown">
 
-                    <p><a href="#"><b>สินค้าทั้งหมด</b></a></p>
+                    <p><a href="?view=all"><b>สินค้าทั้งหมด</b></a></p>
 
                     <div id="men" class="dropdown-toggle"><b>ผู้ชาย</b></div>
                     <div id="panelmen">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="?view=men&jordan">Jordan</a></p>
+                        <p><a href="?view=men&lifestyle">Lifestyle</a></p>
                         <p><a href="#">บาสเกตบอล</a></p>
                         <p><a href="#">ฟุตบอล</a></p>
                         <p><a href="#">วิ่ง</a></p>
@@ -133,8 +133,8 @@
 
                     <div id="women" class="dropdown-toggle"><b>ผู้หญิง</b></div>
                     <div id="panelwomen">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">Jordan</a></p>
+                        <p><a href="#">Lifestyle</a></p>
                         <p><a href="#">บาสเกตบอล</a></p>
                         <p><a href="#">ฟุตบอล</a></p>
                         <p><a href="#">วิ่ง</a></p>
@@ -142,19 +142,19 @@
 
                     <div id="child" class="dropdown-toggle"><b>เด็ก</b></div>
                     <div id="panelchild">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
+                        <p><a href="#">Jordan</a></p>
+                        <p><a href="#">Lifestyle</a></p>
                         <p><a href="#">บาสเกตบอล</a></p>
                         <p><a href="#">ฟุตบอล</a></p>
                         <p><a href="#">วิ่ง</a></p>
                     </div>
 
-                    <p><a href="#"><b>ลดราคา</b></a></p>
-                    <p><a href="#"><b>สินค้าขายดี</b></a></p>
+                    <p><a href="?view=discount"><b>ลดราคา</b></a></p>
+                    <p><a href="?view=bestsell"><b>สินค้าขายดี</b></a></p>
                 </div>
 
-                <div class="col">
-                    <div class="row" id="colum1">
+                <div class="col" id="content">
+                    <!-- <div class="row" id="colum1">
                         <div class="col" id="box">
                             <img src="/img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="250" height="250"
                                 id="image">
@@ -271,12 +271,13 @@
                             <p class="cash1">฿6,000 <del class="cash2">฿7,500</del></p>
                             <p class="discount">ส่วนลด 20%</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
+<<<<<<< Updated upstream
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-black text-muted pt-5">
             <section class="">
@@ -338,6 +339,228 @@
                             <p id="footcont"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
                             <p id="footcont"><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
                         </div>
+=======
+    <script type="module">
+        function getParameter( parameterName ){
+            let parameter  = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
+
+        import myJson from './info.json' assert {type: 'json'};
+
+        if (window.location.search == ""){
+            window.location.search = "?view=all";
+        }
+
+        let tag = {
+            "football":"ฟุตบอล",
+            "basketball":"บาสเกตบอล",
+            "running":"วิ่ง"
+        }
+
+        let tag2 = {
+            "men":"รองเท้าผู้ชาย",
+            "women":"รองเท้าผู้หญิง",
+            "child":"รองเท้าเด็ก"
+        }
+
+        if (getParameter("view")) {
+            if (getParameter("view") == "all") {
+                let count = 0;
+                let box = '<div class="row" id="colum1">';
+                myJson.forEach(item => {
+                    box += `<div class="col" id="box">
+                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                            <p class="name">${item.name}</p>
+                            <p class="type">${tag2[item.type]}</p>
+                            <p class="cash1">${item.price}</p>
+                        </div>`;
+                    count++;
+                    if (count == 3) {
+                        box += '</div> <div class="row" id="colum1">'
+                        count = 0;
+                    }
+                });
+                document.getElementById("content").innerHTML = box;
+                document.getElementById("topic").innerHTML = "สินค้าทั้งหมด";
+            }
+
+            else if (getParameter("view") == "discount") {
+                let count = 0;
+                let box = '<div class="row" id="colum1">';
+                myJson.forEach(item => {
+                    if (item.check == "1") {
+                        box += `<div class="col" id="box">
+                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                            <p class="name">${item.name}</p>
+                            <p class="type">${tag2[item.type]}</p>
+                            <p class="cash1">${item.price} <del class="cash2">${item.last}</del></p>
+                            <p class="discount">ส่วนลด ${item.per}</p>
+                        </div>`;
+                        count++;
+                        if (count == 3) {
+                            box += '</div> <div class="row" id="colum1">'
+                            count = 0;
+                        }
+                    }
+                });
+                document.getElementById("content").innerHTML = box;
+                document.getElementById("topic").innerHTML = "ลดราคา";
+            }
+
+            else if (getParameter("view") == "bestsell") {
+                let count = 0;
+                let box = '<div class="row" id="colum1">';
+                myJson.forEach(item => {
+                    if (item.check == "2") {
+                        box += `<div class="col" id="box">
+                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                            <p class="name">${item.name}</p>
+                            <p class="type">${tag2[item.type]}</p>
+                            <p class="cash1">${item.price}</p>
+                        </div>`;
+                        count++;
+                        if (count == 3) {
+                            box += '</div> <div class="row" id="colum1">'
+                            count = 0;
+                        }
+                    }
+                });
+                document.getElementById("content").innerHTML = box;
+                document.getElementById("topic").innerHTML = "สินค้าขายดี";
+            }
+
+            else if ((getParameter("view") == "men")) {
+                let count = 0;
+                let box = '<div class="row" id="colum1">';
+                myJson.forEach(item => {
+                    if (item.type == "men" && item.catagory == "jordan") {
+                        box += `<div class="col" id="box">
+                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                            <p class="name">${item.name}</p>
+                            <p class="type">${tag2[item.type]}</p>
+                            <p class="cash1">${item.price}</p>
+                        </div>`;
+                    count++;
+                    if (count == 3) {
+                        box += '</div> <div class="row" id="colum1">'
+                        count = 0;
+                    }
+                    }                
+                });
+                box += `<div class="col" id="boxextra"></div>` 
+                document.getElementById("content").innerHTML = box;
+                document.getElementById("topic").innerHTML = "ผู้ชาย / Jordan";
+            }
+            
+            else if ((getParameter("view") == "men") || (getParameter("view") == "men&lifestyle")) {
+                let count = 0;
+                let box = '<div class="row" id="colum1">';
+                myJson.forEach(item => {
+                    if (item.type == "men" && item.catagory == "jordan") {
+                        box += `<div class="col" id="box">
+                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                            <p class="name">${item.name}</p>
+                            <p class="type">${tag2[item.type]}</p>
+                            <p class="cash1">${item.price}</p>
+                        </div>`;
+                    count++;
+                    if (count == 3) {
+                        box += '</div> <div class="row" id="colum1">'
+                        count = 0;
+                    }
+                    }                
+                });
+                box += `<div class="col" id="boxextra"></div>` 
+                document.getElementById("content").innerHTML = box;
+                document.getElementById("topic").innerHTML = "ผู้ชาย / Jordan";
+            }
+                // if (getParameter("view")) {
+                //     let count = 0;
+                // let box = '<div class="row" id="colum1">';
+                // myJson.forEach(item => {
+                //     if (item.type == "men" && item.catagory == "lifestyle") {
+                //         box += `<div class="col" id="box">
+                //             <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                //             <p class="name">${item.name}</p>
+                //             <p class="type">${tag2[item.type]}</p>
+                //             <p class="cash1">${item.price}</p>
+                //         </div>`;
+                //     count++;
+                //     if (count == 3) {
+                //         box += '</div> <div class="row" id="colum1">'
+                //         count = 0;
+                //     }
+                //     }                
+                // });
+                // box += `<div class="col" id="boxextra"></div>` 
+                // document.getElementById("content").innerHTML = box;
+                // document.getElementById("topic").innerHTML = "ผู้ชาย / Lifestyle";
+                // }
+
+                // count = 0;
+                // box = '<div class="row" id="colum1">';
+                // myJson.forEach(item => {
+                //     if (item.type == "men" && item.catagory == "basketball") {
+                //         box += `<div class="col" id="box">
+                //             <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                //             <p class="name">${item.name}</p>
+                //             <p class="type">${tag2[item.type]}</p>
+                //             <p class="cash1">${item.price}</p>
+                //         </div>`;
+                //     count++;
+                //     if (count == 3) {
+                //         box += '</div> <div class="row" id="colum1">'
+                //         count = 0;
+                //     }
+                //     }                
+                // });
+                // box += `<div class="col" id="boxextra"></div>` 
+                // document.getElementById("content").innerHTML = box;
+                // document.getElementById("topic").innerHTML = "ผู้ชาย / บาสเกตบอล";
+        }
+    </script>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">ติดต่อเรา</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </section>

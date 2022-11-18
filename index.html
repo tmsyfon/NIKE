@@ -50,7 +50,7 @@
                             <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
                             <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
                             <li><a class="dropdown-item" href="#">เด็ก</a></li>
-                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=all">สินค้าทั้งหมด</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -240,8 +240,8 @@
             <h4 class="col" id="best">สินค้าขายดี</h4>
             <a href="" class="col" id="all2"><h4>ดูทั้งหมด</h4></a>
         </div>
-        <div class="one">
-            <div class="row" id="colum1">
+        <div class="one" id="bestsell">
+            <!-- <div class="row" id="colum1">
                 <div class="col" id="box">
                     <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" alt="" width="200" height="240" id="img-best">
                     <p class="name">Air Jordan 1 Mid SE</p>
@@ -328,9 +328,55 @@
                     <p class="name">Air Jordan 1 Mid SE</p>
                     <p class="cash1">฿4,335</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
+
+    <script type="module">
+        function getParameter( parameterName ){
+            let parameter  = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
+
+        import myJson from './info.json' assert {type: 'json'};
+
+        if (window.location.search == ""){
+            window.location.search = "?view=all";
+        }
+
+        let tag = {
+            "football":"ฟุตบอล",
+            "basketball":"บาสเกตบอล",
+            "running":"วิ่ง"
+        }
+
+        let tag2 = {
+            "men":"รองเท้าผู้ชาย",
+            "women":"รองเท้าผู้หญิง",
+            "child":"รองเท้าเด็ก"
+        }
+
+        if (getParameter("view")) {
+            let box = `<div class="row" id="colum1">`;
+            let count = 0;
+            myJson.forEach(item => {
+                if (item.check = "2") {
+                    box += `
+                    <div class="col" id="box">
+                        <img src="${item.pic[0]}" alt="" width="200" height="240" id="img-best">
+                        <p class="name">${item.name}</p>
+                        <p class="cash1">${item.price}</p>
+                    </div>`
+                    count++;
+                    if (count == 4) {
+                        box += '</div> <div class="row" id="colum1">'
+                        count = 0;
+                    }
+                }
+            });
+            document.getElementById("bestsell").innerHTML = box;
+        }
+    </script>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-black text-muted pt-5">

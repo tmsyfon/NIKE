@@ -62,6 +62,8 @@
         "catagory":"jordan",
         "name":"Air Jordan XXXVI Low PE",
         "price":"฿6,900",
+        "last":"฿5,865",
+        "per":"15%",
         "color":"Black/Electric Green/Hyper Violet/Cone",
         "pic":[
             "img/men/jordan/Air_Jordan_XXXVI_Low_PE/1.png",
@@ -73,7 +75,7 @@
             "img/men/jordan/Air_Jordan_XXXVI_Low_PE/7.png",
             "img/men/jordan/Air_Jordan_XXXVI_Low_PE/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"พลังที่จุดประกายการปฏิวัติวงการบาสเก็ตบอล หนึ่งในรองเท้าบาสเก็ตบอล Air Jordan ที่เบาที่สุดในปัจจุบัน AJ XXXVI โดดเด่นด้วยส่วนบนแบบมินิมอลแต่ทนทานพร้อมส่วนหุ้มชั้นนอกเสริมความแข็งแรง นอกจากนี้ยังมาพร้อมกับระบบลดแรงกระแทก Zoom Air เพื่อเพิ่มการตอบสนอง ก้าวขึ้นสู่สนามด้วยความมั่นใจว่าสิ่งที่คุณทำจะเป็นงานง่ายๆ"
     },
     {
@@ -92,7 +94,7 @@
             "img/men/jordan/Air_Jordan_1_Low_G/7.png",
             "img/men/jordan/Air_Jordan_1_Low_G/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"แรงบันดาลใจจากรองเท้าผ้าใบที่โดดเด่นที่สุดตลอดกาล Air Jordan 1 G คือความคลาสสิกแบบทันทีในสนาม ด้วยระบบลดแรงกระแทก Air ใต้ฝ่าเท้า โลโก้ Wings ที่ส้นและรูปแบบการยึดเกาะในตัวเพื่อช่วยให้คุณส่งพลังผ่านวงสวิง มอบความเท่ในคลับเฮาส์ของ AJ1 รุ่นออริจินัล พร้อมทุกสิ่งที่คุณต้องการ"
     },
     {
@@ -119,6 +121,8 @@
         "catagory":"jordan",
         "name":"Air Jordan 1 Mid SE",
         "price":"฿5,100",
+        "last":"฿4,335",
+        "per":"15%",
         "color":"White/Multi-Color/Black",
         "pic":[
             "img/men/jordan/Air_Jordan1_Mid_SE/1.png",
@@ -130,7 +134,7 @@
             "img/men/jordan/Air_Jordan1_Mid_SE/7.png",
             "img/men/jordan/Air_Jordan1_Mid_SE/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"หนึ่งในรองเท้าผ้าใบที่โด่งดังที่สุดในประวัติศาสตร์ได้เปล่งประกายใหม่เพื่อเฉลิมฉลอง 75 ปีของ NBA ขอบเพชรที่ป้ายที่ลิ้นรองเท้าแสดงถึงการฉลองครบรอบเพชรของ NBA ทำให้การเล่นครั้งใหม่กับเพลงโปรดตลอดกาล"
     },
     {
@@ -149,7 +153,7 @@
             "img/men/jordan/Jordan_1_KO/7.png",
             "img/men/jordan/Jordan_1_KO/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"Jordan 1 เป็นแรงบันดาลใจให้เกิดความชื่นชมในหมู่นักสะสมและแฟนรุ่นต่อไป Jordan 1 KO ปรับโฉมไอคอนอันโด่งดังโดยใช้การผสมผสานระหว่างหนังสังเคราะห์และผ้าใบ โดยมีความพอดีที่ออกแบบใหม่เพื่อความสบาย"
     },
 
@@ -218,6 +222,8 @@
         "catagory":"lifestyle",
         "name":"Air Force 1 '07 LV8 EMB",
         "price":"฿4,400",
+        "last":"฿3,965",
+        "per":"10%",
         "color":"Black/Washed Teal/Court Purple/Gym Red",
         "pic":[
             "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/1.png",
@@ -230,7 +236,7 @@
             "img/men/lifestyle/Nike_Air_Force_1_'07_LV8_EMB/8.png"
             
         ],
-        "check":"0",
+        "check":"1",
         "description":"เมื่อความสบายบนคอร์ทพื้นไม้มาเจอกับความเท่สไตล์นอกคอร์ท จึงเกิดเป็นรองเท้าบาสรุ่นออริจินัลที่พร้อมเสิร์ฟลูกเล่นแบบ WNBA/NBA บนสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นโครงสร้างที่สะท้อนถึงยุค 80 และรายละเอียดอันโดดเด่น (รวมถึงเท็กซ์เจอร์คล้ายลูกบาสบน Swoosh และสีสันตามยูนิฟอร์มทีมให้คุณได้เชียร์ทีมโปรด) สไตล์ลงตาข่ายแบบเน้นๆ"
     },
     {
@@ -319,6 +325,8 @@
         "catagory":"basketball",
         "name":"Nekai x Ambush Air Adjust Force",
         "price":"฿7,500",
+        "last":"฿6,000",
+        "per":"20%",
         "color":"Light Madder Root/Madder Root/Habanero Red/Burgundy Crush",
         "pic":[
             "img/men/basketball/Nike x Ambush_Air_Adjust_Force/1.png",
@@ -331,7 +339,7 @@
             "img/men/basketball/Nike x Ambush_Air_Adjust_Force/8.png"
             
         ],
-        "check":"0",
+        "check":"1",
         "description":"Yoon Ahn ปรับโฉมรองเท้าบาสคู่นั้นที่ไม่เคยเปิดเผยที่ไหนมาก่อนและทุกคนต่างรอคอย แล้วนำกลับมาสู่ท้องถนนอีกครั้ง ตั้งแต่ความหรูหราของหนังนูบัค ไปจนถึงรายละเอียดพลาสติกต่างๆ ทำให้รองเท้าแบรนด์ Ambush คู่นี้เป็นสะพานเชื่อมระหว่างสไตล์บาสไอคอนิกกับสไตล์เก๋ไก๋บนรันเวย์ และแน่นอน เรายังเก็บสายรัดแบบถอดได้ที่ส่วนกลางเท้าเอาไว้ ซึ่งทำให้ได้เป็นลุคระดับตำนานออกมา"
     },
     {
@@ -357,7 +365,7 @@
     {
         "type":"men",
         "catagory":"basketball",
-        "name":"Nekai Air Zoom G.T. Cut 2 (Crimson)",
+        "name":"Nekai Air Zoom G.T. Cut 2",
         "price":"฿6,200",
         "color":"Black/Anthracite/Bright Crimson/White",
         "pic":[
@@ -411,7 +419,7 @@
             "img/men/basketball/LeBron 19/8.png"
             
         ],
-        "check":"0",
+        "check":"2",
         "description":"LeBron จะยิ่งระห่ำเมื่อการเดิมพันสูงขึ้นและสถานการณ์เริ่มกดดัน LeBron 19 ควบคุมพลังดังกล่าวด้วยทรงล็อคกระชับและระบบลดแรงกระแทกโฉมใหม่ ชั้นบุด้านในแบบแนบกระชับเชื่อมถึงกันด้วยส่วนหุ้มชั้นนอกแบบกระชับรูปเท้า โดยที่เชือกรองเท้าสามารถร้อยผ่านทั่วทั้งส่วนเพื่อช่วยป้องกันไม่ให้เกิดการเคลื่อนไหวภายในรองเท้า รอบๆ ส่วนหุ้มข้อและลิ้นรองเท้ามีปุ่มลดแรงกระแทกเพื่อเพิ่มความสบายไปพร้อมกับช่วยลดน้ำหนัก ทำให้ผู้เล่นรู้สึกแน่นกระชับและมั่นใจที่จะทุ่มสุดตัวเมื่อคะแนนสูสีในช่วงก่อนหมดเวลา"
     },
     {
@@ -454,7 +462,28 @@
         "check":"0",
         "description":"ตั้งแต่วงนอกจนถึงแป้น โลดแล่นบนคอร์ทได้อย่างมั่นใจ คู่นี้เป็นหนึ่งในรองเท้าแข่ง Air Jordan ที่เบาที่สุดในปัจจุบัน มาพร้อมส่วนบนสไตล์มินิมอลที่ทำจากผ้าทอแบบ Leno ที่ทนทานและเสริมด้วยรายละเอียดพลาสติกที่แข็งแรง ระบบลดแรงกระแทก Zoom Air ช่วยส่งแรงกลับและให้การตอบสนองระดับแนวหน้าไปพร้อมๆ กัน เกมนี้ให้คุณต้องทุ่มเททุกสิ่ง และตอนนี้คุณมีรองเท้าที่พร้อมรับมือแล้ว"
     },
-     {   
+    {
+        "type":"men",
+        "catagory":"basketball",
+        "name":"Air Zoom G.T. Jump",
+        "price":"฿6,400",
+        "color":"White",
+        "pic":[
+            "img/men/basketball/Nike Air Zoom G.t. Jump/1.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/2.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/3.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/4.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/5.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/6.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/7.png",
+            "img/men/basketball/Nike Air Zoom G.t. Jump/8.png"
+            
+        ],
+        "check":"0",
+        "description":"ตั้งแต่วงนอกจนถึงแป้น โลดแล่นบนคอร์ทได้อย่างมั่นใจ คู่นี้เป็นหนึ่งในรองเท้าแข่ง Air Jordan ที่เบาที่สุดในปัจจุบัน มาพร้อมส่วนบนสไตล์มินิมอลที่ทำจากผ้าทอแบบ Leno ที่ทนทานและเสริมด้วยรายละเอียดพลาสติกที่แข็งแรง ระบบลดแรงกระแทก Zoom Air ช่วยส่งแรงกลับและให้การตอบสนองระดับแนวหน้าไปพร้อมๆ กัน เกมนี้ให้คุณต้องทุ่มเททุกสิ่ง และตอนนี้คุณมีรองเท้าที่พร้อมรับมือแล้ว"
+    },
+
+    {   
         "type":"men",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Elite FG",
@@ -471,7 +500,7 @@
             "img/men/football/Nike Phantom GT2 Elite FG/8.png"
             
         ],
-        "check":"0",
+        "check":"2",
         "description":"ปลดล็อคพิมพ์เขียวสำหรับความเร็วด้วย Nekai Mercurial Vapor 14 Elite FG สีแบบคัลเลอร์บล็อคที่ด้านข้างและปลายเท้าเน้นจุดสำคัญเพื่อใช้ในการยิง ส่งลูกบอล และเลี้ยงบอลอย่างแม่นยำ นอกจากนี้ เท็กซ์เจอร์ที่ยึดเกาะได้ดีตลอดส่วนบนยังช่วยให้คุณควบคุมเกมได้ดั่งใจ"
     },
      {   
@@ -671,7 +700,7 @@
             "img/men/running/Nike ZoomX Vaporfly NEXT 2/8.png"
             
         ],
-        "check":"0",
+        "check":"2",
         "description":"สานต่อวิวัฒนาการขั้นถัดไปของความเร็วด้วยรองเท้าวิ่งแข่งที่ดีไซน์มาเพื่อช่วยในการไล่ตามเป้าหมายและสถิติใหม่ๆ โดยรุ่นนี้ยังคงมีระบบลดแรงกระแทกแบบเดิมที่ตอบสนองได้ดีและการรองรับที่แน่นกระชับเหมือนกับรุ่นก่อนๆ เพื่อผลักดันให้คุณได้สร้างสถิติส่วนตัวใหม่ ตั้งแต่การวิ่ง 10K ไปจนถึงมาราธอน มาพร้อมส่วนบนปรับโฉมใหม่ช่วยเสริมความสบายและการระบายอากาศโดยรวม"
     },
     {   
@@ -679,6 +708,8 @@
         "catagory":"running",
         "name":"Nekai React Pegasus Trail 4 GORE-TEX",
         "price":"฿5,900",
+        "last":"฿4,590",
+        "per":"10%",
         "color":"Velvet Brown/Black/Golden Moss/Medium Blue",
         "pic":[
             "img/men/running/Nike_React_Pegasus_Trail_4_GORE-TEX/1.png",
@@ -691,8 +722,8 @@
             "img/men/running/Nike_React_Pegasus_Trail_4_GORE-TEX/8.png"
             
         ],
-        "check":"0",
-        "description":"NNekaiike React Pegasus Trail 4 GORE-TEX สร้างมาเพื่อช่วงเวลาที่คุณไม่อยากหันหลังกลับ ไม่ว่าจะเกิดอะไรขึ้นก็ตาม ให้คุณรู้สึกมั่นใจได้แม้อยู่ในสภาพอากาศที่ไม่คาดฝันที่สุดด้วย GORE-TEX ที่กันน้ำและช่วยให้รู้สึกแห้งเสมอ นอกจากนี้ยังมีเกเตอร์หุ้มข้อเท้าสูงขึ้นให้การปกปิดเพิ่มเติมเพื่อช่วยป้องกันไม่ให้น้ำเข้า โฟม Nekai React ตอบสนองได้ดีให้คุณวิ่งฝ่าความเปียกชื้นตั้งแต่บนพื้นถนนจนถึงเส้นทางเทรลได้อย่างต่อเนื่อง"
+        "check":"1",
+        "description":"Nekai React Pegasus Trail 4 GORE-TEX สร้างมาเพื่อช่วงเวลาที่คุณไม่อยากหันหลังกลับ ไม่ว่าจะเกิดอะไรขึ้นก็ตาม ให้คุณรู้สึกมั่นใจได้แม้อยู่ในสภาพอากาศที่ไม่คาดฝันที่สุดด้วย GORE-TEX ที่กันน้ำและช่วยให้รู้สึกแห้งเสมอ นอกจากนี้ยังมีเกเตอร์หุ้มข้อเท้าสูงขึ้นให้การปกปิดเพิ่มเติมเพื่อช่วยป้องกันไม่ให้น้ำเข้า โฟม Nekai React ตอบสนองได้ดีให้คุณวิ่งฝ่าความเปียกชื้นตั้งแต่บนพื้นถนนจนถึงเส้นทางเทรลได้อย่างต่อเนื่อง"
     },
     {   
         "type":"men",
@@ -711,7 +742,7 @@
             "img/men/running/Nike Air Zoom Pegasus 39 A.I.R. Hola Lou/8.png"
             
         ],
-        "check":"0",
+        "check":"2",
         "description":"เรามองหาแรงบันดาลใจจากผลงานแอ็บสแตรกต์ของ Hola Lou เพื่อนําลูกเล่นใหม่มาสู่ความเร็วด้วยลายพิมพ์ที่อิงมาจากภาพความทรงจํา ความรู้สึก และเสียงดนตรี จากนั้นก็นําไปใช้กับม้าเร็วติดปีกของเรา รุ่นล่าสุดในซีรีส์ Artist in Residence (A.I.R.) ของเรานำเสนอด้วยมุมมองแบบมินิมอล เพื่อให้คุณทุ่มเทไปกับเส้นทางการวิ่งของคุณได้อย่างเต็มที่ ชุดสีที่เรียบง่ายแต่ก็ดูแอ็บสแตรกต์ของ Hola Lou ช่วยเสริมให้กับโมเดลที่จะช่วยพาคุณทะยานไปสู่ระดับใหม่ๆ ด้วยดีไซน์ที่ใช้งานง่ายและใส่สบาย"
     },
     {   
@@ -751,7 +782,7 @@
             "img/men/running/Nike Pegasus Trail 3/8.png"
             
         ],
-        "check":"0",
+        "check":"2",
         "description":"ค้นหาปีกของคุณไปกับการวิ่งออฟโรด Nekai Pegasus Trail 3 ให้ความสบายแบบเดียวกับที่คุณหลงรัก พร้อมดีไซน์ที่ยกย่องให้กับลุคคลาสสิกของ Pegasus โฟม Nekai React ช่วยลดแรงกระแทกแบบตอบสนองได้ดี ขณะที่การยึดเกาะทนทานช่วยให้คุณเคลื่อนไหวได้ต่อเนื่องผ่านภูมิประเทศที่เต็มไปด้วยหิน การรองรับที่มากขึ้นรอบส่วนกลางเท้าช่วยให้คุณรู้สึกมั่นคงบนเส้นทาง"
     },
     {   
@@ -856,6 +887,8 @@
         "catagory":"jordan",
         "name":"Nekai Jordan Delta 3 Low",
         "price":"฿5,300",
+        "last":"฿5,035",
+        "per":"5%",
         "color":"White/Black/Wolf Grey/Chile Red",
         "pic": [
             "img/women/jordan/Jordan Delta 3 Low/1.png",
@@ -867,7 +900,7 @@
             "img/women/jordan/Jordan Delta 3 Low/7.png",
             "img/women/jordan/Jordan Delta 3 Low/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"ไม่ว่าใครก็ดูเท่ในรองเท้าทรงไม่หุ้มข้อที่ผสานงานฝีมือระดับไฮเอนด์เข้ากับคุณสมบัติสุดไฮเทค มาพร้อมผ้า Ripstop แบบโปร่งและหนังกลับเนื้อนุ่มที่จับคู่กับส่วนภายในแบบไร้รอยต่อ ผลที่ได้คือ ลุคแบบไม่หุ้มข้อสุดคลาสสิกและความสบายระดับพรีเมียมอย่างที่คาดหวังจากแบรนด์ Jordan"
     },
     {
@@ -944,7 +977,7 @@
             "img/women/lifestyle/Nike Air Force 1 '07/7.png",
             "img/women/lifestyle/Nike Air Force 1 '07/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"ความเบิกบานดำรงอยู่ใน Air Force 1 '07 รองเท้าบาสรุ่น OG ที่ใส่ลูกเล่นสดใหม่ให้กับสิ่งที่คุณรู้จักดีที่สุด ไม่ว่าจะเป็นส่วนหุ้มชั้นนอกแบบเย็บติดที่ทนทาน ลวดลายสะอาดตา และความวิบวับที่ลงตัวซึ่งทำให้คุณเปล่งประกาย"
     },
     {
@@ -952,6 +985,8 @@
         "catagory":"lifestyle",
         "name":"Nekai x sacai Blazer Low",
         "price":"฿4,800",
+        "last":"฿4,320",
+        "per":"10%",
         "color":"Black/white",
         "pic": [
             "img/women/lifestyle/Nike x sacai Blazer Low/1.png",
@@ -963,7 +998,7 @@
             "img/women/lifestyle/Nike x sacai Blazer Low/7.png",
             "img/women/lifestyle/Nike x sacai Blazer Low/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"Chitose Abe ดีไซเนอร์ชื่อดังได้นำภาพการรวมเป็นหนึ่งของเธอมาสร้างสรรค์ให้เป็นจริงใน Nekai x sacai Blazer Low โดยมีวัสดุส่วนบนที่เชื่อมกัน ส่วนหุ้มลิ้นรองเท้าชั้นนอก และแบรนด์ร่วมซึ่งผสานรองเท้าบาสเก็ตบอล 2 รุ่นในช่วงแรกของ Nekai เข้าด้วยกัน เป็นการฉลองให้กับการร่วมมือกันอย่างต่อเนื่องของวงการกีฬาและแฟชั่น"
     },
     {
@@ -1127,14 +1162,14 @@
         "price":"฿4,700",
         "color":"Summit White/Pale Ivory/Light Smoke Grey",
         "pic": [
-            "img/women/basketball/Air Deldon Together We Fly/1.png",
-            "img/women/basketball/Air Deldon Together We Fly/2.png",
-            "img/women/basketball/Air Deldon Together We Fly/3.png",
-            "img/women/basketball/Air Deldon Together We Fly/4.png",
-            "img/women/basketball/Air Deldon Together We Fly/5.png",
-            "img/women/basketball/Air Deldon Together We Fly/6.png",
-            "img/women/basketball/Air Deldon Together We Fly/7.png",
-            "img/women/basketball/Air Deldon Together We Fly/8.png"
+            "img/women/basketball/Nike Air Deldon Together We Fly/1.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/2.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/3.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/4.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/5.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/6.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/7.png",
+            "img/women/basketball/Nike Air Deldon Together We Fly/8.png"
         ],
         "check":"0",
         "description":"คู่นี้ผลิตมาเพื่อทุกคน โดยมีส้นที่ยุบตัวได้และสายรัดขนาดใหญ่ ให้คุณสวมใส่แล้วล็อคกระชับได้ด้วยมือเดียว ระบบลดแรงกระแทก Air แบบเต็มความยาวเท้าและส่วน Zoom Air ที่ปลายเท้าให้ที่สุดแห่งการผสมผสานระหว่างการดีดตัวและการส่งแรงกลับเพื่อช่วยให้คุณรู้สึกมีพลังตลอดทั้งการแข่งขัน"
@@ -1174,7 +1209,7 @@
             "img/women/basketball/LeBron 19/7.png",
             "img/women/basketball/LeBron 19/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"LeBron มักเล่นเกมบุกวงนอกมากกว่าวงใน จึงไม่แปลกถ้าเขาต้องการสัมผัสที่เร็วขึ้นอีกนิด ซิกเนเจอร์รุ่นที่ 19 ของเขาให้ความรู้สึกกระชับ แต่มาพร้อมดีไซน์ที่เบาลง จึงเหมาะสําหรับผู้เล่นที่ว่องไวและแข็งแกร่งอย่าง LeBron ผู้ครองคอร์ท"
     },
     {
@@ -1201,6 +1236,8 @@
         "catagory":"basketball",
         "name":"PG 6 EP",
         "price":"฿4,400",
+        "last":"฿3,960",
+        "per":"10%",
         "color":"White/Black/Thunder Blue/Crimson Bliss",
         "pic": [
             "img/women/basketball/PG 6 EP/1.png",
@@ -1212,7 +1249,7 @@
             "img/women/basketball/PG 6 EP/7.png",
             "img/women/basketball/PG 6 EP/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"Paul George ทำได้ทุกอย่างบนคอร์ท แบบสบายๆ ไม่ว่าจะเลี้ยงลูกเข้าหาแป้น วิ่งฉีกตัวประกบแล้วส่งบอลให้เพื่อน รวมถึงรับบอลแล้วชู้ต ทุกครั้งจะออกมาไหลลื่น และมักแสดงถึงลีลาขั้นเทพ PG 6 EP รองเท้าซิกเนเจอร์ของเขาผลิตด้วยวัสดุนุ่ม ดีไซน์มาเพื่อให้สัมผัสเบาและดีดตัวได้ดีราวกับว่าเดินบนก้อนเมฆ"
     },
     {
@@ -1220,6 +1257,8 @@
         "catagory":"basketball",
         "name":"Air Deldon \"Lyme\"",
         "price":"฿4,700",
+        "last":"฿4,465",
+        "per":"5%",
         "color":"Barely Green/Pale Ivory/Barely Green",
         "pic": [
             "img/women/basketball/Nike Air Deldon Lyme/1.png",
@@ -1231,7 +1270,7 @@
             "img/women/basketball/Nike Air Deldon Lyme/7.png",
             "img/women/basketball/Nike Air Deldon Lyme/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"รองเท้าบาสเก็ตบอลที่ดีไซน์มาเพื่อตามผู้เล่น MVP 2 สมัยให้ทัน ส่วนเน้นสี Lime Green สะท้อนถึงการต่อสู้กับโรคไลม์ของเธอ และสื่อถึงแรงผลักดันในการต่อสู้ไม่หยุดหย่อน แม้ในช่วงที่รู้สึกว่าไม่เหลืออะไรแล้วก็ตาม"
     },
 
@@ -1558,7 +1597,7 @@
             "img/child/jordan/Jordan 1 Mid/7.png",
             "img/child/jordan/Jordan 1 Mid/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"เจริญรอยตามความยิ่งใหญ่ ดีไซน์ AJ1 รุ่นคลาสสิกตลอดกาลปรับโฉมใหม่ด้วยสีสันที่สดใสสะดุดตาและวัสดุแบบผสม"
     },
     {
@@ -1642,6 +1681,8 @@
         "catagory":"jordan",
         "name":"Jordan Why Not Zer0.5",
         "price":"฿3,400",
+        "last":"฿3,060",
+        "per":"10%",
         "color":"Coconut Milk/Khaki/Rattan/Black",
         "pic": [
             "img/child/jordan/Jordan Why Not Zer0.5/1.png",
@@ -1653,7 +1694,7 @@
             "img/child/jordan/Jordan Why Not Zer0.5/7.png",
             "img/child/jordan/Jordan Why Not Zer0.5/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"ประสิทธิภาพการยึดเกาะจากข้อมูลวิเคราะห์และระบบควบคุมความกระชับทั่วเท้าเพื่อรักษาความมั่นคงและให้เขาควบคุมฟอร์มการเล่นได้เสมอ คู่นี้ยังมีลุคแบบสมบุกสมบันและมีประโยชน์ครบเครื่องแบบรองเท้าวิ่งเทรลอีกด้วย พร้อมนำมารวมกับบรรดาวัสดุและสีสันที่มาปะทะกันอย่างจงใจ ซึ่งถือเป็นหัวใจสำคัญของตระกูล Why Not?"
     },
     {
@@ -1750,7 +1791,7 @@
             "img/child/lifestyle/Nike Dynamo GO/7.png",
             "img/child/lifestyle/Nike Dynamo GO/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"Nekai Dynamo GO เหยียบลงบนส้นพับได้และสวมใส่ได้อย่างรวดเร็ว ง่ายอย่างนี้เลย! ถ้าพวกเขาไม่พร้อมที่จะใส่ด้วยตัวเอง ก็สาธิตวิธีสวมให้พวกเขาดูได้เพื่อให้พวกเขามีอิสระและพึ่งตัวเองได้ เวลาเล่นไม่ควรต้องรอ"
     },
     {
@@ -2009,6 +2050,8 @@
         "catagory":"football",
         "name":"Nekai Jr. Mercurial Superfly 9 Club KM TF",
         "price":"฿2,100",
+        "last":"฿1,995",
+        "per":"5%",
         "color":"Dark Beetroot/University Blue/Vivid Purple/Metallic Vivid Gold",
         "pic": [
             "img/child/football/Nike Jr. Mercurial Superfly 9 Club KM TF/1.png",
@@ -2020,7 +2063,7 @@
             "img/child/football/Nike Jr. Mercurial Superfly 9 Club KM TF/7.png",
             "img/child/football/Nike Jr. Mercurial Superfly 9 Club KM TF/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"Nekai Jr. รองเท้าคู่นี้ดีไซน์มาเพื่อใช้บนพื้นหญ้าเทียม และมีการยึดเกาะที่จำเป็นสำหรับการวิ่งและเปลี่ยนทิศทางในสนาม ดีไซน์ทนทานจะรับมือได้ตลอดการฝึก นัดซ้อม และวันแข่งจริง โดยมีผู้เล่นที่เก่งที่สุดในโลกคนหนึ่งประทับตรารับรองแล้ว"
     },
     {
@@ -2125,6 +2168,8 @@
         "catagory":"running",
         "name":"Nekai Flex Runner 2",
         "price":"฿1,700",
+        "last":"฿1,615",
+        "per":"5%",
         "color":"Barely Volt/Volt/Black/Bright Spruce",
         "pic": [
             "img/child/running/Nike Flex Runner 2/1.png",
@@ -2136,7 +2181,7 @@
             "img/child/running/Nike Flex Runner 2/7.png",
             "img/child/running/Nike Flex Runner 2/8.png"
         ],
-        "check":"0",
+        "check":"1",
         "description":"Nekai Flex Runner 2 รังสรรค์ขึ้นสําหรับเด็กพร้อมลุยที่ชอบเล่นสนุกตลอดวัน ตั้งแต่คาบพละไปจนถึงการวิ่งสปรินต์ตามเส้นทางในละแวก โดยเป็นรองเท้าแบบไร้เชือก จึงทำให้ใส่และถอดได้รวดเร็วสุดๆ ใครพร้อมเล่นแล้วบ้าง"
     },
     {
@@ -2165,14 +2210,14 @@
         "price":"฿2,500",
         "color":"Black/Anthracite/White",
         "pic": [
-            "img/child/running/Nike Air Zoom Arcadia 2/1.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/2.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/3.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/4.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/5.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/6.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/7.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/8.png"
+            "img/child/running/Nike Air Zoom Arcadia 2_black/1.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/2.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/3.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/4.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/5.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/6.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/7.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_black/8.png"
         ],
         "check":"0",
         "description":"Nekai Air Zoom Arcadia 2 จ๊อกกิ้ง วิ่งธรรมดา หรือวิ่งแบบเต็มฝีเท้าด้วยแรงผลักเสริมจากระบบลดแรงกระแทก Zoom Air ที่ตอบสนองได้ดีของเรา ด้านบนมีการปรับปรุงรูปทรงทำให้ไม่รัดแน่นหรือหลวมเกินจนไปในขณะที่คุณวิ่งระยะที่ไกลขึ้น"
@@ -2193,7 +2238,7 @@
             "img/child/running/Nike Flex Runner 2 Lil/7.png",
             "img/child/running/Nike Flex Runner 2 Lil/8.png"
         ],
-        "check":"0",
+        "check":"2",
         "description":"Nekai Flex Runner 2 รองเท้าคู่นี้เป็นส่วนหนึ่งของคอลเลกชัน Lil ของเรา (หมายความว่า สําหรับเจ้าตัวน้อยเท่านั้น) พร้อมเชิญชวนให้เด็กๆ ได้ออกไปสำรวจและเล่นสนุกกับธรรมชาติ ค้นหาทุกสิ่งที่เราชอบในรองเท้าคู่นี้ เช่น กระต่ายแสนน่ารัก และกราฟิกเห็ด นักผจญภัยตัวน้อยของคุณจะเจอครบไหมนะ"
     },
     {
@@ -2260,14 +2305,14 @@
         "price":"฿2,400",
         "color":"Game Royal/Black/White",
         "pic": [
-            "img/child/running/Nike Air Zoom Arcadia 2/1.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/2.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/3.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/4.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/5.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/6.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/7.png",
-            "img/child/running/Nike Air Zoom Arcadia 2/8.png"
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/1.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/2.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/3.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/4.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/5.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/6.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/7.png",
+            "img/child/running/Nike Air Zoom Arcadia 2_royal/8.png"
         ],
         "check":"0",
         "description":"Nekai Air Zoom Arcadia 2 ด้วยระบบลดแรงกระแทก Zoom Air ที่ตอบสนองได้ดี การหัดวิ่งและสปรินต์จะกลายเป็นเรื่องง่าย นักวิ่งตัวน้อยจะเข้าเส้นชัยได้ในเวลาอันรวดเร็วด้วยส่วนบนที่ใส่ได้พอดียิ่งขึ้นและสายรัดที่ใช้งานง่าย"
