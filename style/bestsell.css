@@ -1,7 +1,7 @@
 .one {
     border: 5px white;
     background-color: white;
-    height: 200%;
+    height: 170%;
     margin-top: 3px;
     margin-bottom: 100px;
 }
@@ -28,22 +28,10 @@
 #colum1 {
     text-align: center;
     margin-left: 16px;
+    margin-bottom: 50px;
 }
 
-#colum2 {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 16px;
-}
-
-#colum3 {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 16px;
-}
-
-#colum4 {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 16px;
+#box:hover{
+    scale: 1.01;
+    animation-delay: 500ms;
 }

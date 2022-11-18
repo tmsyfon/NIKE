@@ -74,19 +74,19 @@
                             สินค้า
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
-                            <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
-                            <li><a class="dropdown-item" href="#">เด็ก</a></li>
-                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=men">ผู้ชาย</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=women">ผู้หญิง</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=child">เด็ก</a></li>
+                            <li></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=all">สินค้าทั้งหมด</a></li>
                         </ul>
                     </div>
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">ลดราคา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
+                        <a class="nav-link" href="lodraka.html?view=discount">ลดราคา</a>
+                        <a class="nav-link" href="soon.html">เร็วๆนี้</a>
                     </div>
                 </div>
             </nav>
@@ -107,46 +107,47 @@
         <div class="one">
             <div class="row">
                 <div class="col-sm">
-                    <p class="promo">คิดว่าจะทำ Breadcrumb</p>
+                    <p class="promo" id="promo">คิดว่าจะทำ Breadcrumb</p>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="cont">
                 <div class="col-2" id="dropdown">
-                    <p><a href="#"><b>สินค้าทั้งหมด</b></a></p>
+
+                    <p><a href="lodraka.html?view=all"><b>สินค้าทั้งหมด</b></a></p>
 
                     <div id="men" class="dropdown-toggle"><b>ผู้ชาย</b></div>
                     <div id="panelmen">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
-                        <p><a href="#">บาสเกตบอล</a></p>
-                        <p><a href="#">ฟุตบอล</a></p>
-                        <p><a href="#">วิ่ง</a></p>
+                        <p><a href="lodraka.html?view=men&catagory=jordan">Jordan</a></p>
+                        <p><a href="lodraka.html?view=men&catagory=lifestyle">Lifestyle</a></p>
+                        <p><a href="lodraka.html?view=men&catagory=basketball">บาสเกตบอล</a></p>
+                        <p><a href="lodraka.html?view=men&catagory=football">ฟุตบอล</a></p>
+                        <p><a href="lodraka.html?view=men&catagory=running">วิ่ง</a></p>
                     </div>
 
                     <div id="women" class="dropdown-toggle"><b>ผู้หญิง</b></div>
                     <div id="panelwomen">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
-                        <p><a href="#">บาสเกตบอล</a></p>
-                        <p><a href="#">ฟุตบอล</a></p>
-                        <p><a href="#">วิ่ง</a></p>
+                        <p><a href="lodraka.html?view=women&catagory=jordan">Jordan</a></p>
+                        <p><a href="lodraka.html?view=women&catagory=lifestyle">Lifestyle</a></p>
+                        <p><a href="lodraka.html?view=women&catagory=basketball">บาสเกตบอล</a></p>
+                        <p><a href="lodraka.html?view=women&catagory=football">ฟุตบอล</a></p>
+                        <p><a href="lodraka.html?view=women&catagory=running">วิ่ง</a></p>
                     </div>
 
                     <div id="child" class="dropdown-toggle"><b>เด็ก</b></div>
                     <div id="panelchild">
-                        <p><a href="#">jordan</a></p>
-                        <p><a href="#">lifestyle</a></p>
-                        <p><a href="#">บาสเกตบอล</a></p>
-                        <p><a href="#">ฟุตบอล</a></p>
-                        <p><a href="#">วิ่ง</a></p>
+                        <p><a href="lodraka.html?view=child&catagory=jordan">Jordan</a></p>
+                        <p><a href="lodraka.html?view=child&catagory=lifestyle">Lifestyle</a></p>
+                        <p><a href="lodraka.html?view=child&catagory=basketball">บาสเกตบอล</a></p>
+                        <p><a href="lodraka.html?view=child&catagory=football">ฟุตบอล</a></p>
+                        <p><a href="lodraka.html?view=child&catagory=running">วิ่ง</a></p>
                     </div>
 
-                    <p><a href="#"><b>ลดราคา</b></a></p>
-                    <p><a href="#"><b>สินค้าขายดี</b></a></p>
+                    <p><a href="lodraka.html?view=discount"><b>ลดราคา</b></a></p>
+                    <p><a href="lodraka.html?view=bestsell"><b>สินค้าขายดี</b></a></p>
                 </div>
 
-                <div class="col-5">
+                <!-- <div class="col-5" id="pic">
                     <img src="img/men/jordan/Air_Jordan1_Mid_SE/1.png" class="propic">
                     <img src="img/men/jordan/Air_Jordan1_Mid_SE/2.png" class="propic">
                     <img src="img/men/jordan/Air_Jordan1_Mid_SE/3.png" class="propic">
@@ -157,8 +158,8 @@
                     <img src="img/men/jordan/Air_Jordan1_Mid_SE/8.png" class="propic">
                 </div>
                 <div class="col-4">
-                    <h4>ชื่อ</h4>
-                    <h5>ราคา</h5>
+                    <h4 id="type">ชื่อ</h4>
+                    <h5 id="price">ราคา</h5>
                     <h6 id="size">เลือกไซส์</h6>
                     <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
                     <button id="butt">US 7.5</button><button id="butt">US 7.5</button><button id="butt">US 7.5</button>
@@ -168,12 +169,191 @@
                     <button id="butcart">เพิ่มในตะกร้า</button>
 
                     <p id="desc">รายละเอียด</p>
-                </div>
+                </div> -->
 
             </div>
         </div>
     </div>
+    <script type="module">
+        function getParameter( parameterName ){
+            let parameter  = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
 
+        import myJson from './info.json' assert {type: 'json'};
+
+        if (window.location.search == ""){
+            window.location.search = "?view=all";
+        }
+
+        let tag = {
+            "jordan":"Jordan",
+            "lifestyle":"Lifestyle",
+            "football":"ฟุตบอล",
+            "basketball":"บาสเกตบอล",
+            "running":"วิ่ง"
+        }
+
+        let tag2 = {
+            "men":"รองเท้าผู้ชาย",
+            "women":"รองเท้าผู้หญิง",
+            "child":"รองเท้าเด็ก"
+        }
+
+        let prod = getParameter("product");
+        if (myJson[prod].type == "men") {
+            const itempic = document.createElement('template');
+            itempic.innerHTML = `<div class="col-5" id="pic">
+                        <img src="${myJson[prod].pic[0]}" class="propic">
+                        <img src="${myJson[prod].pic[1]}" class="propic">
+                        <img src="${myJson[prod].pic[2]}" class="propic">
+                        <img src="${myJson[prod].pic[3]}" class="propic">
+                        <img src="${myJson[prod].pic[4]}" class="propic">
+                        <img src="${myJson[prod].pic[5]}" class="propic">
+                        <img src="${myJson[prod].pic[6]}" class="propic">
+                        <img src="${myJson[prod].pic[7]}" class="propic">
+                    </div>`
+            document.getElementById("promo").innerHTML = myJson[prod].name;
+            document.getElementById("cont").appendChild(itempic.content);
+            
+            if (myJson[prod].check == "1") {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 7</button><button id="butt">US 7.5</button><button id="butt">US 8</button>
+                            <button id="butt">US 8.5</button><button id="butt">US 9</button><button id="butt">US 9.5</button>
+                            <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
+                            <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+            else {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 7</button><button id="butt">US 7.5</button><button id="butt">US 8</button>
+                            <button id="butt">US 8.5</button><button id="butt">US 9</button><button id="butt">US 9.5</button>
+                            <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
+                            <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+        }
+        else if (myJson[prod].type == "women") {
+            const itempic = document.createElement('template');
+            itempic.innerHTML = `<div class="col-5" id="pic">
+                        <img src="${myJson[prod].pic[0]}" class="propic">
+                        <img src="${myJson[prod].pic[1]}" class="propic">
+                        <img src="${myJson[prod].pic[2]}" class="propic">
+                        <img src="${myJson[prod].pic[3]}" class="propic">
+                        <img src="${myJson[prod].pic[4]}" class="propic">
+                        <img src="${myJson[prod].pic[5]}" class="propic">
+                        <img src="${myJson[prod].pic[6]}" class="propic">
+                        <img src="${myJson[prod].pic[7]}" class="propic">
+                    </div>`
+            document.getElementById("promo").innerHTML = myJson[prod].name;
+            document.getElementById("cont").appendChild(itempic.content);
+            
+            if (myJson[prod].check == "1") {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 5</button><button id="butt">US 5.5</button><button id="butt">US 6</button>
+                            <button id="butt">US 6.5</button><button id="butt">US 7</button><button id="butt">US 7.5</button>
+                            <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
+                            <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+            else {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 5</button><button id="butt">US 5.5</button><button id="butt">US 6</button>
+                            <button id="butt">US 6.5</button><button id="butt">US 7</button><button id="butt">US 7.5</button>
+                            <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
+                            <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+        }
+        else {
+            const itempic = document.createElement('template');
+            itempic.innerHTML = `<div class="col-5" id="pic">
+                        <img src="${myJson[prod].pic[0]}" class="propic">
+                        <img src="${myJson[prod].pic[1]}" class="propic">
+                        <img src="${myJson[prod].pic[2]}" class="propic">
+                        <img src="${myJson[prod].pic[3]}" class="propic">
+                        <img src="${myJson[prod].pic[4]}" class="propic">
+                        <img src="${myJson[prod].pic[5]}" class="propic">
+                        <img src="${myJson[prod].pic[6]}" class="propic">
+                        <img src="${myJson[prod].pic[7]}" class="propic">
+                    </div>`
+            document.getElementById("promo").innerHTML = myJson[prod].name;
+            document.getElementById("cont").appendChild(itempic.content);
+            
+            if (myJson[prod].check == "1") {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 3.5Y</button><button id="butt">US 4Y</button><button id="butt">US 4.5Y</button>
+                            <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
+                            <button id="butt">US 7Y</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+            else {
+                const itemdetail = document.createElement('template');
+                itemdetail.innerHTML = `<div class="col-4">
+                            <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h6 id="size">เลือกไซส์</h6>
+                            <button id="butt">US 3.5Y</button><button id="butt">US 4Y</button><button id="butt">US 4.5Y</button>
+                            <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
+                            <button id="butt">US 7Y</button>
+                            
+                            <button id="butcart">เพิ่มในตะกร้า</button>
+
+                            <p id="desc">${myJson[prod].description}</p>
+                        </div>`
+                document.getElementById("cont").appendChild(itemdetail.content);
+            }
+        }
+        
+    </script>
         <!-- Footer -->
         <footer class="text-center text-lg-start bg-black text-muted pt-5">
             <section class="">
