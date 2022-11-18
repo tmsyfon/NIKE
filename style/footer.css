@@ -103,15 +103,7 @@ ul li a {
     box-sizing: border-box;
 }
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
+#footcont {
+    color: #7e7e7e;
+    text-decoration: none;
 }
