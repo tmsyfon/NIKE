@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 *{
 	margin:0;
 	padding:0;
@@ -73,8 +74,12 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+=======
+#foothead {
+    color: white;
+>>>>>>> 70b0e85b653531eab9f778be31b833391bc79389
 }
-ul li a {
+/* ul li a {
     color: rgb(111, 139, 187);
     text-decoration: none;
     font-size: 25px;
@@ -99,11 +104,8 @@ ul li a {
     content: "\f0e1";
 	position: relative;
 	
-*, ::after, ::before {
-    box-sizing: border-box;
-}
 
 #footcont {
     color: #7e7e7e;
     text-decoration: none;
-}
+} */
