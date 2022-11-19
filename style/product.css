@@ -26,6 +26,12 @@
 .propic {
     width: 250px;
     margin-top: 4px;
+    border-radius: 5px;
+}
+
+.propic:hover {
+    scale: 1.01;
+    animation-delay: 500ms;
 }
 
 #size {
@@ -58,7 +64,23 @@
     margin-top: 20px;
 }
 
-#desc {
-    margin-top: 50px;
+#butcart:hover {
+    background-color: #e5e5e5;
+    color: black;
 }
 
+#desc {
+    margin-top: 30px;
+}
+
+#discount {
+    color: #41A139;
+}
+
+#cash2 {
+    color: grey;
+}
+
+#showcolor {
+    margin-top: 30px;
+}

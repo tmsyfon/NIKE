@@ -1,4 +1,4 @@
-.navbar-nav {
+.nav-link {
     font-size: 20px;
     font-weight: 600;
 }
@@ -12,6 +12,63 @@
     display: block;
 }
 
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+
 .fa-solid {
     color: black;
+}
+
+.navbar-toggler {
+    border: none;
+    color: white;
+}
+
+.offcanvas-title {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-close {
+    opacity: 1;
+}
+
+.offcanvas-header {
+    background-color: black;
+    color: white;
+}
+
+#itemname {
+    text-align: top;
+}
+
+#trash {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#gocart {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }

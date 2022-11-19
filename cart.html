@@ -18,6 +18,10 @@
     <!-- link css -->
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/cart.css">
+    <link rel="stylesheet" href="style/footer.css">
+
+    <!-- Link js -->
+    <script src="js/navbarserch.js"></script>
 
     <title>NIKEE</title>
     <!-- The title of the web -->
@@ -39,364 +43,238 @@
                     <img src="img/nekai.png" width="80" height="50">
                 </a>
                 <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                            สินค้า
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
-                            <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
-                            <li><a class="dropdown-item" href="#">เด็ก</a></li>
-                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#">ลดราคา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
-                    </div>
-                </div>
+                  <div class="navbar-nav">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
+                          สินค้า
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="lodraka.html?view=men">ผู้ชาย</a></li>
+                          <li><a class="dropdown-item" href="lodraka.html?view=women">ผู้หญิง</a></li>
+                          <li><a class="dropdown-item" href="lodraka.html?view=child">เด็ก</a></li>
+                          <li></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="lodraka.html?view=all">สินค้าทั้งหมด</a></li>
+                      </ul>
+                  </div>
+                  <div class="navbar-nav">
+                      <a class="nav-link" href="lodraka.html?view=discount">ลดราคา</a>
+                      <a class="nav-link" href="soon.html?view=soon">เร็วๆนี้</a>
+                  </div>
+              </div>
             </nav>
             <nav class="navbar navbar-expand-right">
                 <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn" type="button" id="buttonsearch" onclick="searchItem()"><img src="img/serch.jpg" width="30" height="30"></button>
+                  <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
-                <a class="navbar-brand">
-                    <a href="#"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
-                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <i class="fa-solid fa-cart-shopping fa-xl"></i>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ตะกร้า</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <div class="row d-flex align-items-center">
+                              <div class="col-md-4 col-lg-4 col-xl-4">
+                                  <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                  <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                  <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                  <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                  <h6 class="text-muted">ไซส์</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                  <h6 class="mb-5">฿6,490</h6>
+                                  <i class="fa-regular fa-trash-can" id="trash"></i>
+                              </div>
+                          </div>
+                          <hr class="divider">
+                          <div class="row d-flex align-items-center">
+                              <div class="col-md-4 col-lg-4 col-xl-4">
+                                  <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                  <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                  <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                  <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                  <h6 class="text-muted">ไซส์</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                  <h6 class="mb-5">฿6,490</h6>
+                                  <i class="fa-regular fa-trash-can" id="trash"></i>
+                              </div>
+                          </div>
+                      </ul>
+                  </div>
+                  <div class="offcanvas-footer">
+                      <button id="gocart" onclick="location.href = 'cart.html'"><h5>สั่งซื้อสินค้า</h5></button>
+                  </div>
+              </div>
             </nav>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row d-flex justify-content-center align-items-center h-100 mt-1">
-            <div class="col-12" id="cart1">
-              <div class="card card-registration card-registration-2" style="border-radius: 5px;">
-                <div class="card-body p-0">
+    <div class="container" id="content">
+      <div class="row d-flex justify-content-center align-items-center h-100 mt-1">
+         <div class="col-12" id="cart1">
+            <div class="card card-registration card-registration-2" style="border-radius: 5px;">
+               <div class="card-body p-0">
                   <div class="row g-0">
-                    <div class="col-lg-8">
-                      <div class="p-5">
-                        <div class="d-flex justify-content-between align-items-center mb-5">
-                          <h1 class="fw-bold mb-0 text-black">ตะกร้า</h1>
-                          <h6 class="mb-0 text-muted">3 items</h6>
+                     <div class="col-lg-8">
+                        <div class="p-5">
+                           <div class="d-flex justify-content-between align-items-center mb-5">
+                              <h1 class="fw-bold mb-0 text-black">ตะกร้า</h1>
+                              <h6 class="mb-0 text-muted">3 items</h6>
+                           </div>
+                           <hr class="my-4">
+                           <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                 <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                 <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                 <h6 class="text-muted">รองเท้าผู้ชาย</h6>
+                                 <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                 <h6 class="text-muted">ไซส์ -</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                 <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                 <i class="fas fa-minus"></i>
+                                 </button>
+                                 <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
+                                 <button class="btn btn-link px-2" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                 <i class="fas fa-plus"></i>
+                                 </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                 <h6 class="mb-0">฿6,490</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                 <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                           </div>
+                           <hr class="my-4">
+                           <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                 <img
+                                    src="/img/women/jordan/Jordan Delta 3 Low/1.png"
+                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                 <h6 class="text-black mb-0"><b>Jordan Delta 3 Low</b></h6>
+                                 <h6 class="text-muted">รองเท้าผู้หญิง</h6>
+                                 <h6 class="text-muted">White/Black/Wolf Grey/Chile Red</h6>
+                                 <h6 class="text-muted">ไซส์ -</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                 <button class="btn btn-link px-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                 <i class="fas fa-minus"></i>
+                                 </button>
+                                 <input id="form1" min="0" name="quantity" value="1" type="number"
+                                    class="form-control form-control-sm" />
+                                 <button class="btn btn-link px-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                 <i class="fas fa-plus"></i>
+                                 </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                 <h6 class="mb-0">฿5,300</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                 <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                           </div>
+                           <hr class="my-4">
+                           <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                 <img
+                                    src="/img/child/jordan/Air Jordan 1 Retro High OG/1.png"
+                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                 <h6 class="text-black mb-0"><b>Air Jordan 1 Retro High OG</b></h6>
+                                 <h6 class="text-muted">รองเท้าเด็กชาย</h6>
+                                 <h6 class="text-muted">White/Black/University Red</h6>
+                                 <h6 class="text-muted">ไซส์ -</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                 <button class="btn btn-link px-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                 <i class="fas fa-minus"></i>
+                                 </button>
+                                 <input id="form1" min="0" name="quantity" value="1" type="number"
+                                    class="form-control form-control-sm" />
+                                 <button class="btn btn-link px-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                 <i class="fas fa-plus"></i>
+                                 </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                 <h6 class="mb-0">฿4,300</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                 <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                           </div>
+                           <hr class="my-4">
+                           <div class="pt-5">
+                              <h6 class="mb-0"><a href="#!" class="text-body"><i
+                                 class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                           </div>
                         </div>
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
-                            <h6 class="text-muted">รองเท้าผู้ชาย</h6>
-                            <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿6,490</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
+                     </div>
+                     <div class="col-lg-4 bg-grey">
+                        <div class="p-5">
+                           <h3 class="fw-bold mb-5 mt-2 pt-1">คำสั่งซื้อ</h3>
+                           <hr class="my-4">
+                           <div class="d-flex justify-content-between mb-4">
+                              <h5 class="text-uppercase">ยอดรวมย่อย</h5>
+                              <h5>฿16,090</h5>
+                           </div>
+                           <div class="d-flex justify-content-between mb-4">
+                              <h5 class="text-uppercase">ค่าขนส่ง</h5>
+                              <h5>฿100</h5>
+                           </div>
+                           <hr class="my-4">
+                           <div class="d-flex justify-content-between mb-5">
+                              <h5 class="text-uppercase">ยอดรวมทั้งหมด</h5>
+                              <h5>฿16,090</h5>
+                           </div>
+                           <button type="button" class="btn btn-dark btn-block btn-lg"
+                              data-mdb-ripple-color="dark">Register</button>
                         </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/women/jordan/Jordan Delta 3 Low/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Jordan Delta 3 Low</b></h6>
-                            <h6 class="text-muted">รองเท้าผู้หญิง</h6>
-                            <h6 class="text-muted">White/Black/Wolf Grey/Chile Red</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿5,300</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
-                        </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/child/jordan/Air Jordan 1 Retro High OG/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Air Jordan 1 Retro High OG</b></h6>
-                            <h6 class="text-muted">รองเท้าเด็กชาย</h6>
-                            <h6 class="text-muted">White/Black/University Red</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿4,300</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
-                        </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="pt-5">
-                          <h6 class="mb-0"><a href="#!" class="text-body"><i
-                                class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 bg-grey">
-                      <div class="p-5">
-                        <h3 class="fw-bold mb-5 mt-2 pt-1">คำสั่งซื้อ</h3>
-                        <hr class="my-4">
-      
-                        <div class="d-flex justify-content-between mb-4">
-                          <h5 class="text-uppercase">ยอดรวมย่อย</h5>
-                          <h5>฿16,090</h5>
-                        </div>
-      
-                        <div class="d-flex justify-content-between mb-4">
-                            <h5 class="text-uppercase">ค่าขนส่ง</h5>
-                            <h5>฿100</h5>
-                          </div>
-
-                        <hr class="my-4">
-      
-                        <div class="d-flex justify-content-between mb-5">
-                          <h5 class="text-uppercase">ยอดรวมทั้งหมด</h5>
-                          <h5>฿16,090</h5>
-                        </div>
-      
-                        <button type="button" class="btn btn-dark btn-block btn-lg"
-                          data-mdb-ripple-color="dark">Register</button>
-      
-                      </div>
-                    </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+               </div>
             </div>
+         </div>
+      </div>
     </div>
-
-    <!-- <section class="h-100 h-custom" style="background-color: #d2c9ff;">
-        <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-12">
-              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
-                <div class="card-body p-0">
-                  <div class="row g-0">
-                    <div class="col-lg-8">
-                      <div class="p-5">
-                        <div class="d-flex justify-content-between align-items-center mb-5">
-                          <h1 class="fw-bold mb-0 text-black">ตะกร้า</h1>
-                          <h6 class="mb-0 text-muted">3 items</h6>
-                        </div>
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
-                            <h6 class="text-muted">รองเท้าผู้ชาย</h6>
-                            <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿6,490</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
-                        </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/women/jordan/Jordan Delta 3 Low/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Jordan Delta 3 Low</b></h6>
-                            <h6 class="text-muted">รองเท้าผู้หญิง</h6>
-                            <h6 class="text-muted">White/Black/Wolf Grey/Chile Red</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿5,300</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
-                        </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                          <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img
-                              src="/img/child/jordan/Air Jordan 1 Retro High OG/1.png"
-                              class="img-fluid rounded-3" alt="Cotton T-shirt">
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>Air Jordan 1 Retro High OG</b></h6>
-                            <h6 class="text-muted">รองเท้าเด็กชาย</h6>
-                            <h6 class="text-muted">White/Black/University Red</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
-                          </div>
-                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                              <i class="fas fa-minus"></i>
-                            </button>
-      
-                            <input id="form1" min="0" name="quantity" value="1" type="number"
-                              class="form-control form-control-sm" />
-      
-                            <button class="btn btn-link px-2"
-                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                              <i class="fas fa-plus"></i>
-                            </button>
-                          </div>
-                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0">฿4,300</h6>
-                          </div>
-                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
-                          </div>
-                        </div>
-      
-                        <hr class="my-4">
-      
-                        <div class="pt-5">
-                          <h6 class="mb-0"><a href="#!" class="text-body"><i
-                                class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 bg-grey">
-                      <div class="p-5">
-                        <h3 class="fw-bold mb-5 mt-2 pt-1">คำสั่งซื้อ</h3>
-                        <hr class="my-4">
-      
-                        <div class="d-flex justify-content-between mb-4">
-                          <h5 class="text-uppercase">ยอดรวมย่อย</h5>
-                          <h5>฿16,090</h5>
-                        </div>
-      
-                        <div class="d-flex justify-content-between mb-4">
-                            <h5 class="text-uppercase">ค่าขนส่ง</h5>
-                            <h5>฿100</h5>
-                          </div>
-
-                        <hr class="my-4">
-      
-                        <div class="d-flex justify-content-between mb-5">
-                          <h5 class="text-uppercase">ยอดรวมทั้งหมด</h5>
-                          <h5>฿16,090</h5>
-                        </div>
-      
-                        <button type="button" class="btn btn-dark btn-block btn-lg"
-                          data-mdb-ripple-color="dark">Register</button>
-      
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    
+    <div class="footer-basic pb-0">
+        <footer>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
             </div>
-          </div>
-        </div>
-    </section> -->
-
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">หน้าหลัก</a></li>
+                <li class="list-inline-item"><a href="#">เกี่ยวกับเรา</a></li>
+                <li class="list-inline-item"><a href="#">ติดต่อเรา</a></li>
+                <li class="list-inline-item"><a href="#">ข่าวสาร</a></li>
+            </ul>
+            <p class="copyright mb-0 pb-3">© 2022 NEKAI THAILAND Co., Ltd.</p>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -22,7 +21,11 @@
     <!-- Link css -->
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/soon.css">
+    <link rel="stylesheet" href="style/footer.css">
     <title>NIKEE</title>
+
+    <!-- Link js -->
+    <script src="js/navbarserch.js"></script>
 
     <style>
         body {
@@ -47,37 +50,82 @@
                             สินค้า
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">ผู้ชาย</a></li>
-                            <li><a class="dropdown-item" href="#">ผู้หญิง</a></li>
-                            <li><a class="dropdown-item" href="#">เด็ก</a></li>
-                            <li><a class="dropdown-item" href="#">สินค้าทั้งหมด</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=men">ผู้ชาย</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=women">ผู้หญิง</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=child">เด็ก</a></li>
+                            <li></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="lodraka.html?view=all">สินค้าทั้งหมด</a></li>
                         </ul>
                     </div>
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">ลดราคา</a>
-                        <a class="nav-link" href="#">เร็วๆนี้</a>
+                        <a class="nav-link" href="lodraka.html?view=discount">ลดราคา</a>
+                        <a class="nav-link" href="soon.html?view=soon">เร็วๆนี้</a>
                     </div>
                 </div>
             </nav>
             <nav class="navbar navbar-expand-right">
                 <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="button" id="buttonsearch" onclick="searchItem()"><img src="img/serch.jpg" width="30" height="30"></button>
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
-                <a class="navbar-brand">
-                    <a href="#"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
-                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ตะกร้า</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                    <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                    <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                    <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                    <h6 class="text-muted">ไซส์</h6>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-5">฿6,490</h6>
+                                    <i class="fa-regular fa-trash-can" id="trash"></i>
+                                </div>
+                            </div>
+                            <hr class="divider">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-5 col-lg-5 col-xl-5 p-0">
+                                    <h6 class="text-black mb-0"><b>Air Jordan 1 Low OG</b></h6>
+                                    <h6 class="text-muted m-0">รองเท้าผู้ชาย</h6>
+                                    <h6 class="text-muted">White/Black/Dark Powder Blue</h6>
+                                    <h6 class="text-muted">ไซส์</h6>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h6 class="mb-5">฿6,490</h6>
+                                    <i class="fa-regular fa-trash-can" id="trash"></i>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="offcanvas-footer">
+                        <button id="gocart" onclick="location.href = 'cart.html'"><h5>สั่งซื้อสินค้า</h5></button>
+                    </div>
+                </div>
             </nav>
         </div>
     </nav>
 
-    <div class="big-container">
+    <div class="big-container" id="con1">
 
-        <div>
+        <!-- <div>
 
             <div class="another-container">
 
@@ -169,10 +217,76 @@
                 
             </div>
 
-        </div>
-
+        </div> -->
     </div>
 
+    <script type="module">
+        function getParameter( parameterName ){
+            let parameter  = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
+
+        import myJson from './info.json' assert {type: 'json'};
+
+        let tag = {
+            "jordan":"Jordan",
+            "lifestyle":"Lifestyle",
+            "football":"ฟุตบอล",
+            "basketball":"บาสเกตบอล",
+            "running":"วิ่ง"
+        }
+
+        let tag2 = {
+            "men":"รองเท้าผู้ชาย",
+            "women":"รองเท้าผู้หญิง",
+            "child":"รองเท้าเด็ก",
+            "soon":"เร็วๆนี้"
+        }
+
+        if (getParameter("view") == "soon") {
+            let count = 0;
+            let box = '<div id="con1"> <div class="another-container">';
+            myJson.forEach(item => {
+                if (item.check == "3") {
+                        box += `<div class="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
+                                    <div class="date">
+                                        <b>${item.date}</b> 
+                                    </div>
+                                    <div class="square">
+                                        <img src="${item.pic[0]}" alt="">
+                                    </div>
+                                    <div class="text">
+                                        ${item.name} <br>
+                                        <b> ${item.name2} </b>
+                                    </div>
+                                </div>`
+                        count++;
+                        if (count == 3) {
+                            box += '</div> </div> <div> <div class="another-container">'
+                            count = 0;
+                        }
+                    }
+            });
+            document.getElementById("con1").innerHTML = box;
+        }
+    </script>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">หน้าหลัก</a></li>
+                <li class="list-inline-item"><a href="#">เกี่ยวกับเรา</a></li>
+                <li class="list-inline-item"><a href="#">ติดต่อเรา</a></li>
+                <li class="list-inline-item"><a href="#">ข่าวสาร</a></li>
+            </ul>
+            <p class="copyright mb-0 pb-3">© 2022 NEKAI THAILAND Co., Ltd.</p>
+        </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
