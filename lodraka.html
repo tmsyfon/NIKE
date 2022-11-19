@@ -356,17 +356,20 @@
                 let count = 0;
                 let box = '<div class="row" id="colum1">';
                 myJson.forEach(item => {
-                    box += `<div class="col" id="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
-                            <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
-                            <p class="name">${item.name}</p>
-                            <p class="type">${tag2[item.type]}</p>
-                            <p class="cash1">${item.price}</p>
-                        </div>`;
-                    count++;
-                    if (count == 3) {
-                        box += '</div> <div class="row" id="colum1">'
-                        count = 0;
+                    if (item.check != "3") {
+                       box += `<div class="col" id="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
+                                <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                                <p class="name">${item.name}</p>
+                                <p class="type">${tag2[item.type]}</p>
+                                <p class="cash1">${item.price}</p>
+                            </div>`;
+                        count++;
+                        if (count == 3) {
+                            box += '</div> <div class="row" id="colum1">'
+                            count = 0;
+                        } 
                     }
+                    
                 });
                 box += `<div class="col" id="boxextra"></div> <div class="col" id="boxextra"></div>` 
                 document.getElementById("content").innerHTML = box;
