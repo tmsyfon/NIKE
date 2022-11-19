@@ -45,10 +45,10 @@
 }
 
 #gocart {
-background-color: black;
-color: white;
-width: 100%;
-height: 60px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
 
 }
 
@@ -57,13 +57,13 @@ height: 60px;
 }
 
 ::-webkit-scrollbar-track {
-background: white; 
+    background: white; 
 }
 
 ::-webkit-scrollbar-thumb {
-background: #888; 
+    background: #888; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #555; 
+    background: #555; 
 }
