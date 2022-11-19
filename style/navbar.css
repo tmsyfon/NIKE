@@ -12,6 +12,11 @@
     display: block;
 }
 
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+
 .fa-solid {
     color: black;
 }

@@ -86,7 +86,7 @@
                     </div>
                     <div class="navbar-nav">
                         <a class="nav-link" href="lodraka.html?view=discount">ลดราคา</a>
-                        <a class="nav-link" href="soon.html">เร็วๆนี้</a>
+                        <a class="nav-link" href="soon.html?view=soon">เร็วๆนี้</a>
                     </div>
                 </div>
             </nav>
@@ -148,7 +148,7 @@
     </nav>
 
     <!-- content -->
-    <div class="container" style="background-color: white; border-radius: 5px;">
+    <div class="container" style="background-color: white; border-radius: 5px;" id="contbig">
         <div class="one">
             <div class="row">
                 <div class="col-sm">
@@ -242,7 +242,8 @@
         let tag2 = {
             "men":"รองเท้าผู้ชาย",
             "women":"รองเท้าผู้หญิง",
-            "child":"รองเท้าเด็ก"
+            "child":"รองเท้าเด็ก",
+            "soon":"เร็วๆนี้"
         }
 
         let prod = getParameter("product");
@@ -265,7 +266,7 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">${myJson[prod].price}</del> ${myJson[prod].last}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
                             <button id="butt">US 7</button><button id="butt">US 7.5</button><button id="butt">US 8</button>
@@ -316,7 +317,7 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">${myJson[prod].price}</del> ${myJson[prod].last}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
                             <button id="butt">US 5</button><button id="butt">US 5.5</button><button id="butt">US 6</button>
@@ -348,6 +349,33 @@
                 document.getElementById("cont").appendChild(itemdetail.content);
             }
         }
+
+        else if (myJson[prod].type == "soon") {
+            const itempic = document.createElement('template');
+            itempic.innerHTML = `<div class="col-5" id="pic">
+                        <img src="${myJson[prod].pic[0]}" class="propic">
+                        <img src="${myJson[prod].pic[1]}" class="propic">
+                        <img src="${myJson[prod].pic[2]}" class="propic">
+                        <img src="${myJson[prod].pic[3]}" class="propic">
+                        <img src="${myJson[prod].pic[4]}" class="propic">
+                        <img src="${myJson[prod].pic[5]}" class="propic">
+                    </div>`
+
+            document.getElementById("promo").innerHTML = myJson[prod].name + " " + myJson[prod].name2;
+            document.getElementById("cont").appendChild(itempic.content);
+
+            const itemdetail = document.createElement('template');
+            itemdetail.innerHTML = `<div class="col-4">
+                        <h4 id="type">${tag2[myJson[prod].type]}</h4>
+                        <h5 id="price">${myJson[prod].price}</h5>
+                        
+                        <button id="butcart">เร็วๆนี้</button>
+
+                        <p id="desc">${myJson[prod].description}</p>
+                    </div>`
+            document.getElementById("cont").appendChild(itemdetail.content);
+        }
+
         else {
             const itempic = document.createElement('template');
             itempic.innerHTML = `<div class="col-5" id="pic">
@@ -367,7 +395,7 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">${myJson[prod].price}</del> ${myJson[prod].last}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
                             <button id="butt">US 3.5Y</button><button id="butt">US 4Y</button><button id="butt">US 4.5Y</button>

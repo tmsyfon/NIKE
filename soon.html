@@ -59,7 +59,7 @@
                     </div>
                     <div class="navbar-nav">
                         <a class="nav-link" href="lodraka.html?view=discount">ลดราคา</a>
-                        <a class="nav-link" href="soon.html">เร็วๆนี้</a>
+                        <a class="nav-link" href="soon.html?view=soon">เร็วๆนี้</a>
                     </div>
                 </div>
             </nav>
@@ -120,9 +120,9 @@
         </div>
     </nav>
 
-    <div class="big-container">
+    <div class="big-container" id="con1">
 
-        <div>
+        <!-- <div>
 
             <div class="another-container">
 
@@ -214,8 +214,63 @@
                 
             </div>
 
-        </div>
+        </div> -->
     </div>
+
+    <script type="module">
+        function getParameter( parameterName ){
+            let parameter  = new URLSearchParams(window.location.search);
+            return parameter.get(parameterName);
+        }
+
+        import myJson from './info.json' assert {type: 'json'};
+
+        if (window.location.search == ""){
+            window.location.search = "?view=all";
+        }
+
+        let tag = {
+            "jordan":"Jordan",
+            "lifestyle":"Lifestyle",
+            "football":"ฟุตบอล",
+            "basketball":"บาสเกตบอล",
+            "running":"วิ่ง"
+        }
+
+        let tag2 = {
+            "men":"รองเท้าผู้ชาย",
+            "women":"รองเท้าผู้หญิง",
+            "child":"รองเท้าเด็ก",
+            "soon":"เร็วๆนี้"
+        }
+
+        if (getParameter("view") == "soon") {
+            let count = 0;
+            let box = '<div id="con1"> <div class="another-container">';
+            myJson.forEach(item => {
+                if (item.check == "3") {
+                        box += `<div class="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
+                                    <div class="date">
+                                        <b>${item.date}</b> 
+                                    </div>
+                                    <div class="square">
+                                        <img src="${item.pic[0]}" alt="">
+                                    </div>
+                                    <div class="text">
+                                        ${item.name} <br>
+                                        <b> ${item.name2} </b>
+                                    </div>
+                                </div>`
+                        count++;
+                        if (count == 3) {
+                            box += '</div> </div> <div> <div class="another-container">'
+                            count = 0;
+                        }
+                    }
+            });
+            document.getElementById("con1").innerHTML = box;
+        }
+    </script>
 
     <div class="footer-basic">
         <footer>
