@@ -59,7 +59,7 @@
 }
 
 #desc {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #discount {
@@ -68,4 +68,8 @@
 
 #cash2 {
     color: grey;
+}
+
+#showcolor {
+    margin-top: 30px;
 }
