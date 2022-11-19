@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/catdropdown.css">
 
+    <!-- Link js -->
+    <script src="script/navbarserch.js"></script>
+
     <title>NIKEE</title>
 
     <style>
@@ -98,8 +101,8 @@
             </nav>
             <nav class="navbar navbar-expand-right">
                 <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="button" id="buttonsearch" onclick="searchItem()"><img src="img/serch.jpg" width="30" height="30"></button>
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -452,11 +455,11 @@
                                 <p class="type">${tag2[item.type]}</p>
                                 <p class="cash1">${item.price}</p>
                             </div>`;
-                        count++;
-                        if (count == 3) {
-                            box += '</div> <div class="row" id="colum1">'
-                            count = 0;
-                            }
+                            count++;
+                            if (count == 3) {
+                                box += '</div> <div class="row" id="colum1">'
+                                count = 0;
+                                }
                         }                
                     });
                     box += `<div class="col" id="boxextra"></div>` 
@@ -467,6 +470,32 @@
             }
             
             
+        }
+        else {
+            let info = decodeURIComponent(window.location.search).substr(1);
+            let count = 0;
+            let box = '<div class="row" id="colum1">';
+            myJson.forEach((item) => {
+                if (item.name.toLowerCase().includes(info.toLowerCase()) && item.check != "3") {
+                    box += `<div class="col" id="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
+                                <img src="${item.pic[0]}" alt="" width="250" height="250" id="image">
+                                <p class="name">${item.name}</p>
+                                <p class="type">${tag2[item.type]}</p>
+                                <p class="cash1">${item.price}</p>
+                            </div>`;
+                    count++;
+                    if (count == 3) {
+                        box += '</div> <div class="row" id="colum1">'
+                        count = 0;
+                    }
+                }
+            });
+            if (count == 1) {
+                box += '<div class="col" id="boxextra"> </div>'
+            }
+            box += `<div class="col" id="boxextra"></div>`
+            document.getElementById("content").innerHTML = box;
+            document.getElementById("topic").innerHTML = info;
         }
     </script>
 

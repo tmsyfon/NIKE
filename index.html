@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="style/bestsell.css">
     <link rel="stylesheet" href="style/footer.css">
 
+    <!-- Link js -->
+    <script src="script/navbarserch.js"></script>
+
     <title>NIKEE</title>
     <!-- The title of the web -->
 
@@ -65,8 +68,8 @@
             </nav>
             <nav class="navbar navbar-expand-right">
                 <form class="d-flex m-0" role="search">
-                    <button class="btn" type="submit"><img src="img/serch.jpg" width="30" height="30"></button>
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="button" id="buttonsearch" onclick="searchItem()"><img src="img/serch.jpg" width="30" height="30"></button>
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -361,10 +364,6 @@
 
         import myJson from './info.json' assert {type: 'json'};
 
-        if (window.location.search == ""){
-            window.location.search = "?view=all";
-        }
-
         let tag = {
             "jordan":"Jordan",
             "lifestyle":"Lifestyle",
@@ -379,27 +378,26 @@
             "child":"รองเท้าเด็ก"
         }
 
-        if (getParameter("view")) {
-            let box = `<div class="row" id="colum1">`;
-            let count = 0;
-            myJson.forEach(item => {
-                if (item.check == "2") {
-                    box += `
-                    <div class="col" id="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
-                        <img src="${item.pic[0]}" alt="" width="200" height="240" id="img-best">
-                        <p class="name m-0">${item.name}</p>
-                        <p">${tag2[item.type]}</p>
-                        <p class="cash1">${item.price}</p>
-                    </div>`
-                    count++;
-                    if (count == 4) {
-                        box += '</div> <div class="row" id="colum1">'
-                        count = 0;
-                    }
+        let box = `<div class="row" id="colum1">`;
+        let count = 0;
+        myJson.forEach(item => {
+            if (item.check == "2") {
+                box += `
+                <div class="col" id="box" onclick="location.href = 'product.html?product=${myJson.indexOf(item)}';">
+                    <img src="${item.pic[0]}" alt="" width="200" height="240" id="img-best">
+                    <p class="name m-0">${item.name}</p>
+                    <p">${tag2[item.type]}</p>
+                    <p class="cash1">${item.price}</p>
+                </div>`
+                count++;
+                if (count == 4) {
+                    box += '</div> <div class="row" id="colum1">'
+                    count = 0;
                 }
-            });
-            document.getElementById("bestsell").innerHTML = box;
-        }
+            }
+        });
+        document.getElementById("bestsell").innerHTML = box;
+    
     </script>
 
     <!-- Footer -->
