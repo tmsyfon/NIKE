@@ -49,6 +49,11 @@
     margin-bottom: 10px;
 }
 
+#butt:focus {
+    background-color: black;
+    color: white;
+}
+
 #butt:hover {
     background-color: #1A1A1A;
     color: white;
