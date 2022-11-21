@@ -24,7 +24,7 @@ function cartCreate() {
                             <h6 class="text-muted">ไซส์ US ${item.size}</h6>
                         </div>
                         <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <h6 class="text-muted">x${item.QUAN}</h6>
+                            <h6 class="text-muted">x${item.QTORD}</h6>
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
                             <h6 class="mb-0" id="priceitem${cartObj.indexOf(item)}">฿ ${item.total}</h6>
@@ -55,7 +55,7 @@ function createNavCart() {
                             <h6 class="text-muted m-0">${item.type}</h6>
                             <h6 class="text-muted m-0" id="cartnavcolor">${item.color}</h6>
                             <h6 class="text-muted mt-2">ไซส์ US ${item.size}</h6>
-                            <h6 class="text-muted">x${item.QUAN}</h6>
+                            <h6 class="text-muted">x${item.QTORD}</h6>
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
                             <h6 class="mb-5">฿${item.price}</h6>
@@ -93,7 +93,7 @@ function cartLocalCreate() {
 	}
 }
 
-function addItemInCart(prod_id,quan,price,name,pic,type,color) {
+function addItemInCart(prod_id,qtord,price,name,pic,type,color) {
     let temp = new Array()
 	cartObj.forEach((item) => {
 		temp.push(item.product);
@@ -101,7 +101,7 @@ function addItemInCart(prod_id,quan,price,name,pic,type,color) {
 	if (temp.includes(prod_id)){
 		cartObj.forEach((item) => {
 			if (item.product == prod_id){
-				item.QUAN++;
+				item.QTORD++;
 				item.total += item.price;
 			}
 		});
@@ -110,13 +110,13 @@ function addItemInCart(prod_id,quan,price,name,pic,type,color) {
 		// make new row
 		var newRow = new Object();
 		newRow["product"] = prod_id;
-		newRow["quan"] = quan;
+		newRow["QTORD"] = qtord;
 		newRow["price"] = price;
 		newRow["name"] = name;
 		newRow["pic"] = pic;
 		newRow["type"] = type;
         newRow["color"] = color;
-		newRow["total"] = quan*price;
+		newRow["total"] = qtord*price;
         newRow["size"] = size;
 
 		// add new item to cart
