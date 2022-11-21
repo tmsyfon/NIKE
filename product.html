@@ -269,38 +269,36 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">฿${myJson[prod].last}</del> ฿${myJson[prod].price}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 7</button><button id="butt">US 7.5</button><button id="butt">US 8</button>
-                            <button id="butt">US 8.5</button><button id="butt">US 9</button><button id="butt">US 9.5</button>
-                            <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
-                            <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
+                            <button id="butt" onclick="selectSize(7)">US 7</button><button id="butt" onclick="selectSize(7.5)">US 7.5</button><button id="butt" onclick="selectSize(8)">US 8</button>
+                            <button id="butt" onclick="selectSize(8.5)">US 8.5</button><button id="butt" onclick="selectSize(9)">US 9</button><button id="butt" onclick="selectSize(9.5)">US 9.5</button>
+                            <button id="butt" onclick="selectSize(10)">US 10</button><button id="butt" onclick="selectSize(10.5)">US 10.5</button><button id="butt" onclick="selectSize(11)">US 11</button>
+                            <button id="butt" onclick="selectSize(11.5)">US 11.5</button><button id="butt" onclick="selectSize(12)">US 12</button><button id="butt" onclick="selectSize(12.5)">US 12.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
                 document.getElementById("cont").appendChild(itemdetail.content);
             }
             else {
-                console.log(1);
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h5 id="price">฿${myJson[prod].price}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 7</button><button id="butt">US 7.5</button><button id="butt">US 8</button>
-                            <button id="butt">US 8.5</button><button id="butt">US 9</button><button id="butt">US 9.5</button>
-                            <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
-                            <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
+                            <button id="butt" onclick="selectSize(7)">US 7</button><button id="butt" onclick="selectSize(7.5)">US 7.5</button><button id="butt" onclick="selectSize(8)">US 8</button>
+                            <button id="butt" onclick="selectSize(8.5)">US 8.5</button><button id="butt" onclick="selectSize(9)">US 9</button><button id="butt" onclick="selectSize(9.5)">US 9.5</button>
+                            <button id="butt" onclick="selectSize(10)">US 10</button><button id="butt" onclick="selectSize(10.5)">US 10.5</button><button id="butt" onclick="selectSize(11)">US 11</button>
+                            <button id="butt" onclick="selectSize(11.5)">US 11.5</button><button id="butt" onclick="selectSize(12)">US 12</button><button id="butt" onclick="selectSize(12.5)">US 12.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`;
                 document.getElementById("cont").appendChild(itemdetail.content);
-                console.log(document.getElementById("butt"));
             }
         }
         else if (myJson[prod].type == "women") {
@@ -322,15 +320,15 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">฿${myJson[prod].last}</del> ฿${myJson[prod].price}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 5</button><button id="butt">US 5.5</button><button id="butt">US 6</button>
-                            <button id="butt">US 6.5</button><button id="butt">US 7</button><button id="butt">US 7.5</button>
-                            <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
-                            <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
+                            <button id="butt" onclick=selectSize(5)>US 5</button><button id="butt" onclick=selectSize(5.5)>US 5.5</button><button id="butt" onclick=selectSize(6)>US 6</button>
+                            <button id="butt" onclick=selectSize(6.5)>US 6.5</button><button id="butt" onclick=selectSize(7)>US 7</button><button id="butt" onclick=selectSize(7.5)>US 7.5</button>
+                            <button id="butt" onclick=selectSize(8)>US 8</button><button id="butt" onclick=selectSize(8.5)>US 8.5</button><button id="butt" onclick=selectSize(9)>US 9</button>
+                            <button id="butt" onclick=selectSize(9.5)>US 9.5</button><button id="butt" onclick=selectSize(10)>US 10</button><button id="butt" onclick=selectSize(10.5)>US 10.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -340,14 +338,14 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h5 id="price">฿${myJson[prod].price}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 5</button><button id="butt">US 5.5</button><button id="butt">US 6</button>
-                            <button id="butt">US 6.5</button><button id="butt">US 7</button><button id="butt">US 7.5</button>
-                            <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
-                            <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
+                            <button id="butt" onclick=selectSize(5)>US 5</button><button id="butt" onclick=selectSize(5.5)>US 5.5</button><button id="butt" onclick=selectSize(6)>US 6</button>
+                            <button id="butt" onclick=selectSize(6.5)>US 6.5</button><button id="butt" onclick=selectSize(7)>US 7</button><button id="butt" onclick=selectSize(7.5)>US 7.5</button>
+                            <button id="butt" onclick=selectSize(8)>US 8</button><button id="butt" onclick=selectSize(8.5)>US 8.5</button><button id="butt" onclick=selectSize(9)>US 9</button>
+                            <button id="butt" onclick=selectSize(9.5)>US 9.5</button><button id="butt" onclick=selectSize(10)>US 10</button><button id="butt" onclick=selectSize(10.5)>US 10.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -372,7 +370,7 @@
             const itemdetail = document.createElement('template');
             itemdetail.innerHTML = `<div class="col-4">
                         <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                        <h5 id="price">${myJson[prod].price}</h5>
+                        <h5 id="price">฿${myJson[prod].price}</h5>
                         
                         <button id="butcart">เร็วๆนี้</button>
 
@@ -400,14 +398,14 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price"><del id="cash2">${myJson[prod].last}</del> ${myJson[prod].price}</h5>
+                            <h5 id="price"><del id="cash2">฿${myJson[prod].last}</del> ฿${myJson[prod].price}</h5>
                             <h5 id="discount">ส่วนลด ${myJson[prod].per}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 3.5Y</button><button id="butt">US 4Y</button><button id="butt">US 4.5Y</button>
-                            <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
-                            <button id="butt">US 7Y</button>
+                            <button id="butt" onclselectSize(3.5Y)>US 3.5Y</button><button id="butt" onclselectSize(4Y)>US 4Y</button><button id="butt" onclselectSize(4.5Y)>US 4.5Y</button>
+                            <button id="butt" onclselectSize(5Y)>US 5Y</button><button id="butt" onclselectSize(5.5Y)>US 5.5Y</button><button id="butt" onclselectSize(6Y)>US 6Y</button>
+                            <button id="butt" onclselectSize(7Y)>US 7Y</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -417,13 +415,13 @@
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
-                            <h5 id="price">${myJson[prod].price}</h5>
+                            <h5 id="price">฿${myJson[prod].price}</h5>
                             <h6 id="size">เลือกไซส์</h6>
-                            <button id="butt">US 3.5Y</button><button id="butt">US 4Y</button><button id="butt">US 4.5Y</button>
-                            <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
-                            <button id="butt">US 7Y</button>
+                            <button id="butt" onclselectSize(3.5Y)>US 3.5Y</button><button id="butt" onclselectSize(4Y)>US 4Y</button><button id="butt" onclselectSize(4.5Y)>US 4.5Y</button>
+                            <button id="butt" onclselectSize(5Y)>US 5Y</button><button id="butt" onclselectSize(5.5Y)>US 5.5Y</button><button id="butt" onclselectSize(6Y)>US 6Y</button>
+                            <button id="butt" onclselectSize(7Y)>US 7Y</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`

@@ -42,3 +42,7 @@
     overflow-x: hidden;
     max-height: 550px;
 }
+
+#maintrash {
+    color: red;
+}

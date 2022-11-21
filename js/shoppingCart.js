@@ -17,31 +17,19 @@ function create_cart() {
                             <img src="${item.pic}" class="img-fluid rounded-3">
                         </div>
                         <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b${item.name}</b></h6>
+                            <h6 class="text-black mb-0"><b>${item.name}</b></h6>
                             <h6 class="text-muted">${item.type}</h6>
                             <h6 class="text-muted">${item.color}</h6>
-                            <h6 class="text-muted">ไซส์ -</h6>
+                            <h6 class="text-muted">ไซส์ US ${size}</h6>
                         </div>
                         <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                            <button class="btn btn-link px-2" 
-                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                            cart_updateQtordInRow_v2(${cartObj.indexOf(item)},this.parentNode.querySelector('input[type=number]').value);
-                            cart_updateprice(${cartObj.indexOf(item)});}">
-                                <i class="fa-solid fa-minus"></i>
-                            </button>
-                            <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control form-control-sm" />
-                            <button class="btn btn-link px-2" 
-                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                            cart_updateQtordInRow_v2(${cartObj.indexOf(item)},this.parentNode.querySelector('input[type=number]').value);
-                            cart_updateprice(${cartObj.indexOf(item)});}">
-                                <i class="fa-solid fa-plus"></i>
-                            </button>
+                            <h6 class="text-muted">x${item.QTORD}</h6>
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-0" id="priceitem">${item.total}</h6>
+                            <h6 class="mb-0" id="priceitem${cartObj.indexOf(item)}">฿ ${item.total}</h6>
                         </div>
                         <div class="col-md-1 col-lg-1 col-xl-1 text-start">
-                            <i class="fa-regular fa-trash-can" id="trash" onclick="cart_removeCartRow_v3(${cartObj.indexOf(item)})"></i>
+                            <i class="fa-regular fa-trash-can" id="maintrash" onclick="cart_removeCartRow_v3(${cartObj.indexOf(item)})"></i>
                         </div>
                     </div>
                     <hr class="my-4">`;
@@ -65,11 +53,11 @@ function create_nav_cart() {
                             <h6 class="text-black mb-0"><b>${item.name}</b></h6>
                             <h6 class="text-muted m-0">${item.type}</h6>
                             <h6 class="text-muted m-0" id="cartnavcolor">${item.color}</h6>
-                            <h6 class="text-muted mt-2">ไซส์ US 7</h6>
+                            <h6 class="text-muted mt-2">ไซส์ US ${size}</h6>
                             <h6 class="text-muted">x${item.QTORD}</h6>
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                            <h6 class="mb-5">${item.price}</h6>
+                            <h6 class="mb-5">฿${item.price}</h6>
                             <i class="fa-regular fa-trash-can" id="trash" onclick="cart_removeCartRow_v2(${cartObj.indexOf(item)})"></i>
                         </div>
                     </div>
@@ -159,14 +147,14 @@ function cart_getValue_v2() {
 
 	cartValueObj = totRowWithVAT;
 	let product = document.getElementById("smallprice");
-	product.innerHTML = cartValueObj;
-	if (cartCI == 0){
-	let total = document.getElementById("sumprice");
-	total.innerHTML = cartValueObj;
+	product.innerHTML = "฿ " + cartValueObj;
+	if (cartCI == 0) {
+        let total = document.getElementById("sumprice");
+        total.innerHTML = "฿ " + cartValueObj;
 	}
-	else{
+	else {
 		let total = document.getElementById("sumprice");
-	total.innerHTML = cartValueObj+100;
+        total.innerHTML = "฿ " + (cartValueObj + 100);
 	}
 
 }
@@ -187,27 +175,8 @@ function cart_removeCartRow_v3(rowid) {
     create_cart();
 }
 
-function cart_updateQtordInRow_v2(rowIndex,newQtord) {
-   // like add item this function fail if qtord is not valid
-    	newQtord = parseFloat(newQtord);
-	if (!(newQtord > 0)) {
-             alert('insert positive value' );
-  
-	    return -1;
-	}
-	
-  	// update cart
-	    cartObj[rowIndex]["QTORD"] = newQtord;
-		cartObj[rowIndex]["total"] = newQtord*cartObj[rowIndex]["price"];
-     
-	 // update memory
-	setLocalData("USER_CART",JSON.stringify(cartObj));
-	cart_getValue_v2();
-}
-
-function cart_updateprice(rowid) {
-
-	let price_id = document.getElementById("priceitem"+rowid);
-	price_id.innerHTML = cartObj[rowid]["total"];
-	
+let size = "";
+function selectSize(n) {
+    size = n;
+    console.log(size);
 }

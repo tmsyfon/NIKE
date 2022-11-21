@@ -3,7 +3,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan 1 Low OG",
-        "price":"฿6,490",
+        "price":6490,
         "color":"White/Black/Dark Powder Blue",
         "pic": [
             "img/men/jordan/Air_Jordan_1_Low_OG/1.png",
@@ -22,7 +22,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan 1 Retro High OG",
-        "price":"฿6,200",
+        "price":6200,
         "color":"Gray",
         "pic":[
             "img/men/jordan/Air_Jordan_1_Retro_High_OG/1.png",
@@ -42,7 +42,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan 1 Low FlyEase",
-        "price":"฿5,200",
+        "price":5200,
         "color":"White/Black/Taxi",
         "pic":[
             "img/men/jordan/Air_Jordan_1_Low_FlyEase/1.png",
@@ -61,8 +61,8 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan XXXVI Low PE",
-        "price":"฿5,865",
-        "last":"฿6,900",
+        "price":5865,
+        "last":6900,
         "per":"15%",
         "color":"Black/Electric Green/Hyper Violet/Cone",
         "pic":[
@@ -82,7 +82,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan 1 Low G",
-        "price":"฿5,200",
+        "price":5200,
         "color":"White/Sport Royal/Black",
         "pic":[
             "img/men/jordan/Air_Jordan_1_Low_G/1.png",
@@ -101,7 +101,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Jordan Why Not .5",
-        "price":"฿4,900",
+        "price":4900,
         "color":"Black/Cabana/Turf Orange/Black",
         "pic":[
             "img/men/jordan/Jordan_Why_Not_.5/1.png",
@@ -120,8 +120,8 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Air Jordan 1 Mid SE",
-        "price":"฿4,335",
-        "last":"฿5,100",
+        "price":4335,
+        "last":5100,
         "per":"15%",
         "color":"White/Multi-Color/Black",
         "pic":[
@@ -141,7 +141,7 @@
         "type":"men",
         "catagory":"jordan",
         "name":"Jordan 1 KO",
-        "price":"฿5,600",
+        "price":5600,
         "color":"White/Grey Fog/Sail/Black",
         "pic":[
             "img/men/jordan/Jordan_1_KO/1.png",
@@ -161,7 +161,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Force 1 07",
-        "price":"฿3,500",
+        "price":3500,
         "color":"White",
         "pic":[
             "img/men/lifestyle/Nike_Air_Force_1_07/1.png",
@@ -181,7 +181,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Force 1 Mid 07",
-        "price":"฿3,600",
+        "price":3600,
         "color":"White",
         "pic":[
             "img/men/lifestyle/Nike_Air_Force_1_Mid_07/1.png",
@@ -201,7 +201,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Force 1 07 LV8",
-        "price":"฿4,100",
+        "price":4100,
         "color":"White/Dark Sulfur/Opti Yellow/black",
         "pic":[
             "img/men/lifestyle/Nike_Air_Force_1_07_LV8/1.png",
@@ -221,8 +221,8 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Force 1 07 LV8 EMB",
-        "price":"฿3,965",
-        "last":"฿4,400",
+        "price":3965,
+        "last":4400,
         "per":"10%",
         "color":"Black/Washed Teal/Court Purple/Gym Red",
         "pic":[
@@ -243,7 +243,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Max 95 Essential",
-        "price":"฿5,800",
+        "price":5800,
         "color":"White/Grey Fog",
         "pic":[
             "img/men/lifestyle/Nike_Air_Max_95_Essential/1.png",
@@ -263,7 +263,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air More Uptempo 96",
-        "price":"฿6,200",
+        "price":6200,
         "color":"Black/Metallic Gold/Action Grape",
         "pic":[
             "img/men/lifestyle/Nike_Air_More_Uptempo_96/1.png",
@@ -283,7 +283,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Nekai x sacai Blazer Low",
-        "price":"฿4,800",
+        "price":4800,
         "color":"Black/white",
         "pic":[
             "img/men/lifestyle/Nike_x_sacai_Blazer_Low/1.png",
@@ -303,7 +303,7 @@
         "type":"men",
         "catagory":"lifestyle",
         "name":"Air Max 97 SE",
-        "price":"฿6,700",
+        "price":6700,
         "color":"Iron Grey/Particle Grey/Celery/Phantom",
         "pic":[
             "img/men/lifestyle/Nike_Air_Max_97_SE/1.png",
@@ -324,8 +324,8 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Nekai x Ambush Air Adjust Force",
-        "price":"฿6,000",
-        "last":"฿7,500",
+        "price":6000,
+        "last":7500,
         "per":"20%",
         "color":"Light Madder Root/Madder Root/Habanero Red/Burgundy Crush",
         "pic":[
@@ -346,7 +346,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Nekai Air Deldon “Together We Fly”",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Summit White/Pale Ivory/Light Smoke",
         "pic":[
             "img/men/basketball/Nike_Air_Deldon_Together_We_Fly/1.png",
@@ -366,7 +366,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Nekai Air Zoom G.T. Cut 2",
-        "price":"฿6,200",
+        "price":6200,
         "color":"Black/Anthracite/Bright Crimson/White",
         "pic":[
             "img/men/basketball/Nike Air Zoom G.T. Cut 2/1.png",
@@ -386,7 +386,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Zion 2 PF",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Court Purple/Bright Crimson/Psychic Purple/Black",
         "pic":[
             "img/men/basketball/Zion 2 PF/1.png",
@@ -406,7 +406,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"LeBron 19",
-        "price":"฿7,000",
+        "price":7000,
         "color":"Siren Red/Laser Blue/Psychic Purple/Siren Red",
         "pic":[
             "img/men/basketball/LeBron 19/1.png",
@@ -426,7 +426,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"KD15 EP",
-        "price":"฿5,600",
+        "price":5600,
         "color":"Black/Light Crimson/Royal Tint",
         "pic":[
             "img/men/basketball/KD15 EP/1.png",
@@ -446,7 +446,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Air Jordan XXXVI Low PF",
-        "price":"฿6,400",
+        "price":6400,
         "color":"White",
         "pic":[
             "img/men/basketball/Air Jordan XXXVI Low PF/1.png",
@@ -466,7 +466,7 @@
         "type":"men",
         "catagory":"basketball",
         "name":"Air Zoom G.T. Jump",
-        "price":"฿6,400",
+        "price":6400,
         "color":"White",
         "pic":[
             "img/men/basketball/Nike Air Zoom G.t. Jump/1.png",
@@ -487,7 +487,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Elite FG",
-        "price":"฿8,500",
+        "price":8500,
         "color":"Black/Summit White/Bright Crimson/Dark",
         "pic":[
             "img/men/football/Nike Phantom GT2 Elite FG/1.png",
@@ -507,7 +507,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Zoom Mercurial Superfly 9 Elite CR7 FG",
-        "price":"฿10,800",
+        "price":10800,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic":[
             "img/men/football/Nike Zoom Mercurial Superfly 9 Elite CR7 FG/1.png",
@@ -527,7 +527,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Phantom GT Elite",
-        "price":"฿9,400",
+        "price":9400,
         "color":"Taxi/Black/White",
         "pic":[
             "img/men/football/Nike Phantom GT Elite/1.png",
@@ -547,7 +547,7 @@
         "type":"men",
         "catagory":"football",
         "name":"The Nekai Premier 3 FG",
-        "price":"฿4,200",
+        "price":4200,
         "color":"White/Black",
         "pic":[
             "img/men/football/The Nike Premier 3 FG/1.png",
@@ -567,7 +567,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Dynamic Fit Elite FG",
-        "price":"฿8,800",
+        "price":8800,
         "color":"Grey/Light Marine/Volt/Blackened Blue",
         "pic":[
             "img/men/football/Nike_Phantom_GT2_Dynamic_Fit_Elite_FG/1.png",
@@ -587,7 +587,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Mercurial Vapor 14 Elite FG",
-        "price":"฿8,500",
+        "price":8500,
         "color":"Chlorine Blue/Marina/Laser Orange",
         "pic":[
             "img/men/football/Nike Mercurial_Vapor_14_Elite/1.png",
@@ -607,7 +607,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Zoom Mercurial Superfly 9 Academy FG",
-        "price":"฿4,600",
+        "price":4600,
         "color":"Red/White/Black",
         "pic":[
             "img/men/football/Nike Zoom Mercurial Superfly 9 Academy FG/1.png",
@@ -627,7 +627,7 @@
         "type":"men",
         "catagory":"football",
         "name":"Nekai Tiempo Legend 9 Academy FG",
-        "price":"฿2,700",
+        "price":2700,
         "color":"Space Purple/White",
         "pic":[
             "img/men/football/Nike Tiempo Legend 9 Academy FG/1.png",
@@ -649,7 +649,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Air Zoom Alphafly NEXT 2",
-        "price":"฿9,400",
+        "price":9400,
         "color":"Total Orange/Bright Crimson/Ghost Green/Black",
         "pic":[
             "img/men/running/Nike_Air_Zoom_Alphafly_NEXT_2/1.png",
@@ -668,7 +668,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Pegasus FlyEase",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Bright Spruce/Valerian Blue/Peach Cream/Light Crimson",
         "pic":[
             "img/men/running/Nike Pegasus FlyEase/1.png",
@@ -687,7 +687,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai ZoomX Vaporfly NEXT 2",
-        "price":"฿8,500",
+        "price":8500,
         "color":"Volt/Bright Crimson/Light Photo Blue/Black",
         "pic":[
             "img/men/running/Nike ZoomX Vaporfly NEXT 2/1.png",
@@ -707,8 +707,8 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai React Pegasus Trail 4 GORE-TEX",
-        "price":"฿4,590",
-        "last":"฿5,900",
+        "price":4590,
+        "last":5900,
         "per":"10%",
         "color":"Velvet Brown/Black/Golden Moss/Medium Blue",
         "pic":[
@@ -729,7 +729,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Air Zoom Pegasus 39 A.I.R. Hola Lou",
-        "price":"฿5,100",
+        "price":5100,
         "color":"Gorge Green/Team Orange/Phantom/Ale Brown",
         "pic":[
             "img/men/running/Nike Air Zoom Pegasus 39 A.I.R. Hola Lou/1.png",
@@ -749,7 +749,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Pegasus Turbo Next Nature",
-        "price":"฿5,600",
+        "price":5600,
         "color":"Pure Platinum/Black/Medium Blue/Bright Crimson",
         "pic":[
             "img/men/running/Nike Pegasus Turbo Next Nature/1.png",
@@ -769,7 +769,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Pegasus Trail 3",
-        "price":"฿5,000",
+        "price":5000,
         "color":"Dark Beetroot/Black/Bright Crimson/Wheat",
         "pic":[
             "img/men/running/Nike Pegasus Trail 3/1.png",
@@ -789,7 +789,7 @@
         "type":"men",
         "catagory":"running",
         "name":"Nekai Zoom Fly 4 Premium",
-        "price":"฿6,300",
+        "price":6300,
         "color":"Light Curry/Dark Obsidian/Summit White/University Blue",
         "pic":[
             "img/men/running/Nike Zoom Fly 4 Premium/1.png",
@@ -810,7 +810,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan 1 Low OG",
-        "price":"฿5,100",
+        "price":5100,
         "color":"White/Black/Dark Powder Blue",
         "pic": [
             "img/women/jordan/Air Jordan 1 Low OG/1.png",
@@ -829,7 +829,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan 1 Low G",
-        "price":"฿3,600",
+        "price":3600,
         "color":"White/Sport Royal/Black",
         "pic": [
             "img/women/jordan/Air Jordan 1 Low G/1.png",
@@ -848,7 +848,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan 3 Retro",
-        "price":"฿6,700",
+        "price":6700,
         "color":"Black/Metallic Gold/Cement Grey/Fire Red",
         "pic": [
             "img/women/jordan/Air Jordan 3 Retro/1.png",
@@ -867,7 +867,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Jordan Sophia",
-        "price":"฿3,200",
+        "price":3200,
         "color":"edium Olive/Sail/Ice Blue/Fire Red",
         "pic": [
             "img/women/jordan/Jordan Sophia/1.png",
@@ -886,8 +886,8 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Jordan Delta 3 Low",
-        "price":"฿5,035",
-        "last":"฿5,300",
+        "price":5035,
+        "last":5300,
         "per":"5%",
         "color":"White/Black/Wolf Grey/Chile Red",
         "pic": [
@@ -907,7 +907,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan 11 Retro",
-        "price":"฿7,700",
+        "price":7700,
         "color":"Midnight Navy/White/Metallic Silver",
         "pic": [
             "img/women/jordan/Air Jordan 11 Retro/1.png",
@@ -926,7 +926,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan XXXVII Satou PF",
-        "price":"฿7,300",
+        "price":7300,
         "color":"Ocean Cube/Volt/Black/Flash Crimson",
         "pic": [
             "img/women/jordan/Air Jordan XXXVII Satou PF/1.png",
@@ -945,7 +945,7 @@
         "type":"women",
         "catagory":"jordan",
         "name":"Nekai Air Jordan 1 Low Eastside Golf",
-        "price":"฿5,100",
+        "price":5100,
         "color":"Midnight Navy",
         "pic": [
             "img/women/jordan/Air Jordan 1 Low Eastside Golf/1.png",
@@ -965,7 +965,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Air Force 1 07",
-        "price":"฿5,100",
+        "price":5100,
         "color":"White",
         "pic": [
             "img/women/lifestyle/Nike Air Force 1 07/1.png",
@@ -984,8 +984,8 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai x sacai Blazer Low",
-        "price":"฿4,320",
-        "last":"฿4,800",
+        "price":4320,
+        "last":4800,
         "per":"10%",
         "color":"Black/white",
         "pic": [
@@ -1005,7 +1005,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Air Force 1 High",
-        "price":"฿4,500",
+        "price":4500,
         "color":"Wolf Grey/University Red/White/College Navy",
         "pic": [
             "img/women/lifestyle/Nike Air Force 1 High/1.png",
@@ -1024,7 +1024,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Air Max 90",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Summit White/Pure Platinum/Medium Blue",
         "pic": [
             "img/women/lifestyle/Nike Air Max 90/1.png",
@@ -1043,7 +1043,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Spark",
-        "price":"฿5,300",
+        "price":5300,
         "color":"Black/Pure Platinum/White/Metallic Silver",
         "pic": [
             "img/women/lifestyle/Nike Spark/1.png",
@@ -1062,7 +1062,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Air Jordan 1 Retro High OG",
-        "price":"฿6,200",
+        "price":6200,
         "color":"White/Metallic Gold/Chile Red/Boarder Blue",
         "pic": [
             "img/women/lifestyle/Air Jordan 1 Retro High OG/1.png",
@@ -1081,7 +1081,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Go FlyEase",
-        "price":"฿5,100",
+        "price":5100,
         "color":"Sail/White/Light Bone/Black",
         "pic": [
             "img/women/lifestyle/Nike Go FlyEase/1.png",
@@ -1100,7 +1100,7 @@
         "type":"women",
         "catagory":"lifestyle",
         "name":"Nekai Air Max 97",
-        "price":"฿6,300",
+        "price":6300,
         "color":"White",
         "pic": [
             "img/women/lifestyle/Nike Air Max 97/1.png",
@@ -1121,7 +1121,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Nekai x Ambush Air Adjust Force",
-        "price":"฿7,500",
+        "price":7500,
         "color":"Light Madder Root/Madder Root/Habanero Red/Burgundy Crush",
         "pic": [
             "img/women/basketball/Nike x Ambush Air Adjust Force/1.png",
@@ -1140,7 +1140,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Zion 2 PF",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Court Purple/Bright Crimson/Psychic Purple/Black",
         "pic": [
             "img/women/basketball/Zion 2 PF/1.png",
@@ -1159,7 +1159,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Nekai Air Deldon “Together We Fly”",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Summit White/Pale Ivory/Light Smoke Grey",
         "pic": [
             "img/women/basketball/Nike Air Deldon Together We Fly/1.png",
@@ -1178,7 +1178,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Kyrie Infinity EP",
-        "price":"฿5,000",
+        "price":5000,
         "color":"Light Iron Ore/Moon Fossil/Coconut Milk/Black",
         "pic": [
             "img/women/basketball/Kyrie Infinity EP/1.png",
@@ -1197,7 +1197,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"LeBron 19",
-        "price":"฿7,400",
+        "price":7400,
         "color":"Multi Color",
         "pic": [
             "img/women/basketball/LeBron 19/1.png",
@@ -1216,7 +1216,7 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Air Zoom G.T. จัมป์",
-        "price":"฿6,400",
+        "price":6400,
         "color":"Summit White/Sail/Black/White",
         "pic": [
             "img/women/basketball/Nike Air Zoom G.T/1.png",
@@ -1235,8 +1235,8 @@
         "type":"women",
         "catagory":"basketball",
         "name":"PG 6 EP",
-        "price":"฿3,960",
-        "last":"฿4,400",
+        "price":3960,
+        "last":4400,
         "per":"10%",
         "color":"White/Black/Thunder Blue/Crimson Bliss",
         "pic": [
@@ -1256,8 +1256,8 @@
         "type":"women",
         "catagory":"basketball",
         "name":"Air Deldon Lyme",
-        "price":"฿4,465",
-        "last":"฿4,700",
+        "price":4465,
+        "last":4700,
         "per":"5%",
         "color":"Barely Green/Pale Ivory/Barely Green",
         "pic": [
@@ -1278,7 +1278,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Dynamic Fit Elite FG",
-        "price":"฿8,800",
+        "price":8800,
         "color":"Laser Orange/Total Orange/Bright",
         "pic": [
             "img/women/football/Nike Phantom GT2 Dynamic Fit Elite FG/1.png",
@@ -1297,7 +1297,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Zoom Mercurial Superfly 9 Academy CR7 MG",
-        "price":"฿3,900",
+        "price":3900,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/women/football/Nike Zoom Mercurial Superfly 9 Academy CR7 MG/1.png",
@@ -1316,7 +1316,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Zoom Mercurial Vapor 15 Academy CR7 MG",
-        "price":"฿3,500",
+        "price":3500,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/women/football/Nike Zoom Mercurial Vapor 15 Academy CR7 MG/1.png",
@@ -1335,7 +1335,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Academy TF",
-        "price":"฿3,300",
+        "price":3300,
         "color":"Glacier Ice/Yellow Strike/Sunset Glow/Black",
         "pic": [
             "img/women/football/Nike Phantom GT2 Academy TF/1.png",
@@ -1354,7 +1354,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Phantom GT2 Elite FG",
-        "price":"฿8,500",
+        "price":8500,
         "color":"Football Grey/Light Marine/Volt/Blackened Blue",
         "pic": [
             "img/women/football/Nike Phantom GT2 Elite FG/1.png",
@@ -1373,7 +1373,7 @@
         "type":"women",
         "catagory":"football",
         "name":"The Nekai Premier 3 FG",
-        "price":"฿4,200",
+        "price":4200,
         "color":"White/Black",
         "pic": [
             "img/women/football/The Nike Premier 3 FG/1.png",
@@ -1392,7 +1392,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Zoom Mercurial Superfly 9 Elite KM FG",
-        "price":"฿10,800",
+        "price":10800,
         "color":"Dark Beetroot/University Blue/Vivid Purple/Metallic Vivid Gold",
         "pic": [
             "img/women/football/Nike Zoom Mercurial Superfly 9 Elite KM FG/1.png",
@@ -1411,7 +1411,7 @@
         "type":"women",
         "catagory":"football",
         "name":"Nekai Mercurial Vapor 14 Elite FG",
-        "price":"฿8,500",
+        "price":8500,
         "color":"Chlorine Blue/Marina/Laser Orange",
         "pic": [
             "img/women/football/Nike Mercurial Vapor 14 Elite FG/1.png",
@@ -1431,7 +1431,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Air Zoom Pegasus 39 A.I.R. Hola Lou",
-        "price":"฿5,100",
+        "price":5100,
         "color":"Gorge Green/Team Orange/Phantom/Ale Brown",
         "pic": [
             "img/women/running/Nike Air Zoom Pegasus 39 A.I.R. Hola Lou/1.png",
@@ -1450,7 +1450,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Zoom Fly 4 Premium",
-        "price":"฿6,300",
+        "price":6300,
         "color":"White/Barely Green/Volt/Platinum Tint",
         "pic": [
             "img/women/running/Nike Zoom Fly 4 Premium/1.png",
@@ -1469,7 +1469,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai React Infinity Run Flyknit 3",
-        "price":"฿5,600",
+        "price":5600,
         "color":"White/Volt/Bright Crimson/Black",
         "pic": [
             "img/women/running/Nike React Infinity Run Flyknit 3/1.png",
@@ -1488,7 +1488,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Run Swift 2",
-        "price":"฿2,300",
+        "price":2300,
         "color":"White/Pure Platinum/Metallic Silver",
         "pic": [
             "img/women/running/Nike Run Swift 2/1.png",
@@ -1507,7 +1507,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Air Zoom Pegasus 39 Shield",
-        "price":"฿5,200",
+        "price":5200,
         "color":"Light Bone/Cobblestone/Dark Smoke Grey/Vivid Purple",
         "pic": [
             "img/women/running/Nike Air Zoom Pegasus 39 Shield/1.png",
@@ -1526,7 +1526,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Revolution 6 Next Nature",
-        "price":"฿2,100",
+        "price":2100,
         "color":"Black/Dark Smoke Grey/Cool Grey/White",
         "pic": [
             "img/women/running/Nike Revolution 6 Next Nature/1.png",
@@ -1545,7 +1545,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Renew Serenity Run",
-        "price":"฿2,900",
+        "price":2900,
         "color":"Mystic Hibiscus/Rush Pink/Light Curry/Blackened Blue",
         "pic": [
             "img/women/running/Nike Renew Serenity Run/1.png",
@@ -1564,7 +1564,7 @@
         "type":"women",
         "catagory":"running",
         "name":"Nekai Escape Run Flyknit",
-        "price":"฿5,000",
+        "price":5000,
         "color":"Barely Green/Football Grey/Pure Platinum/Kumquat",
         "pic": [
             "img/women/running/Nike Escape Run Flyknit/1.png",
@@ -1585,7 +1585,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Jordan 1 Mid",
-        "price":"฿2,900",
+        "price":2900,
         "color":"Taxi/White/Black",
         "pic": [
             "img/child/jordan/Jordan 1 Mid/1.png",
@@ -1604,7 +1604,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Air Jordan 1 Retro High OG",
-        "price":"฿4,300",
+        "price":4300,
         "color":"White/Black/University Red",
         "pic": [
             "img/child/jordan/Air Jordan 1 Retro High OG/1.png",
@@ -1623,7 +1623,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Luka 1",
-        "price":"฿2,800",
+        "price":2800,
         "color":"White/Volt/Black",
         "pic": [
             "img/child/jordan/Luka 1/1.png",
@@ -1642,7 +1642,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Air Jordan XXXVII",
-        "price":"฿4,700",
+        "price":4700,
         "color":"White/Light Silver/Black/True Red",
         "pic": [
             "img/child/jordan/Air Jordan XXXVII/1.png",
@@ -1661,7 +1661,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Jordan 5 Retro",
-        "price":"฿2,800",
+        "price":2800,
         "color":"White/Black/Dark Concord",
         "pic": [
             "img/child/jordan/Jordan 5 Retro/1.png",
@@ -1680,8 +1680,8 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Jordan Why Not Zer0.5",
-        "price":"฿3,060",
-        "last":"฿3,400",
+        "price":3060,
+        "last":3400,
         "per":"10%",
         "color":"Coconut Milk/Khaki/Rattan/Black",
         "pic": [
@@ -1701,7 +1701,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Jordan 2 Retro J Balvin",
-        "price":"฿3,400",
+        "price":3400,
         "color":"Celestine Blue/White",
         "pic": [
             "img/child/jordan/Jordan 2 Retro J Balvin/1.png",
@@ -1720,7 +1720,7 @@
         "type":"child",
         "catagory":"jordan",
         "name":"Jordan Air 200E",
-        "price":"฿3,600",
+        "price":3600,
         "color":"Black/Ash Green/Sail/University Red",
         "pic": [
             "img/child/jordan/Jordan Air 200E/1.png",
@@ -1741,7 +1741,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Air Max SYSTM",
-        "price":"฿3,600",
+        "price":3600,
         "color":"Black/Anthracite/Summit White/Team Red",
         "pic": [
             "img/child/lifestyle/Nike Air Max SYSTM/1.png",
@@ -1760,7 +1760,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Air More Uptempo",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Black/University Red/White",
         "pic": [
             "img/child/lifestyle/Nike Air More Uptempo/1.png",
@@ -1779,7 +1779,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Dynamo GO",
-        "price":"฿2,900",
+        "price":2900,
         "color":"Black/University Blue/White/University Red",
         "pic": [
             "img/child/lifestyle/Nike Dynamo GO/1.png",
@@ -1798,7 +1798,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Force 1 Low SE",
-        "price":"฿2,500",
+        "price":2500,
         "color":"Sail/White/Malachite",
         "pic": [
             "img/child/lifestyle/Nike Force 1 Low SE/1.png",
@@ -1817,7 +1817,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Dunk Low Retro",
-        "price":"฿2,400",
+        "price":2400,
         "color":"Flash/Argon Blue/Flash/White",
         "pic": [
             "img/child/lifestyle/Nike Dunk Low Retro/1.png",
@@ -1836,7 +1836,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Air Force 1 LV8",
-        "price":"฿3,000",
+        "price":3000,
         "color":"Black/Iron Grey/White/Black",
         "pic": [
             "img/child/lifestyle/Nike Air Force 1 LV8/1.png",
@@ -1855,7 +1855,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Force 1 Toggle SE",
-        "price":"฿2,500",
+        "price":2500,
         "color":"Yellow Ochre/Pearl White/Bright Crimson/Summit White",
         "pic": [
             "img/child/lifestyle/Nike Force 1 Toggle SE/1.png",
@@ -1874,7 +1874,7 @@
         "type":"child",
         "catagory":"lifestyle",
         "name":"Nekai Air Max 270 SE",
-        "price":"฿4,000",
+        "price":4000,
         "color":"Black",
         "pic": [
             "img/child/lifestyle/Nike Air Max 270 SE/1.png",
@@ -1895,7 +1895,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Freak 4",
-        "price":"฿2,500",
+        "price":2500,
         "color":"ฺBlack/Light Smoke Grey/University Blue/White",
         "pic": [
             "img/child/basketball/Freak 4/1.png",
@@ -1914,7 +1914,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Nekai Team Hustle D 10",
-        "price":"฿2,000",
+        "price":2000,
         "color":"Black/Bright Spruce/Volt/Barely Volt",
         "pic": [
             "img/child/basketball/Nike Team Hustle D 10/1.png",
@@ -1933,7 +1933,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"LeBron Witness 7 SE",
-        "price":"฿2,800",
+        "price":2800,
         "color":"Black/Cave Purple/Vivid Purple/Solar Flaret",
         "pic": [
             "img/child/basketball/LeBron Witness 7 SE/1.png",
@@ -1952,7 +1952,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"LeBron Witness 7",
-        "price":"฿2,900",
+        "price":2900,
         "color":" White/Black/Black/Metallic Silver",
         "pic": [
             "img/child/basketball/LeBron Witness 7/1.png",
@@ -1971,7 +1971,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Luka 1",
-        "price":"฿2,800",
+        "price":2800,
         "color":"White/Volt/Black",
         "pic": [
             "img/child/basketball/Luka 1/1.png",
@@ -1990,7 +1990,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Air Jordan XXXVI",
-        "price":"฿4,700",
+        "price":4700,
         "color":"Light Orewood Brown/Black/Phantom/Crimson Bliss",
         "pic": [
             "img/child/basketball/Air Jordan XXXVI/1.png",
@@ -2009,7 +2009,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Freak 4 SE",
-        "price":"฿3,400",
+        "price":3400,
         "color":"Smoke Grey/Particle Grey/Green Glow/Pinksicle",
         "pic": [
             "img/child/basketball/Freak 4 SE/1.png",
@@ -2028,7 +2028,7 @@
         "type":"child",
         "catagory":"basketball",
         "name":"Nekai Team Hustle D 10 Lil",
-        "price":"฿1,800",
+        "price":1800,
         "color":"Malachite/Honeydew/Ghost Green/Malachite",
         "pic": [
             "img/child/basketball/Nike Team Hustle D 10 Lil/1.png",
@@ -2049,8 +2049,8 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Mercurial Superfly 9 Club KM TF",
-        "price":"฿1,995",
-        "last":"฿2,100",
+        "price":1995,
+        "last":2100,
         "per":"5%",
         "color":"Dark Beetroot/University Blue/Vivid Purple/Metallic Vivid Gold",
         "pic": [
@@ -2070,7 +2070,7 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Zoom Mercurial Superfly 9 Academy CR7 IC",
-        "price":"฿2,700",
+        "price":2700,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/child/football/Nike Jr. Zoom Mercurial Superfly 9 Academy CR7 IC/1.png",
@@ -2089,7 +2089,7 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Mercurial Superfly 9 Club CR7 MG",
-        "price":"฿2,100",
+        "price":2100,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/child/football/Nike Jr. Mercurial Superfly 9 Club CR7 MG/1.png",
@@ -2108,7 +2108,7 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Mercurial Superfly 9 Club CR7 IC",
-        "price":"฿2,100",
+        "price":2100,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/child/football/Nike Jr. Mercurial Superfly 9 Club CR7 IC/1.png",
@@ -2127,7 +2127,7 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Zoom Mercurial Superfly 9 Academy CR7 MG",
-        "price":"฿2,700",
+        "price":2700,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/child/football/Nike Jr. Zoom Mercurial Superfly 9 Academy CR7 MG/1.png",
@@ -2146,7 +2146,7 @@
         "type":"child",
         "catagory":"football",
         "name":"Nekai Jr. Zoom Mercurial Superfly 9 Academy CR7 TF",
-        "price":"฿2,700",
+        "price":2700,
         "color":"White/Concord/Medium Blue/Metallic Copper",
         "pic": [
             "img/child/football/Nike Jr. Zoom Mercurial Superfly 9 Academy CR7 TF/1.png",
@@ -2167,8 +2167,8 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Flex Runner 2",
-        "price":"฿1,615",
-        "last":"฿1,700",
+        "price":1615,
+        "last":1700,
         "per":"5%",
         "color":"Barely Volt/Volt/Black/Bright Spruce",
         "pic": [
@@ -2188,7 +2188,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Flex Plus",
-        "price":"฿2,000",
+        "price":2000,
         "color":"Black/White",
         "pic": [
             "img/child/running/Nike Flex Plus/1.png",
@@ -2207,7 +2207,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Air Zoom Arcadia 2",
-        "price":"฿2,500",
+        "price":2500,
         "color":"Black/Anthracite/White",
         "pic": [
             "img/child/running/Nike Air Zoom Arcadia 2_black/1.png",
@@ -2226,7 +2226,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Flex Runner 2 Lil",
-        "price":"฿1,500",
+        "price":1500,
         "color":"Summit White/Honeydew/Malachite/Light Thistle",
         "pic": [
             "img/child/running/Nike Flex Runner 2 Lil/1.png",
@@ -2245,7 +2245,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Downshifter 12",
-        "price":"฿1,900",
+        "price":1900,
         "color":"Violet Frost/Pure Platinum/Vivid Purple/Metallic Silver",
         "pic": [
             "img/child/running/Nike Downshifter 12/1.png",
@@ -2264,7 +2264,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Flex Advance",
-        "price":"฿2,300",
+        "price":2300,
         "color":"Violet Frost/Thunder Blue/White/Vivid Purple",
         "pic": [
             "img/child/running/Nike Flex Advance/1.png",
@@ -2283,7 +2283,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Omni Multi-Court",
-        "price":"฿1,800",
+        "price":1800,
         "color":"Black/White",
         "pic": [
             "img/child/running/Nike Omni Multi-Court/1.png",
@@ -2302,7 +2302,7 @@
         "type":"child",
         "catagory":"running",
         "name":"Nekai Air Zoom Arcadia 2",
-        "price":"฿2,400",
+        "price":2400,
         "color":"Game Royal/Black/White",
         "pic": [
             "img/child/running/Nike Air Zoom Arcadia 2_royal/1.png",
@@ -2324,7 +2324,7 @@
         "catagory":"soon",
         "name":"Zoom Vomero 5",
         "name2":"Cobblestone and Flat Pewter",
-        "price":"฿5,900",
+        "price":5900,
         "date":"12 Dec",
         "pic": [
             "img/soon/Zoom Vomero 5 Cobblestone and Flat Pewter/1.png",
@@ -2344,7 +2344,7 @@
         "catagory":"soon",
         "name":"Zoom Vomero 5",
         "name2":"Oatmeal",
-        "price":"฿5,900",
+        "price":5900,
         "date":"13 Dec",
         "pic": [
             "img/soon/Zoom Vomero 5 Oatmeal/1.png",
@@ -2364,7 +2364,7 @@
         "catagory":"soon",
         "name":"Air Jordan 1 High Golf",
         "name2":"Eastside Golf",
-        "price":"฿7,200",
+        "price":7200,
         "date":"14 Dec",
         "pic": [
             "img/soon/Air Jordan 1 High Golf Eastside Golf/1.png",
@@ -2384,7 +2384,7 @@
         "catagory":"soon",
         "name":"Air Force 1 '07 Mid",
         "name2":"Tokyo 03",
-        "price":"฿5,100",
+        "price":5100,
         "date":"15 Dec",
         "pic": [
             "img/soon/Air Force 1 '07 Mid Tokyo 03/1.png",
@@ -2404,7 +2404,7 @@
         "catagory":"soon",
         "name":"Air Trainer 1",
         "name2":"Tokyo 03",
-        "price":"฿5,600",
+        "price":5600,
         "date":"16 Dec",
         "pic": [
             "img/soon/Air Trainer 1 Tokyo 03/1.png",
@@ -2424,7 +2424,7 @@
         "catagory":"soon",
         "name":"Air Jordan 1",
         "name2":"Chicago",
-        "price":"฿6,500",
+        "price":6500,
         "date":"17 Dec",
         "pic": [
             "img/soon/Air Jordan 1 Chicago/1.png",
