@@ -248,7 +248,9 @@
         }
 
         let prod = getParameter("product");
+        console.log(prod);
         if (myJson[prod].type == "men") {
+            console.log(prod);
             const itempic = document.createElement('template');
             itempic.innerHTML = `<div class="col-5" id="pic">
                         <img src="${myJson[prod].pic[0]}" class="propic">
@@ -275,13 +277,14 @@
                             <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
                             <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
                 document.getElementById("cont").appendChild(itemdetail.content);
             }
             else {
+                console.log(1);
                 const itemdetail = document.createElement('template');
                 itemdetail.innerHTML = `<div class="col-4">
                             <h4 id="type">${tag2[myJson[prod].type]}</h4>
@@ -292,10 +295,10 @@
                             <button id="butt">US 10</button><button id="butt">US 10.5</button><button id="butt">US 11</button>
                             <button id="butt">US 11.5</button><button id="butt">US 12</button><button id="butt">US 12.5</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
-                        </div>`
+                        </div>`;
                 document.getElementById("cont").appendChild(itemdetail.content);
                 console.log(document.getElementById("butt"));
             }
@@ -327,7 +330,7 @@
                             <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
                             <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -344,7 +347,7 @@
                             <button id="butt">US 8</button><button id="butt">US 8.5</button><button id="butt">US 9</button>
                             <button id="butt">US 9.5</button><button id="butt">US 10</button><button id="butt">US 10.5</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -404,7 +407,7 @@
                             <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
                             <button id="butt">US 7Y</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -420,7 +423,7 @@
                             <button id="butt">US 5Y</button><button id="butt">US 5.5Y</button><button id="butt">US 6Y</button>
                             <button id="butt">US 7Y</button>
                             
-                            <button id="butcart" onclick='addItemInCart(${prod}, 1,"${myJson[prod].price}", "${myJson[prod].name}", "${myJson[prod].pic[0]}", "${tag2[myJson[prod].type]}", "${myJson[prod].color}")'>เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,'${myJson[prod].price}', '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`

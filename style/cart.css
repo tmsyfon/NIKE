@@ -36,3 +36,9 @@
 #content {
     margin-bottom: 200px;
 }
+
+#boxcart {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 550px;
+}
