@@ -46,3 +46,13 @@
 #maintrash {
     color: red;
 }
+
+#purchase {
+    width: 100%;
+    background-color: black;
+}
+
+#modalhome {
+    color: white;
+    background-color: black;
+}

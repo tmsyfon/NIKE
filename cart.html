@@ -72,7 +72,7 @@
                   <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
                 
-                <button class="navbar-toggler" type="button" onclick="create_nav_cart()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button class="navbar-toggler" type="button" onclick="createNavCart()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                   <i class="fa-solid fa-cart-shopping fa-xl"></i>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -278,8 +278,24 @@
                               <h5 class="text-uppercase">ยอดรวมทั้งหมด</h5>
                               <h5 id="sumprice">฿16,090</h5>
                            </div>
-                           <button type="button" class="btn btn-dark btn-block btn-lg"
-                              data-mdb-ripple-color="dark">Register</button>
+                           <button type="button" class="btn btn-dark btn-block btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                              data-mdb-ripple-color="dark" id="purchase">ยืนยันคำสั่งซื้อ</button>
+                           
+                           <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                 <div class="modal-content">
+                                    <div class="modal-header">
+                                       <h1 class="modal-title fs-5" id="staticBackdropLabel">Thank You !</h1>
+                                    </div>
+                                    <div class="modal-body">
+                                       <p>ขอบคุณที่ใช้บริการ Nekai Thailand</p>
+                                    </div>
+                                       <div class="modal-footer">
+                                       <button type="button" class="btn" id="modalhome" onclick='{setLocalData("userCart", null); location.href = "index.html";}'>กลับสู่หน้าหลัก</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -307,7 +323,7 @@
     </div>
 
     <script>
-      create_cart();
+      cartCreate();
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

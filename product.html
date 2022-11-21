@@ -100,7 +100,7 @@
                     <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
                 
-                <button class="navbar-toggler" type="button" onclick="create_nav_cart()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button class="navbar-toggler" type="button" onclick="createNavCart()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fa-solid fa-cart-shopping fa-xl"></i>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -277,7 +277,7 @@
                             <button id="butt" onclick="selectSize(10)">US 10</button><button id="butt" onclick="selectSize(10.5)">US 10.5</button><button id="butt" onclick="selectSize(11)">US 11</button>
                             <button id="butt" onclick="selectSize(11.5)">US 11.5</button><button id="butt" onclick="selectSize(12)">US 12</button><button id="butt" onclick="selectSize(12.5)">US 12.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -294,11 +294,12 @@
                             <button id="butt" onclick="selectSize(10)">US 10</button><button id="butt" onclick="selectSize(10.5)">US 10.5</button><button id="butt" onclick="selectSize(11)">US 11</button>
                             <button id="butt" onclick="selectSize(11.5)">US 11.5</button><button id="butt" onclick="selectSize(12)">US 12</button><button id="butt" onclick="selectSize(12.5)">US 12.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`;
                 document.getElementById("cont").appendChild(itemdetail.content);
+                console.log(size);
             }
         }
         else if (myJson[prod].type == "women") {
@@ -328,7 +329,7 @@
                             <button id="butt" onclick=selectSize(8)>US 8</button><button id="butt" onclick=selectSize(8.5)>US 8.5</button><button id="butt" onclick=selectSize(9)>US 9</button>
                             <button id="butt" onclick=selectSize(9.5)>US 9.5</button><button id="butt" onclick=selectSize(10)>US 10</button><button id="butt" onclick=selectSize(10.5)>US 10.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -345,7 +346,7 @@
                             <button id="butt" onclick=selectSize(8)>US 8</button><button id="butt" onclick=selectSize(8.5)>US 8.5</button><button id="butt" onclick=selectSize(9)>US 9</button>
                             <button id="butt" onclick=selectSize(9.5)>US 9.5</button><button id="butt" onclick=selectSize(10)>US 10</button><button id="butt" onclick=selectSize(10.5)>US 10.5</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -405,7 +406,7 @@
                             <button id="butt" onclselectSize(5Y)>US 5Y</button><button id="butt" onclselectSize(5.5Y)>US 5.5Y</button><button id="butt" onclselectSize(6Y)>US 6Y</button>
                             <button id="butt" onclselectSize(7Y)>US 7Y</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
@@ -421,7 +422,7 @@
                             <button id="butt" onclselectSize(5Y)>US 5Y</button><button id="butt" onclselectSize(5.5Y)>US 5.5Y</button><button id="butt" onclselectSize(6Y)>US 6Y</button>
                             <button id="butt" onclselectSize(7Y)>US 7Y</button>
                             
-                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}')">เพิ่มในตะกร้า</button>
+                            <button id="butcart" onclick="addItemInCart('${prod}', 1,${myJson[prod].price}, '${myJson[prod].name}', '${myJson[prod].pic[0]}', '${tag2[myJson[prod].type]}', '${myJson[prod].color}', ${size})">เพิ่มในตะกร้า</button>
                             <p id="showcolor">สีที่แสดง <br>${myJson[prod].color}</p>
                             <p id="desc">${myJson[prod].description}</p>
                         </div>`
