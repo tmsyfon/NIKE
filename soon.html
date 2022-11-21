@@ -26,6 +26,7 @@
 
     <!-- Link js -->
     <script src="js/navbarserch.js"></script>
+    <script src="js/shoppingCart.js"></script>
 
     <style>
         body {
@@ -72,7 +73,7 @@
                     <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" id="boxsearch">
                 </form>
                 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <button class="navbar-toggler" type="button" onclick="create_nav_cart()" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <i class="fa-solid fa-cart-shopping fa-xl"></i>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -81,8 +82,8 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <div class="row d-flex align-items-center">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="cart-navbar">
+                            <!-- <div class="row d-flex align-items-center">
                                 <div class="col-md-4 col-lg-4 col-xl-4">
                                     <img src="/img/men/jordan/Air_Jordan_1_Low_OG/1.png" class="img-fluid">
                                 </div>
@@ -112,7 +113,7 @@
                                     <h6 class="mb-5">฿6,490</h6>
                                     <i class="fa-regular fa-trash-can" id="trash"></i>
                                 </div>
-                            </div>
+                            </div> -->
                         </ul>
                     </div>
                     <div class="offcanvas-footer">
