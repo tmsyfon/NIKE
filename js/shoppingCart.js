@@ -15,10 +15,10 @@ function cartCreate() {
         console.log(item)
 		template += `<div class="row mb-4 d-flex justify-content-between align-items-center">
                         <div class="col-md-2 col-lg-2 col-xl-2">
-                            <img src="${item.pic}" class="img-fluid rounded-3">
+                            <img src="${item.pic}" class="img-fluid rounded-3" onclick="location.href = 'product.html?product=${item.product}';">
                         </div>
                         <div class="col-md-3 col-lg-3 col-xl-3">
-                            <h6 class="text-black mb-0"><b>${item.name}</b></h6>
+                            <h6 class="text-black mb-0" onclick="location.href = 'product.html?product=${item.product}';"><b>${item.name}</b></h6>
                             <h6 class="text-muted">${item.type}</h6>
                             <h6 class="text-muted">${item.color}</h6>
                             <h6 class="text-muted">ไซส์ US ${item.size}</h6>
@@ -30,7 +30,7 @@ function cartCreate() {
                             <h6 class="mb-0" id="priceitem${cartObj.indexOf(item)}">฿ ${item.total}</h6>
                         </div>
                         <div class="col-md-1 col-lg-1 col-xl-1 text-start">
-                            <i class="fa-regular fa-trash-can" id="maintrash" onclick="cart_removeCartRow_v3(${cartObj.indexOf(item)})"></i>
+                            <i class="fa-regular fa-trash-can" id="maintrash" onclick="cart_removeCartMain(${cartObj.indexOf(item)})"></i>
                         </div>
                     </div>
                     <hr class="my-4">`;
@@ -48,10 +48,10 @@ function createNavCart() {
 	cartObj.forEach((item) => {
 		template += `<div class="row d-flex align-items-center">
                         <div class="col-md-4 col-lg-4 col-xl-4">
-                            <img src="${item.pic}" class="img-fluid">
+                            <img src="${item.pic}" class="img-fluid" onclick="location.href = 'product.html?product=${item.product}';">
                         </div>
                         <div class="col-md-5 col-lg-5 col-xl-5 p-0">
-                            <h6 class="text-black mb-0"><b>${item.name}</b></h6>
+                            <h6 class="text-black mb-0" onclick="location.href = 'product.html?product=${item.product}';"><b>${item.name}</b></h6>
                             <h6 class="text-muted m-0">${item.type}</h6>
                             <h6 class="text-muted m-0" id="cartnavcolor">${item.color}</h6>
                             <h6 class="text-muted mt-2">ไซส์ US ${item.size}</h6>
@@ -59,7 +59,7 @@ function createNavCart() {
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
                             <h6 class="mb-5">฿${item.price}</h6>
-                            <i class="fa-regular fa-trash-can" id="trash" onclick="cart_removeCartRow_v2(${cartObj.indexOf(item)})"></i>
+                            <i class="fa-regular fa-trash-can" id="trash" onclick="cart_removeCartNav(${cartObj.indexOf(item)})"></i>
                         </div>
                     </div>
                     <hr class="divider">`;
@@ -158,7 +158,7 @@ function cartGetValue() {
 
 }
 
-function cart_removeCartRow_v2(rowid) {
+function cart_removeCartNav(rowid) {
 	cartObj.splice(rowid, 1);
 	cartItemNum--;
 	setLocalData("userCart",JSON.stringify(cartObj));
@@ -166,7 +166,7 @@ function cart_removeCartRow_v2(rowid) {
 	createNavCart();
 }
 
-function cart_removeCartRow_v3(rowid) {
+function cart_removeCartMain(rowid) {
 	cartObj.splice(rowid, 1);
 	cartItemNum--;
 	setLocalData("userCart",JSON.stringify(cartObj));
